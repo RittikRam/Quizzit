@@ -1,10 +1,11 @@
 package com.rittik.MyQuizzApp.controller;
 
 
-import com.rittik.MyQuizzApp.entity.Topic;
+import com.rittik.MyQuizzApp.dto.TopicRequestDTO;
+import com.rittik.MyQuizzApp.dto.TopicResponseDTO;
 import com.rittik.MyQuizzApp.service.TopicService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -16,19 +17,21 @@ public class TopicController {
     private TopicService topicService;
 
     @GetMapping
-    public List<Topic> getTopics(){
+    public List<TopicResponseDTO> getTopics(){
         return topicService.findAll();
     }
 
     @GetMapping("{id}")
-    public Topic getTopicById(@PathVariable Long id){
+    public ResponseEntity<TopicResponseDTO> getTopicById(@PathVariable Long id){
         return topicService.findById(id)
-                .orElseThrow(()->new RuntimeException("Topic not Found"));
+                .map(ResponseEntity :: ok)
+                .orElseGet(()->ResponseEntity.notFound().build());
     }
 
     @PostMapping
-    public Topic createTopic(@RequestBody Topic topic){
-        return topicService.createTopic(topic);
+    public ResponseEntity<TopicResponseDTO> createTopic(@RequestBody TopicRequestDTO topic){
+        TopicResponseDTO created = topicService.createTopic(topic);
+        return ResponseEntity.status(201).body(created);
     }
 
 
