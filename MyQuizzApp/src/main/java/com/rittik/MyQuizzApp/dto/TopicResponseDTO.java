@@ -1,6 +1,6 @@
 package com.rittik.MyQuizzApp.dto;
 
-public class TopicResponseDTO {
+public class    TopicResponseDTO {
 
     public Long id;
     public String name;

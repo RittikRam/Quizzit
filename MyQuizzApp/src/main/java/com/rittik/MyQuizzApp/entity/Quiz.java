@@ -23,9 +23,10 @@ public class Quiz {
     @Column(length = 500)
     private String description;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "topic_id", nullable = false)
     private Topic topic;
+
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)

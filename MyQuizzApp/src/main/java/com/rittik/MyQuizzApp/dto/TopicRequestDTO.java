@@ -27,4 +27,9 @@ public class TopicRequestDTO {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    public TopicRequestDTO(String name, String description) {
+        this.name = name;
+        this.description = description;
+    }
 }
