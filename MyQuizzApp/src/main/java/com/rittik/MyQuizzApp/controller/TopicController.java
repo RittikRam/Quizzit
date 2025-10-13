@@ -4,6 +4,7 @@ package com.rittik.MyQuizzApp.controller;
 import com.rittik.MyQuizzApp.dto.TopicRequestDTO;
 import com.rittik.MyQuizzApp.dto.TopicResponseDTO;
 import com.rittik.MyQuizzApp.service.TopicService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -32,6 +33,13 @@ public class TopicController {
     public ResponseEntity<TopicResponseDTO> createTopic(@RequestBody TopicRequestDTO topic){
         TopicResponseDTO created = topicService.createTopic(topic);
         return ResponseEntity.status(201).body(created);
+    }
+
+    @PutMapping("{id}")
+    public ResponseEntity<TopicResponseDTO>updateTopic(@PathVariable Long id,
+                                                       @Valid @RequestBody TopicRequestDTO topicRequestDTO){
+        TopicResponseDTO topicResponseDTO = topicService.updateTopic(id,topicRequestDTO);
+        return ResponseEntity.ok(topicResponseDTO);
     }
 
 

@@ -3,8 +3,11 @@ package com.rittik.MyQuizzApp.service;
 import com.rittik.MyQuizzApp.dto.TopicRequestDTO;
 import com.rittik.MyQuizzApp.dto.TopicResponseDTO;
 import com.rittik.MyQuizzApp.entity.Topic;
+import com.rittik.MyQuizzApp.exception.DuplicateResourceException;
 import com.rittik.MyQuizzApp.repository.TopicRepository;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -29,7 +32,7 @@ public class TopicService {
     }
     public TopicResponseDTO createTopic(TopicRequestDTO topic) throws IllegalArgumentException{
        if(topicRepository.findByName(topic.getName()).isPresent()){
-           throw new IllegalArgumentException("Topic with same name Exits");
+           throw new DuplicateResourceException("Topic with same name Exits "+topic.getName());
        }
        Topic t = Topic.builder()
                .name(topic.name)
@@ -39,12 +42,16 @@ public class TopicService {
        return new TopicResponseDTO(saved.getId(),saved.getName(),saved.getDescription());
     }
 
-//    public Topic updateTopic(Long id, Topic newTopic)throws IllegalArgumentException{
-//        Topic existing = topicRepository.findById(id)
-//                .orElseThrow(()->new IllegalArgumentException("Topic not found"));
-//
-//        existing.setName(newTopic.getName());
-//        existing.setDescription(newTopic.getDescription());
-//        return topicRepository.save(existing);
-//    }
+    public TopicResponseDTO updateTopic(Long id, @Valid TopicRequestDTO topicRequestDTO) {
+        Topic topic = topicRepository.findById(id)
+                .orElseThrow(()->new IllegalArgumentException("Topic not found"));
+        if(topicRepository.existsByNameAndIdNot(topicRequestDTO.getName(),id)){
+            throw new DuplicateResourceException("Topic name '" + topicRequestDTO.getName() + "' is already used");
+        }
+        topic.setName(topicRequestDTO.getName());
+        topic.setDescription(topicRequestDTO.getDescription());
+        Topic saved  = topicRepository.save(topic);
+        return new TopicResponseDTO(saved.getId(),saved.getName(),saved.getDescription());
+    }
+
 }
