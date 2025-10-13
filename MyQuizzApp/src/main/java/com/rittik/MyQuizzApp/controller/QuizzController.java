@@ -28,7 +28,7 @@ public class QuizzController {
 //    }
     @GetMapping("/{id}")
     public ResponseEntity<QuizResponseDTO> getQuizById(@PathVariable Long id){
-        return quizService.findById(id)
+        return quizService.getById(id)
                 .map(ResponseEntity::ok)
                 .orElseGet(() -> ResponseEntity.notFound().build());
     }

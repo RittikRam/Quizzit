@@ -6,6 +6,9 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Entity
 @Table(name = "quizzes")
 @Data
@@ -31,4 +34,8 @@ public class Quiz {
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
     private DifficultyLevel difficulty;
+
+    @OneToMany(mappedBy = "quiz", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Question> questions = new ArrayList<>();
+
 }

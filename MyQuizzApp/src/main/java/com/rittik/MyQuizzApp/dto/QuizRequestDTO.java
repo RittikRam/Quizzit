@@ -3,6 +3,7 @@ package com.rittik.MyQuizzApp.dto;
 import com.rittik.MyQuizzApp.entity.DifficultyLevel;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
+import java.util.List;
 
 public class QuizRequestDTO {
 
@@ -10,9 +11,10 @@ public class QuizRequestDTO {
     public String title;
     @Size(max = 500)
     public String description;
-
     public TopicIdDTO topicIdDTO;
     public DifficultyLevel difficultyLevel;
+    public List<QuestionRequestDTO> questions;
+
 
     public String getTitle() {
         return title;
@@ -44,5 +46,13 @@ public class QuizRequestDTO {
 
     public void setDifficultyLevel(DifficultyLevel difficultyLevel) {
         this.difficultyLevel = difficultyLevel;
+    }
+
+    public List<QuestionRequestDTO> getQuestions() {
+        return questions;
+    }
+
+    public void setQuestions(List<QuestionRequestDTO> questions) {
+        this.questions = questions;
     }
 }

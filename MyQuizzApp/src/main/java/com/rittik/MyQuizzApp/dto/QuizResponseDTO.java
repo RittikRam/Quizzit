@@ -3,6 +3,8 @@ package com.rittik.MyQuizzApp.dto;
 import com.rittik.MyQuizzApp.entity.DifficultyLevel;
 import com.rittik.MyQuizzApp.entity.Topic;
 
+import java.util.List;
+
 public class QuizResponseDTO {
 
     public Long id;
@@ -10,16 +12,16 @@ public class QuizResponseDTO {
     public String description;
     public TopicResponseDTO topic;
     public DifficultyLevel difficultyLevel;
+    public List<QuestionResponseDTO> questions;
 
     public QuizResponseDTO() {    }
 
-    public QuizResponseDTO(Long id, String title, String description, TopicResponseDTO topic, DifficultyLevel difficultyLevel) {
+    public QuizResponseDTO(Long id, String title, String description, TopicResponseDTO topic, DifficultyLevel difficultyLevel, List<QuestionResponseDTO> questions) {
         this.id = id;
         this.title = title;
         this.description = description;
         this.topic = topic;
         this.difficultyLevel = difficultyLevel;
+        this.questions = questions;
     }
-
-
 }

@@ -25,7 +25,7 @@ public class Question {
     @Enumerated(EnumType.STRING)
     private QuestionType type;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "quiz_id", nullable = false)
     private Quiz quiz;
 

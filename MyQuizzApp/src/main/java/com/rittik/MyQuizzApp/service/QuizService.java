@@ -1,8 +1,10 @@
 package com.rittik.MyQuizzApp.service;
 
+import com.rittik.MyQuizzApp.dto.QuestionResponseDTO;
 import com.rittik.MyQuizzApp.dto.QuizRequestDTO;
 import com.rittik.MyQuizzApp.dto.QuizResponseDTO;
 import com.rittik.MyQuizzApp.dto.TopicResponseDTO;
+import com.rittik.MyQuizzApp.entity.Question;
 import com.rittik.MyQuizzApp.entity.Quiz;
 import com.rittik.MyQuizzApp.entity.Topic;
 import com.rittik.MyQuizzApp.repository.QuizRepository;
@@ -11,7 +13,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -27,6 +28,7 @@ public class QuizService {
 
 
 
+    @Transactional
     public QuizResponseDTO createQuiz(QuizRequestDTO quizRequestDTO) throws IllegalArgumentException{
         if(quizRepository.findByTitle(quizRequestDTO.getTitle()).isPresent()){
             throw new IllegalArgumentException("Quiz With Same Title Already Exists");
@@ -43,14 +45,32 @@ public class QuizService {
                 .difficulty(quizRequestDTO.getDifficultyLevel())
                 .build();
 
+        List<Question> questions = quizRequestDTO.getQuestions()
+                .stream()
+                .map(qDto -> Question.builder()
+                        .text(qDto.getText())
+                        .type(qDto.getType())
+                        .quiz(q)
+                        .build())
+                .collect(Collectors.toList());
+
+        q.setQuestions(questions);
+
+
         Quiz saved = quizRepository.save(q);
         TopicResponseDTO topicResponseDTO = new TopicResponseDTO(topic.getId(),topic.getName(),topic.getDescription());
+        List<QuestionResponseDTO> questionResponseDTOS  = saved.getQuestions()
+                .stream()
+                .map(que->new QuestionResponseDTO(que.getId(),que.getText(),que.getType()))
+                .collect(Collectors.toList());
+
         QuizResponseDTO responseDTO = new QuizResponseDTO(
                 saved.getId(),
                 saved.getTitle(),
                 saved.getDescription(),
                 topicResponseDTO,
-                saved.getDifficulty()
+                saved.getDifficulty(),
+                questionResponseDTOS
         );
         return responseDTO;
     }
@@ -59,31 +79,59 @@ public class QuizService {
     public List<QuizResponseDTO> getAll() {
         return quizRepository.findAll()
                 .stream()
-                .map(q-> new QuizResponseDTO(q.getId(),q.getTitle(),q.getDescription(),
-                        new TopicResponseDTO(q.getTopic().getId(),q.getTopic().getName(),q.getTopic().getDescription())
-                        ,q.getDifficulty()))
+                .map(q-> {
+                    TopicResponseDTO tdo = new TopicResponseDTO(
+                            q.getTopic().getId()
+                            ,q.getTopic().getName()
+                            ,q.getTopic().getDescription());
+                    List<QuestionResponseDTO> qdo = q.getQuestions()
+                                                    .stream()
+                                                    .map(questionr-> new QuestionResponseDTO(
+                                                            questionr.getId(),
+                                                            questionr.getText(),
+                                                            questionr.getType()
+                                                    ))
+                                                    .collect(Collectors.toList());
+                    return new QuizResponseDTO(
+                            q.getId(),
+                            q.getTitle(),
+                            q.getDescription(),
+                            tdo,
+                            q.getDifficulty(),
+                            qdo
+                    );
+                })
                 .collect(Collectors.toList());
     }
 
     @Transactional(readOnly = true)
-    public Optional<QuizResponseDTO> findById(Long id) {
+    public Optional<QuizResponseDTO> getById(Long id) {
         return quizRepository.findById(id)
                 .map(q -> {
-                    Topic t = q.getTopic(); // safe inside transaction
-                    TopicResponseDTO topicResponseDTO = new TopicResponseDTO(t.getId(), t.getName(), t.getDescription());
-                    return new QuizResponseDTO(q.getId(), q.getTitle(), q.getDescription(), topicResponseDTO, q.getDifficulty());
-                });
+                    TopicResponseDTO tdo = new TopicResponseDTO(
+                            q.getTopic().getId()
+                            ,q.getTopic().getName()
+                            ,q.getTopic().getDescription());
+
+                    List<QuestionResponseDTO> qdo = q.getQuestions()
+                            .stream()
+                            .map(questionr-> new QuestionResponseDTO(
+                                    questionr.getId(),
+                                    questionr.getText(),
+                                    questionr.getType()
+                            ))
+                            .collect(Collectors.toList());
+
+                    return new QuizResponseDTO(
+                            q.getId(),
+                            q.getTitle(),
+                            q.getDescription(),
+                            tdo,
+                            q.getDifficulty(),
+                            qdo
+                    );
+    });
     }
 
 
-//        public QuizResponseDTO findById(Long id) {
-//            Topic t = quizRepository.findById(id).get().getTopic();
-//            TopicResponseDTO topicResponseDTO = new TopicResponseDTO(t.getId(),t.getName(),t.getDescription());
-//
-//
-//
-//            return quizRepository.findById(id)
-//                    .map(q-> new QuizResponseDTO(q.getId(),q.getTitle(),q.getDescription(),topicResponseDTO,q.getDifficulty()))
-//                    .orElse(null);
-//        }
 }
