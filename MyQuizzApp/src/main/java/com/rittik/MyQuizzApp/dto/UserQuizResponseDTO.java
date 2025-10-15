@@ -4,18 +4,18 @@ import com.rittik.MyQuizzApp.entity.DifficultyLevel;
 
 import java.util.List;
 
-public class QuizResponseDTO {
+public class UserQuizResponseDTO {
 
     public Long id;
     public String title;
     public String description;
     public TopicResponseDTO topic;
     public DifficultyLevel difficultyLevel;
-    public List<AdminQuestionResponseDTO> questions;
+    public List<UserQuestionResponseDTO> questions;
 
-    public QuizResponseDTO() {    }
+    public UserQuizResponseDTO() {    }
 
-    public QuizResponseDTO(Long id, String title, String description, TopicResponseDTO topic, DifficultyLevel difficultyLevel, List<AdminQuestionResponseDTO> questions) {
+    public UserQuizResponseDTO(Long id, String title, String description, TopicResponseDTO topic, DifficultyLevel difficultyLevel, List<UserQuestionResponseDTO> questions) {
         this.id = id;
         this.title = title;
         this.description = description;

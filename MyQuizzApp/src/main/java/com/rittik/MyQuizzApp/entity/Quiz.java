@@ -35,7 +35,12 @@ public class Quiz {
     @Column(nullable = false)
     private DifficultyLevel difficulty;
 
-    @OneToMany(mappedBy = "quiz", cascade = CascadeType.ALL, orphanRemoval = true)
+    @ManyToMany
+    @JoinTable(
+            name = "quiz_questions_mapping",
+            joinColumns = @JoinColumn(name = "quiz_id"),
+            inverseJoinColumns = @JoinColumn(name = "question_id")
+    )
     private List<Question> questions = new ArrayList<>();
 
 }

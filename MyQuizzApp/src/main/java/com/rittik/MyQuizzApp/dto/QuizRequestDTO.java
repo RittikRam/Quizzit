@@ -9,12 +9,23 @@ public class QuizRequestDTO {
 
     @NotBlank(message = "title is required")
     public String title;
+
     @Size(max = 500)
     public String description;
-    public TopicIdDTO topicIdDTO;
-    public DifficultyLevel difficultyLevel;
-    public List<QuestionRequestDTO> questions;
 
+    public TopicIdDTO topicIdDTO;
+
+    public DifficultyLevel difficultyLevel;
+
+    public int questionCount;
+
+    public int getQuestionCount() {
+        return questionCount;
+    }
+
+    public void setQuestionCount(int questionCount) {
+        this.questionCount = questionCount;
+    }
 
     public String getTitle() {
         return title;
@@ -48,11 +59,4 @@ public class QuizRequestDTO {
         this.difficultyLevel = difficultyLevel;
     }
 
-    public List<QuestionRequestDTO> getQuestions() {
-        return questions;
-    }
-
-    public void setQuestions(List<QuestionRequestDTO> questions) {
-        this.questions = questions;
-    }
 }

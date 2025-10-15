@@ -2,6 +2,7 @@ package com.rittik.MyQuizzApp.controller;
 
 import com.rittik.MyQuizzApp.dto.QuizRequestDTO;
 import com.rittik.MyQuizzApp.dto.QuizResponseDTO;
+import com.rittik.MyQuizzApp.dto.UserQuizResponseDTO;
 import com.rittik.MyQuizzApp.service.QuizService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,16 +19,12 @@ public class QuizzController {
     private QuizService quizService;
 
     @GetMapping
-    public List<QuizResponseDTO> getQuizzes(){
+    public List<UserQuizResponseDTO> getQuizzes(){
         return quizService.getAll();
     }
-//    @GetMapping("/{id}")
-//    public QuizResponseDTO getQuizById(@PathVariable Long id){
-//        return quizService.findById(id);
-//
-//    }
+
     @GetMapping("/{id}")
-    public ResponseEntity<QuizResponseDTO> getQuizById(@PathVariable Long id){
+    public ResponseEntity<UserQuizResponseDTO> getQuizById(@PathVariable Long id){
         return quizService.getById(id)
                 .map(ResponseEntity::ok)
                 .orElseGet(() -> ResponseEntity.notFound().build());
