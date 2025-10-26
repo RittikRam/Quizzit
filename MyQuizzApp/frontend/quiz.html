@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyQuizzApp Client (Admin & User)</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; background-color: #f4f4f4; }
+        .container { max-width: 900px; margin: auto; background: white; padding: 25px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h1 { color: #007bff; border-bottom: 2px solid #007bff; padding-bottom: 10px; }
+        h2 { color: #333; margin-top: 25px; }
+        .panel { border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; border-radius: 8px; }
+        .form-group label { display: block; margin-top: 10px; font-weight: bold; }
+        .form-group input, .form-group select { width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+        button { padding: 10px 15px; background-color: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; margin-top: 15px; }
+        button:hover { background-color: #218838; }
+        .error { color: red; font-weight: bold; }
+        .success { color: green; font-weight: bold; }
+        .quiz-option-label { display: block; margin: 8px 0; cursor: pointer; }
+    </style>
+</head>
+<body onload="fetchTopics()">
+
+    <div class="container">
+        <h1>MyQuizzApp: Backend Test Client</h1>
+        <div id="status"></div>
+        <hr>
+
+        <div class="panel">
+            <h2>1. Create New Dynamic Quiz (Admin)</h2>
+            <form id="createQuizForm">
+                <div class="form-group">
+                    <label for="title">Quiz Title:</label>
+                    <input type="text" id="title" required value="New Generated Quiz">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    <input type="text" id="description" required value="Dynamically generated test">
+                </div>
+                
+                <div class="form-group">
+                    <label for="topicId">Topic:</label>
+                    <select id="topicId" required>
+                        <option value="">Loading Topics...</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="difficultyLevel">Difficulty:</label>
+                    <select id="difficultyLevel" required>
+                        <option value="EASY">EASY</option>
+                        <option value="MEDIUM">MEDIUM</option>
+                        <option value="HARD">HARD</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="questionCount">Question Count:</label>
+                    <input type="number" id="questionCount" min="1" max="100" required value="5">
+                </div>
+                
+                <button type="button" onclick="createQuiz()">Create Quiz</button>
+            </form>
+        </div>
+        
+        <hr>
+
+        <div class="panel">
+            <h2>2. Load and Submit Quiz (User)</h2>
+             <label for="quizIdInput">Enter Quiz ID to Load:</label>
+             <input type="number" id="quizIdInput" value="1" placeholder="e.g., 1">
+             <button onclick="loadQuiz()">Load Quiz</button>
+        </div>
+
+
+        <div id="quizDisplay" class="quiz-container" style="display: none;">
+            <h3 id="quizTitle"></h3>
+            <p id="quizDescription"></p>
+            <form id="quizForm"></form>
+            <button onclick="submitQuiz()">Submit Quiz</button>
+        </div>
+
+        <div id="resultsDisplay" class="results-container" style="display: none;">
+            <h3>Quiz Results</h3>
+            <p>Total Questions: <span id="totalQs"></span></p>
+            <p class="success">Correct Score: <span id="correctScore"></span></p>
+            <p>Percentage: <span id="percentage"></span>%</p>
+        </div>
+    </div>
+
+    <script>
+        const QUIZ_API = 'http://localhost:8080/api/quizzes';
+        const TOPIC_API = 'http://localhost:8080/api/topics';
+        const statusDiv = document.getElementById('status');
+        const quizDisplay = document.getElementById('quizDisplay');
+        const resultsDisplay = document.getElementById('resultsDisplay');
+        const quizForm = document.getElementById('quizForm');
+        let currentQuizId = null;
+
+        function logStatus(message, isError = false) {
+            statusDiv.innerHTML = `<p class="${isError ? 'error' : isError === false ? 'success' : ''}">${message}</p>`;
+        }
+
+        // --- ADMIN FUNCTIONS ---
+
+        // Fetches topics to populate the dropdown
+        async function fetchTopics() {
+            try {
+                const response = await fetch(TOPIC_API);
+                if (!response.ok) throw new Error(`Could not fetch topics: ${response.status}`);
+                const topics = await response.json();
+                
+                const selectElement = document.getElementById('topicId');
+                selectElement.innerHTML = ''; // Clear 'Loading...'
+                
+                if (topics.length === 0) {
+                     selectElement.innerHTML = '<option value="">No Topics Found - Create one first!</option>';
+                     logStatus("Error: No Topics found in DB. Please use POST /api/topics.", true);
+                     return;
+                }
+
+                topics.forEach(topic => {
+                    const option = document.createElement('option');
+                    option.value = topic.id;
+                    option.textContent = `${topic.name} (ID: ${topic.id})`;
+                    selectElement.appendChild(option);
+                });
+                
+            } catch (error) {
+                logStatus(`Error connecting to Topic API: ${error.message}. Check CORS on TopicController.`, true);
+            }
+        }
+        
+        // POST /api/quizzes
+        async function createQuiz() {
+            const topicId = document.getElementById('topicId').value;
+            
+            // Collect form data for QuizRequestDTO
+            const quizRequest = {
+                title: document.getElementById('title').value,
+                description: document.getElementById('description').value,
+                topicIdDTO: { id: parseInt(topicId) },
+                difficultyLevel: document.getElementById('difficultyLevel').value,
+                questionCount: parseInt(document.getElementById('questionCount').value)
+            };
+
+            try {
+                logStatus("Creating quiz...");
+                const response = await fetch(QUIZ_API, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(quizRequest),
+                });
+                
+                const responseData = await response.json();
+                
+                if (response.status === 201) {
+                    const newQuizId = responseData.id;
+                    logStatus(`✅ Quiz created successfully! New ID: ${newQuizId}. (Admin view shows answers)`, false);
+                    
+                    // Automatically load the newly created quiz ID into the user input field
+                    document.getElementById('quizIdInput').value = newQuizId;
+
+                } else if (response.status === 400 || response.status === 409) {
+                    logStatus(`Creation Error: ${responseData.message || JSON.stringify(responseData)}`, true);
+                } else {
+                    throw new Error(`HTTP Status: ${response.status}`);
+                }
+
+            } catch (error) {
+                logStatus(`Creation Error: ${error.message}. Is the backend running?`, true);
+            }
+        }
+        
+        // --- USER/TAKER FUNCTIONS (Previous implementation) ---
+
+        // GET /api/quizzes/{id}
+        async function loadQuiz() {
+            const quizId = document.getElementById('quizIdInput').value;
+            if (!quizId) {
+                logStatus("Please enter a Quiz ID.", true);
+                return;
+            }
+
+            try {
+                logStatus(`Loading quiz ID ${quizId}...`);
+                const response = await fetch(`${QUIZ_API}/${quizId}`);
+
+                if (response.status === 404) {
+                    logStatus(`Error: Quiz ID ${quizId} not found (404).`, true);
+                    quizDisplay.style.display = 'none';
+                    return;
+                }
+                
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                
+                const quizData = await response.json();
+                
+                currentQuizId = quizData.id;
+                renderQuiz(quizData);
+                logStatus(`Successfully loaded Quiz ID ${quizId}. (Secure User View)`);
+
+            } catch (error) {
+                logStatus(`Fetch Error: Could not connect to backend. Is Spring Boot running? ${error.message}`, true);
+                quizDisplay.style.display = 'none';
+            }
+        }
+
+        function renderQuiz(quizData) {
+            document.getElementById('quizTitle').textContent = `Quiz #${quizData.id}: ${quizData.title}`;
+            document.getElementById('quizDescription').textContent = quizData.description;
+            quizForm.innerHTML = '';
+            resultsDisplay.style.display = 'none';
+            quizDisplay.style.display = 'block';
+
+            quizData.questions.forEach((q, qIndex) => {
+                const questionDiv = document.createElement('div');
+                questionDiv.className = 'question';
+                
+                // Note: The options field might be 'options' or 'userOptions' based on the DTO naming conventions.
+                // We assume 'options' based on the standard naming fix, but check for both for robustness.
+                const optionsList = q.options || q.userOptions; 
+                
+                questionDiv.innerHTML = `
+                    <strong>Q${qIndex + 1}: ${q.text}</strong>
+                    <input type="hidden" name="question-${q.id}" data-question-id="${q.id}">
+                `;
+
+                if (optionsList && optionsList.length > 0) {
+                    optionsList.forEach((o) => {
+                        const optionLabel = document.createElement('label');
+                        optionLabel.className = 'quiz-option-label';
+                        optionLabel.innerHTML = `
+                            <input type="radio" name="q-${q.id}" value="${o.id}" required>
+                            ${o.text}
+                        `;
+                        questionDiv.appendChild(optionLabel);
+                    });
+                } else {
+                     questionDiv.innerHTML += '<p class="error">No options found for this question.</p>';
+                }
+                quizForm.appendChild(questionDiv);
+            });
+        }
+
+        // POST /api/quizzes/submit
+        async function submitQuiz() {
+            const formData = new FormData(quizForm);
+            const submissionData = {
+                quizId: currentQuizId,
+                answers: []
+            };
+            
+            let answeredCount = 0;
+
+            // Collect all selected radio buttons by name prefix 'q-'
+            for (let [name, value] of formData.entries()) {
+                if (name.startsWith('q-')) {
+                    const questionId = name.split('-')[1];
+                    submissionData.answers.push({
+                        questionId: parseInt(questionId),
+                        selectedOptionId: parseInt(value)
+                    });
+                    answeredCount++;
+                }
+            }
+            
+            const totalQuestionsInForm = quizForm.querySelectorAll('.question').length;
+
+            if (answeredCount !== totalQuestionsInForm) {
+                 logStatus(`Please answer all ${totalQuestionsInForm} questions before submitting.`, true);
+                 return;
+            }
+
+            try {
+                logStatus("Submitting quiz for scoring...");
+                
+                const response = await fetch(`${QUIZ_API}/submit`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(submissionData),
+                });
+
+                if (!response.ok) throw new Error(`Submission failed! status: ${response.status}`);
+                
+                const results = await response.json();
+                renderResults(results);
+                logStatus("Quiz submitted successfully. Results displayed.");
+
+            } catch (error) {
+                logStatus(`Submission Error: ${error.message}.`, true);
+            }
+        }
+
+        function renderResults(results) {
+            document.getElementById('totalQs').textContent = results.totalQuestions;
+            document.getElementById('correctScore').textContent = results.score;
+            document.getElementById('percentage').textContent = results.percentage.toFixed(2);
+            
+            resultsDisplay.style.display = 'block';
+            quizDisplay.style.display = 'none';
+        }
+        
+    </script>
+
+</body>
+</html>
