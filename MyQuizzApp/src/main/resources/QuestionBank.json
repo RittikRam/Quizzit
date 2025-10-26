@@ -1,0 +1,1000 @@
+Question 1: What is the main method signature in Java?|A. public static void main(String[] args)|B. private static void main(String[] args)|C. protected void main(String args[])|D. public void main()|A
+Question 2: Which keyword is used to define a class in Java?|A. class|B. Class|C. classname|D. myclass|A
+Question 3: What does the 'final' keyword do when applied to a variable?|A. It makes the variable mutable|B. It makes the variable a constant|C. It makes the variable accessible from anywhere|D. It makes the variable static|B
+Question 4: Which of the following is not a primitive data type in Java?|A. int|B. boolean|C. String|D. char|C
+Question 5: What is the default value of a boolean variable?|A. true|B. false|C. null|D. 0|B
+Question 6: Which operator is used for string concatenation in Java?|A. +|B. &|C. |||D. concat|A
+Question 7: Which data type is used to store a single character?|A. char|B. String|C. character|D. int|A
+Question 8: What is the size of an int in Java?|A. 16 bits|B. 32 bits|C. 64 bits|D. 8 bits|B
+Question 9: Which keyword is used to inherit a class in Java?|A. implements|B. inherits|C. extends|D. super|C
+Question 10: Which method is used to find the length of a string in Java?|A. length()|B. size()|C. getLength()|D. count()|A
+Question 11: Which keyword is used to create an object in Java?|A. new|B. create|C. object|D. make|A
+Question 12: Which is the parent class of all classes in Java?|A. Object|B. Class|C. Base|D. Super|A
+Question 13: Which of these is used to define constants in Java?|A. static|B. const|C. final|D. constant|C
+Question 14: Which keyword prevents method overriding?|A. static|B. final|C. super|D. abstract|B
+Question 15: Which loop is guaranteed to execute at least once?|A. for|B. while|C. do-while|D. foreach|C
+Question 16: Which keyword is used to define a package in Java?|A. package|B. Package|C. pkg|D. import|A
+Question 17: Which keyword is used to import classes in Java?|A. include|B. using|C. import|D. package|C
+Question 18: Which operator is used to compare two values in Java?|A. =|B. ==|C. equals|D. :=|B
+Question 19: Which method is the entry point for a Java program?|A. start()|B. init()|C. main()|D. run()|C
+Question 20: Which of these is a valid identifier in Java?|A. 123name|B. _name|C. class|D. my-variable|B
+Question 21: Which keyword is used to make a class un-inheritable?|A. static|B. final|C. private|D. abstract|B
+Question 22: What is JVM short for?|A. Java Virtual Machine|B. Java Variable Machine|C. Java Virtual Method|D. Java Verified Machine|A
+Question 23: Which of these is a wrapper class for int?|A. Int|B. Integer|C. Number|D. Long|B
+Question 24: Which keyword is used for interface implementation?|A. inherit|B. extends|C. implements|D. interface|C
+Question 25: Which type of variable is shared among all objects of a class?|A. local|B. instance|C. static|D. global|C
+Question 26: Which statement is used to exit from a loop?|A. return|B. exit|C. break|D. stop|C
+Question 27: Which exception is thrown when dividing by zero in Java?|A. NullPointerException|B. ArithmeticException|C. NumberFormatException|D. ClassCastException|B
+Question 28: What is the default value of an int variable in Java?|A. 0|B. null|C. undefined|D. garbage|A
+Question 29: Which class provides system input and output in Java?|A. Input|B. Output|C. System|D. IO|C
+Question 30: Which method is used to convert a string to an integer?|A. toInt()|B. parseInt()|C. valueOfInt()|D. castInt()|B
+Question 31: Which of the following is not a feature of Java?|A. Platform independence|B. Object-oriented|C. Pointers|D. Automatic garbage collection|C
+Question 32: What is the extension of compiled Java classes?|A. .java|B. .class|C. .exe|D. .obj|B
+Question 33: Which memory stores method area and runtime constant pool in JVM?|A. Heap|B. Stack|C. Metaspace|D. Register|C
+Question 34: Which method is used to start a thread in Java?|A. run()|B. start()|C. execute()|D. init()|B
+Question 35: Which access modifier allows access only within the same package?|A. public|B. protected|C. private|D. default|D
+Question 36: Which of the following is a marker interface?|A. Serializable|B. Cloneable|C. Remote|D. All of the above|D
+Question 37: Which of the following is not a Java keyword?|A. static|B. goto|C. interface|D. then|D
+Question 38: Which method is used to compare two strings in Java?|A. ==|B. compareTo()|C. equals()|D. equalsIgnoreCase()|C
+Question 39: Which loop is enhanced in Java 5 for iterating collections?|A. while|B. do-while|C. for-each|D. infinite loop|C
+Question 40: What is JDK short for?|A. Java Development Kit|B. Java Deployment Kit|C. Java Debug Kit|D. Java Data Kit|A
+Question 41: Which keyword is used to refer to the parent class constructor?|A. parent|B. super|C. base|D. this|B
+Question 42: Which collection class allows key-value pairs?|A. List|B. Set|C. Map|D. Queue|C
+Question 43: Which method is called before an object is garbage collected?|A. finalize()|B. dispose()|C. close()|D. end()|A
+Question 44: Which operator is used to allocate memory for an object?|A. malloc|B. alloc|C. new|D. allocate|C
+Question 45: Which of these is used to handle exceptions in Java?|A. try-catch|B. throw|C. throws|D. finally|A
+Question 46: Which keyword is used to throw an exception manually?|A. throw|B. throws|C. exception|D. error|A
+Question 47: Which of these is not an access modifier in Java?|A. public|B. private|C. internal|D. protected|C
+Question 48: Which class provides all mathematical functions in Java?|A. Math|B. Numbers|C. Calculator|D. Util|A
+Question 49: Which collection does not allow duplicate elements?|A. List|B. Set|C. Map|D. Queue|B
+Question 50: Which keyword is used to prevent inheritance in Java?|A. abstract|B. final|C. static|D. protected|B
+Question 51: Which method is used to get the runtime class of an object in Java?|A. getClass()|B. classOf()|C. typeOf()|D. runtimeClass()|A
+Question 52: Which keyword is used to define an abstract method?|A. virtual|B. abstract|C. interface|D. void|B
+Question 53: Which of these exceptions is unchecked?|A. IOException|B. SQLException|C. ArithmeticException|D. ClassNotFoundException|C
+Question 54: Which of these is a polymorphism type in Java?|A. compile-time|B. run-time|C. both A and B|D. none|C
+Question 55: Which method is used to convert an object into a string?|A. stringOf()|B. toString()|C. asString()|D. convertString()|B
+Question 56: Which keyword is used to stop method overriding in child classes?|A. private|B. final|C. static|D. super|B
+Question 57: Which loop is best suited for known iterations?|A. for|B. while|C. do-while|D. infinite|A
+Question 58: Which keyword is used to create an interface?|A. interface|B. Interface|C. abstract|D. implements|A
+Question 59: Which method must be implemented when using Runnable interface?|A. execute()|B. main()|C. run()|D. start()|C
+Question 60: Which class is the base class for all exceptions?|A. Throwable|B. Exception|C. Error|D. RuntimeException|A
+Question 61: Which access modifier makes members visible everywhere?|A. public|B. private|C. protected|D. default|A
+Question 62: Which keyword is used to access the current object?|A. this|B. super|C. self|D. current|A
+Question 63: Which package is imported by default in Java programs?|A. java.util|B. java.io|C. java.lang|D. java.sql|C
+Question 64: Which operator is used for logical AND in Java?|A. &|B. &&|C. AND|D. and|B
+Question 65: Which keyword is used to declare a constant in Java?|A. static|B. const|C. final|D. immutable|C
+Question 66: Which class is used to handle input from the user in console?|A. Scanner|B. Reader|C. Input|D. Console|A
+Question 67: Which keyword is used to inherit from a class?|A. extends|B. implements|C. super|D. base|A
+Question 68: Which method is called automatically when an object is created?|A. init()|B. constructor|C. main()|D. new()|B
+Question 69: Which operator is used to find the remainder?|A. /|B. %|C. //|D. div|B
+Question 70: Which keyword is used to explicitly call the parent class constructor?|A. this|B. parent|C. super|D. base|C
+Question 71: Which class is used to generate random numbers in Java?|A. RandomGenerator|B. Random|C. Math|D. Numbers|B
+Question 72: Which of these can hold heterogeneous objects?|A. Array|B. ArrayList|C. Object[]|D. Both B and C|D
+Question 73: Which keyword is used to declare a method that has no body?|A. final|B. static|C. abstract|D. virtual|C
+Question 74: Which operator is used for bitwise OR in Java?|A. | |B. |||C. OR|D. and|A
+Question 75: Which class is used to format dates in Java?|A. DateFormat|B. SimpleDateFormat|C. Calendar|D. Formatter|B
+Question 76: Which method is used to pause a thread for some milliseconds?|A. wait()|B. sleep()|C. stop()|D. pause()|B
+Question 77: Which keyword is used to define a subclass?|A. super|B. extends|C. base|D. child|B
+Question 78: Which keyword is used for exception handling along with try?|A. catch|B. throw|C. finally|D. all of these|D
+Question 79: Which operator is used to test equality of objects in Java?|A. =|B. ==|C. equals()|D. compare()|C
+Question 80: Which collection allows duplicate elements?|A. Set|B. List|C. Map|D. none|B
+Question 81: Which keyword is used to refer to the immediate parent class object?|A. parent|B. super|C. base|D. this|B
+Question 82: Which class is used to represent text that can be modified?|A. String|B. StringBuilder|C. StringBuffer|D. Both B and C|D
+Question 83: Which keyword is used to implement multiple inheritance in Java?|A. class|B. extends|C. implements|D. inherit|C
+Question 84: Which operator is used to increase a value by one?|A. +|B. ++|C. add|D. plus|B
+Question 85: Which statement is used to skip the current iteration of a loop?|A. break|B. continue|C. exit|D. skip|B
+Question 86: Which exception occurs when accessing an array with an invalid index?|A. ArrayIndexOutOfBoundsException|B. NullPointerException|C. IndexException|D. NumberFormatException|A
+Question 87: Which keyword is used to synchronize a method?|A. sync|B. synchronize|C. synchronized|D. atomic|C
+Question 88: Which class is used for reading characters from a file?|A. FileInputStream|B. FileReader|C. FileWriter|D. Reader|B
+Question 89: Which operator is used for conditional operations in Java?|A. ?:|B. if-else|C. switch|D. ??|A
+Question 90: Which keyword is used to inherit from interfaces?|A. extends|B. implements|C. inherit|D. super|B
+Question 91: Which package contains collection classes?|A. java.lang|B. java.io|C. java.util|D. java.sql|C
+Question 92: Which keyword is used to return a value from a method?|A. return|B. break|C. exit|D. stop|A
+Question 93: Which keyword is used to check object type during runtime?|A. typeOf|B. instanceof|C. cast|D. classOf|B
+Question 94: Which is the default access level of an interface method in Java 8?|A. public|B. private|C. protected|D. default|A
+Question 95: Which of these is not a type of constructor in Java?|A. Default|B. Parameterized|C. Copy|D. Virtual|D
+Question 96: Which of these is not a feature of OOP in Java?|A. Inheritance|B. Polymorphism|C. Abstraction|D. Compilation|D
+Question 97: Which keyword is used to stop loop execution prematurely?|A. break|B. continue|C. exit|D. stop|A
+Question 98: Which operator is used for bitwise AND in Java?|A. &&|B. &|C. and|D. AND|B
+Question 99: Which class is immutable in Java?|A. String|B. StringBuffer|C. StringBuilder|D. CharSequence|A
+Question 100: Which method is used to notify a waiting thread in Java?|A. notify()|B. wake()|C. resume()|D. start()|A
+Question 101: Which API is used for database connectivity in Java?|A. JDBC|B. ODBC|C. RMI|D. JNDI|A
+Question 102: Which class is used to establish a database connection in JDBC?|A. Statement|B. Connection|C. DriverManager|D. Database|C
+Question 103: Which interface is used to execute SQL queries in JDBC?|A. Statement|B. ResultSet|C. Connection|D. PreparedStatement|A
+Question 104: Which interface in JDBC is used for precompiled SQL statements?|A. Statement|B. PreparedStatement|C. CallableStatement|D. ResultSet|B
+Question 105: Which JDBC object stores the results of a query?|A. Connection|B. Statement|C. ResultSet|D. Database|C
+Question 106: Which method moves the cursor to the next row in a ResultSet?|A. next()|B. move()|C. forward()|D. nextRow()|A
+Question 107: Which method is used to load a JDBC driver?|A. Class.load()|B. Class.forName()|C. Driver.load()|D. DriverManager.register()|B
+Question 108: Which JDBC driver type is pure Java and platform independent?|A. Type 1|B. Type 2|C. Type 3|D. Type 4|D
+Question 109: Which package contains JDBC classes and interfaces?|A. java.sql|B. java.jdbc|C. javax.sql|D. java.db|A
+Question 110: Which exception is thrown in JDBC for database errors?|A. IOException|B. SQLException|C. DBException|D. RuntimeException|B
+Question 111: Which method in Statement is used to execute a query returning a ResultSet?|A. executeQuery()|B. executeUpdate()|C. execute()|D. runQuery()|A
+Question 112: Which method in Statement is used for INSERT, UPDATE, DELETE operations?|A. executeQuery()|B. executeUpdate()|C. execute()|D. modify()|B
+Question 113: Which JDBC interface is used to call stored procedures?|A. CallableStatement|B. PreparedStatement|C. Statement|D. Procedure|A
+Question 114: Which JDBC interface is used for batch processing?|A. BatchStatement|B. Statement|C. PreparedStatement|D. Both B and C|D
+Question 115: Which JDBC method is used to set auto-commit mode?|A. setCommit()|B. setAutoCommit()|C. commitMode()|D. autoCommit()|B
+Question 116: Which method is used to roll back a transaction in JDBC?|A. rollback()|B. cancel()|C. undo()|D. stop()|A
+Question 117: Which annotation is used in Servlets to define URL mapping?|A. @Path|B. @WebServlet|C. @RequestMapping|D. @Mapping|B
+Question 118: Which package contains Servlet classes?|A. javax.servlet|B. java.servlet|C. java.http|D. javax.http|A
+Question 119: Which method of HttpServlet handles GET requests?|A. doGet()|B. doPost()|C. service()|D. get()|A
+Question 120: Which method of HttpServlet handles POST requests?|A. doGet()|B. doPost()|C. service()|D. post()|B
+Question 121: Which Servlet method is called once when the servlet is first loaded?|A. init()|B. start()|C. service()|D. load()|A
+Question 122: Which method is called for each request in a Servlet?|A. init()|B. service()|C. run()|D. request()|B
+Question 123: Which method of HttpServletResponse is used to redirect a request?|A. sendForward()|B. sendRedirect()|C. forward()|D. redirect()|B
+Question 124: What is the default scope of a JSP bean?|A. request|B. session|C. application|D. page|D
+Question 125: Which implicit object in JSP is used to access request data?|A. response|B. request|C. session|D. application|B
+Question 126: Which implicit object in JSP is used to write output to the client?|A. out|B. writer|C. response|D. console|A
+Question 127: Which tag is used in JSP to include another file?|A. [jsp:useBean](jsp:useBean)|B. [jsp:include](jsp:include)|C. [jsp:import](jsp:import)|D. [jsp:add](jsp:add)|B
+Question 128: Which directive in JSP is used to import Java classes?|A. <%@ page import %>|B. <%@ import %>|C. <%@ include %>|D. <%@ class %>|A
+Question 129: Which scope of a JSP bean persists across multiple requests and sessions?|A. page|B. request|C. session|D. application|D
+Question 130: Which JSP directive is used to define page-level settings?|A. <%@ page %>|B. <%@ directive %>|C. <%@ include %>|D. <%@ tag %>|A
+Question 131: Which technology is used to call remote methods in Java?|A. JDBC|B. RMI|C. EJB|D. JNDI|B
+Question 132: Which class in RMI is used to create a remote object?|A. RemoteObject|B. UnicastRemoteObject|C. RMIObject|D. RemoteImpl|B
+Question 133: Which interface must be extended by a remote interface in RMI?|A. Serializable|B. Remote|C. Cloneable|D. Exportable|B
+Question 134: Which exception is thrown in RMI for remote communication errors?|A. RemoteException|B. IOException|C. SQLException|D. NetworkException|A
+Question 135: Which registry method is used to bind a name to a remote object?|A. bind()|B. rebind()|C. lookup()|D. add()|A
+Question 136: Which registry method is used to retrieve a remote object reference?|A. bind()|B. rebind()|C. lookup()|D. find()|C
+Question 137: Which protocol does RMI use by default?|A. IIOP|B. JRMP|C. HTTP|D. TCP/IP|B
+Question 138: Which type of EJB represents a single entity in a database?|A. Session Bean|B. Entity Bean|C. Message Bean|D. Database Bean|B
+Question 139: Which type of EJB is used for asynchronous communication?|A. Entity Bean|B. Message-Driven Bean|C. Session Bean|D. Remote Bean|B
+Question 140: Which type of Session Bean maintains state across multiple method calls?|A. Stateless|B. Stateful|C. Singleton|D. Transient|B
+Question 141: Which annotation is used to mark an EJB as stateless?|A. @Stateful|B. @Stateless|C. @Singleton|D. @EJB|B
+Question 142: Which annotation is used to inject an EJB into another bean?|A. @Inject|B. @EJB|C. @Resource|D. @Autowired|B
+Question 143: Which interface is used in JNDI lookups?|A. Context|B. Directory|C. Naming|D. Service|A
+Question 144: Which method of InitialContext is used to find an object by name?|A. find()|B. get()|C. lookup()|D. search()|C
+Question 145: Which Java EE component handles business logic?|A. Servlet|B. JSP|C. EJB|D. JDBC|C
+Question 146: Which annotation is used to mark a Singleton EJB?|A. @Singleton|B. @Stateless|C. @Stateful|D. @EJB|A
+Question 147: Which design pattern is EJB based on?|A. Factory|B. Proxy|C. Singleton|D. MVC|B
+Question 148: Which interface is extended by all EJB home interfaces?|A. Home|B. EJBHome|C. EJBObject|D. Remote|B
+Question 149: Which Java EE component is used to handle client requests directly?|A. JSP|B. Servlet|C. EJB|D. JNDI|B
+Question 150: Which annotation is used to declare a web filter in Servlets?|A. @WebFilter|B. @Filter|C. @ServletFilter|D. @MappingFilter|A
+Question 151: Which class in Java provides system-independent server sockets?|A. ServerSocket|B. SocketServer|C. DatagramSocket|D. SocketChannel|A
+Question 152: What is the default buffer size for BufferedReader in Java?|A. 4096 chars|B. 8192 chars|C. 1024 chars|D. 2048 chars|B
+Question 153: Which of these is NOT a method in the InputStream class?|A. read()|B. available()|C. skip()|D. write()|D
+Question 154: In Java I/O, what does EOF signify?|A. End Of File|B. Error On File|C. Exit Or Finish|D. Execute Output File|A
+Question 155: Which stream class is used to read objects from a stream in Java?|A. ObjectStreamReader|B. ObjectInputStream|C. ObjectStream|D. ObjectScanner|B
+Question 156: What does the flush() method of OutputStream do?|A. Clears the stream|B. Closes the stream|C. Writes any buffered output to the stream|D. Deletes data|C
+Question 157: Which of the following is used for character-oriented input in Java?|A. FileInputStream|B. FileReader|C. DataInputStream|D. ByteArrayInputStream|B
+Question 158: The method readLine() belongs to which class in Java?|A. FileReader|B. InputStreamReader|C. BufferedReader|D. Scanner|C
+Question 159: Which exception is thrown when end-of-file is reached unexpectedly while reading?|A. EOFException|B. IOException|C. FileNotFoundException|D. StreamException|A
+Question 160: In Java NIO, which class represents a buffer of bytes?|A. ByteChannel|B. ByteBuffer|C. DataBuffer|D. StreamBuffer|B
+Question 161: Which of the following is not part of the Java Collections Framework?|A. List|B. Set|C. Map|D. Array|D
+Question 162: Which collection allows duplicate elements in Java?|A. Set|B. List|C. Map|D. Queue|B
+Question 163: Which implementation of List is synchronized?|A. ArrayList|B. Vector|C. LinkedList|D. CopyOnWriteArrayList|B
+Question 164: Which interface does HashSet implement internally?|A. List|B. Map|C. Set|D. Collection|C
+Question 165: Which class is best for implementing a queue in Java?|A. LinkedList|B. HashSet|C. TreeMap|D. HashMap|A
+Question 166: Which collection guarantees unique elements and maintains insertion order?|A. HashSet|B. TreeSet|C. LinkedHashSet|D. PriorityQueue|C
+Question 167: What is the time complexity of searching an element in HashSet on average?|A. O(1)|B. O(log n)|C. O(n)|D. O(n log n)|A
+Question 168: Which class is used to implement a stack in Java Collections Framework?|A. Vector|B. ArrayList|C. Stack|D. LinkedList|C
+Question 169: Which interface provides the root of the Java Collections Framework hierarchy?|A. Collection|B. Iterable|C. List|D. Map|B
+Question 170: Which method is used to sort elements in a List in Java?|A. Collections.order()|B. Collections.sort()|C. Arrays.sortList()|D. List.sort()|B
+Question 171: Which Map implementation maintains keys in a sorted order?|A. HashMap|B. LinkedHashMap|C. TreeMap|D. ConcurrentHashMap|C
+Question 172: What is returned by the put() method of a Map if the key is new?|A. true|B. null|C. key|D. value|B
+Question 173: Which collection class is thread-safe without needing synchronization externally?|A. ArrayList|B. HashSet|C. Hashtable|D. LinkedList|C
+Question 174: What will happen if we insert a duplicate key into a HashMap?|A. Exception|B. Overwrites the existing value|C. Ignores insertion|D. Stores both values|B
+Question 175: Which Queue implementation orders elements according to their natural ordering or a comparator?|A. ArrayDeque|B. LinkedList|C. PriorityQueue|D. BlockingQueue|C
+Question 176: Which collection allows null keys and multiple null values?|A. Hashtable|B. HashMap|C. TreeMap|D. LinkedHashMap|B
+Question 177: Which method of Iterator removes the current element from a collection?|A. delete()|B. remove()|C. clear()|D. discard()|B
+Question 178: What is the default initial capacity of an ArrayList in Java 8?|A. 0|B. 5|C. 10|D. 16|A
+Question 179: Which of these classes does not allow null values?|A. HashMap|B. TreeSet|C. LinkedList|D. ArrayList|B
+Question 180: Which method is used to check if a collection is empty?|A. isEmpty()|B. size() == 0|C. checkEmpty()|D. empty()|A
+Question 181: Which of the following is true about LinkedList in Java?|A. Implements List and Deque|B. Implements only List|C. Implements only Deque|D. Implements Queue only|A
+Question 182: What is the load factor of a HashMap by default?|A. 0.5|B. 0.65|C. 0.75|D. 1.0|C
+Question 183: Which concurrent collection allows multiple threads to read but only one thread to write?|A. ConcurrentHashMap|B. CopyOnWriteArrayList|C. SynchronizedSet|D. Hashtable|B
+Question 184: Which of these is a fail-fast iterator?|A. Iterator of ArrayList|B. Iterator of CopyOnWriteArrayList|C. Iterator of ConcurrentHashMap|D. Iterator of LinkedBlockingQueue|A
+Question 185: Which Map implementation maintains insertion order?|A. HashMap|B. TreeMap|C. LinkedHashMap|D. Hashtable|C
+Question 186: Which method retrieves but does not remove the head of a queue?|A. poll()|B. peek()|C. element()|D. both B and C|D
+Question 187: Which class provides a resizable array in Java?|A. Array|B. ArrayList|C. Vector|D. Stack|B
+Question 188: Which collection is best suited for LIFO operations?|A. Stack|B. Queue|C. PriorityQueue|D. Deque|A
+Question 189: Which method converts a collection into an array?|A. toArray()|B. asArray()|C. convertArray()|D. arrayOf()|A
+Question 190: Which of the following is NOT true about TreeSet?|A. Allows duplicate elements|B. Stores elements in sorted order|C. Implements NavigableSet|D. Is not synchronized|A
+Question 191: Which method is used to add all elements of a collection into another collection?|A. addAll()|B. insertAll()|C. merge()|D. includeAll()|A
+Question 192: What is returned by size() method of a collection?|A. Maximum capacity|B. Number of elements currently present|C. Both A and B|D. None|B
+Question 193: Which utility class provides static methods for collection operations?|A. CollectionUtils|B. Collections|C. Arrays|D. Utils|B
+Question 194: Which collection uses a hash table internally?|A. HashMap|B. TreeMap|C. PriorityQueue|D. LinkedList|A
+Question 195: Which method removes all elements from a collection?|A. remove()|B. clear()|C. deleteAll()|D. reset()|B
+Question 196: Which data structure does PriorityQueue use internally?|A. Stack|B. Heap|C. Tree|D. ArrayList|B
+Question 197: Which collection class is suitable for caching where access order is important?|A. HashMap|B. TreeMap|C. LinkedHashMap|D. PriorityQueue|C
+Question 198: What type of elements does EnumSet store?|A. Only primitive types|B. Only enumerations|C. Only objects|D. Any type|B
+Question 199: Which method of Map checks if a key exists?|A. hasKey()|B. keyExists()|C. containsKey()|D. exists()|C
+Question 200: Which method returns a Set view of the keys contained in a Map?|A. keys()|B. keySet()|C. getKeys()|D. setKeys()|B
+Question 201: Which method is used to start a thread in Java?|A. run()|B. execute()|C. start()|D. begin()|C
+Question 202: Which interface must be implemented to create a thread in Java?|A. Runnable|B. Threadable|C. Callable|D. Executor|A
+Question 203: Which method of Thread class is used to pause execution for a specified time?|A. wait()|B. sleep()|C. yield()|D. suspend()|B
+Question 204: What is the default priority of a thread in Java?|A. 0|B. 1|C. 5|D. 10|C
+Question 205: Which method is called when a thread is executed?|A. execute()|B. run()|C. start()|D. call()|B
+Question 206: Which of the following is NOT a valid thread state?|A. New|B. Runnable|C. Waiting|D. Processing|D
+Question 207: Which keyword is used to prevent concurrent access to a block of code?|A. sync|B. synchronized|C. static|D. volatile|B
+Question 208: Which method makes the currently executing thread give up the CPU?|A. sleep()|B. yield()|C. join()|D. stop()|B
+Question 209: What will happen if you call run() method directly instead of start()?|A. Creates a new thread|B. Executes in the current thread|C. Throws exception|D. Terminates program|B
+Question 210: Which method waits for a thread to finish?|A. join()|B. wait()|C. notify()|D. sleep()|A
+Question 211: Which of these is used for inter-thread communication?|A. yield()|B. wait()|C. sleep()|D. join()|B
+Question 212: Which method is used to wake up a waiting thread?|A. resume()|B. notify()|C. wake()|D. alert()|B
+Question 213: Which two methods are used for waking up all waiting threads?|A. notifyAll() and resume()|B. notifyAll() and interrupt()|C. notifyAll() and yield()|D. notifyAll() and notify()|D
+Question 214: Which method stops a thread permanently (deprecated)?|A. stop()|B. destroy()|C. kill()|D. terminate()|A
+Question 215: Which class in Java provides higher-level concurrency utilities?|A. Thread|B. ExecutorService|C. Runnable|D. Process|B
+Question 216: Which interface does Callable belong to?|A. java.util|B. java.io|C. java.util.concurrent|D. java.lang|C
+Question 217: What does the Future interface represent in concurrency?|A. A thread|B. A result of asynchronous computation|C. A lock|D. A deadlock handler|B
+Question 218: Which executor creates a thread pool with a fixed number of threads?|A. Executors.newCachedThreadPool()|B. Executors.newFixedThreadPool()|C. Executors.newSingleThreadExecutor()|D. Executors.newWorkStealingPool()|B
+Question 219: Which is true about the sleep() method?|A. Releases lock|B. Does not release lock|C. Terminates thread|D. Suspends thread indefinitely|B
+Question 220: Which is true about wait() method?|A. Releases lock|B. Does not release lock|C. Suspends thread without releasing lock|D. None|A
+Question 221: Which class in Java is used for thread-safe collections?|A. ArrayList|B. HashMap|C. ConcurrentHashMap|D. LinkedList|C
+Question 222: Which keyword ensures a variable is always read from main memory, not cache?|A. final|B. static|C. volatile|D. synchronized|C
+Question 223: Which method interrupts a sleeping or waiting thread?|A. stop()|B. kill()|C. interrupt()|D. destroy()|C
+Question 224: What happens when a thread is interrupted?|A. Immediately stops|B. Throws InterruptedException|C. Ignores it|D. Terminates JVM|B
+Question 225: Which class is used for managing multiple threads efficiently?|A. ThreadGroup|B. ThreadManager|C. ExecutorService|D. ThreadHandler|C
+Question 226: Which thread runs in the background and provides services to user threads?|A. Worker thread|B. Daemon thread|C. Utility thread|D. Service thread|B
+Question 227: Which method sets a thread as daemon?|A. setDaemon(true)|B. daemonize()|C. makeDaemon()|D. configureDaemon()|A
+Question 228: What will happen if main thread ends but daemon thread is running?|A. Daemon thread continues|B. JVM exits and daemon thread stops|C. JVM waits for daemon thread|D. Daemon converts to normal thread|B
+Question 229: Which of these is NOT a synchronization mechanism in Java?|A. synchronized blocks|B. Locks|C. Semaphores|D. Iterators|D
+Question 230: Which package contains concurrency utilities?|A. java.lang|B. java.io|C. java.util.concurrent|D. java.thread|C
+Question 231: What is the maximum thread priority in Java?|A. 5|B. 7|C. 10|D. 15|C
+Question 232: What is the minimum thread priority in Java?|A. 0|B. 1|C. 2|D. 5|B
+Question 233: Which method is used to get the name of a thread?|A. getThreadName()|B. getName()|C. threadName()|D. name()|B
+Question 234: Which method is used to set the priority of a thread?|A. setThreadPriority()|B. setPriority()|C. priority()|D. assignPriority()|B
+Question 235: Which method returns the ID of a thread?|A. getThreadId()|B. getId()|C. id()|D. threadId()|B
+Question 236: Which class provides reentrant locks in Java?|A. LockManager|B. ReentrantLock|C. ThreadLock|D. SafeLock|B
+Question 237: Which class provides a synchronization aid that allows threads to wait until a set of operations are completed?|A. CountDownLatch|B. Semaphore|C. CyclicBarrier|D. Phaser|A
+Question 238: Which class in Java provides a pool of permits to control thread access?|A. ReentrantLock|B. Semaphore|C. Monitor|D. Barrier|B
+Question 239: Which synchronization class is reusable after all waiting threads are released?|A. CountDownLatch|B. CyclicBarrier|C. Semaphore|D. Lock|B
+Question 240: Which concurrency class allows dynamic phasing of tasks?|A. Phaser|B. Semaphore|C. Barrier|D. Latch|A
+Question 241: Which keyword ensures atomic execution of a method?|A. atomic|B. synchronized|C. exclusive|D. lock|B
+Question 242: Which exception is thrown when a thread cannot acquire a lock within the specified time?|A. TimeoutException|B. InterruptedException|C. LockException|D. ThreadException|A
+Question 243: What is deadlock in Java?|A. Threads waiting indefinitely for each other’s resources|B. Thread termination|C. Thread starvation|D. Thread yielding|A
+Question 244: Which strategy helps to prevent deadlocks?|A. Nested locking|B. Circular waiting|C. Lock ordering|D. Ignoring deadlocks|C
+Question 245: Which class provides a thread-safe variant of ArrayList?|A. ThreadSafeArrayList|B. CopyOnWriteArrayList|C. SafeList|D. ConcurrentArrayList|B
+Question 246: Which method checks if a thread is alive?|A. isAlive()|B. alive()|C. checkAlive()|D. status()|A
+Question 247: What is the default name of the first thread in Java?|A. worker|B. userThread|C. main|D. default|C
+Question 248: Which method is used to execute tasks asynchronously without creating threads manually?|A. ExecutorService.submit()|B. Thread.start()|C. Runnable.run()|D. ThreadPool.create()|A
+Question 249: Which thread pool grows dynamically as needed?|A. newFixedThreadPool()|B. newCachedThreadPool()|C. newSingleThreadExecutor()|D. newScheduledThreadPool()|B
+Question 250: Which method schedules tasks to run after a delay or periodically?|A. ScheduledExecutorService.schedule()|B. Timer.run()|C. Thread.sleep()|D. ExecutorService.execute()|A
+Question 251: Which class is the parent of all exceptions in Java?|A. Throwable|B. Exception|C. Error|D. RuntimeException|A
+Question 252: Which keyword is used to handle exceptions in Java?|A. throw|B. try|C. catch|D. finally|C
+Question 253: Which block is always executed whether an exception occurs or not?|A. try|B. catch|C. finally|D. throw|C
+Question 254: Which keyword is used to explicitly throw an exception?|A. throws|B. throw|C. exception|D. error|B
+Question 255: Which keyword is used in method declaration to declare exceptions?|A. throw|B. throws|C. try|D. error|B
+Question 256: Which exception is checked at compile time?|A. RuntimeException|B. IOException|C. NullPointerException|D. ArithmeticException|B
+Question 257: Which exception occurs when dividing an integer by zero?|A. IOException|B. ArithmeticException|C. NullPointerException|D. IllegalArgumentException|B
+Question 258: Which exception occurs when an object is accessed with a null reference?|A. NullReferenceException|B. IOException|C. NullPointerException|D. IndexOutOfBoundsException|C
+Question 259: Which of the following is an unchecked exception?|A. IOException|B. SQLException|C. ClassNotFoundException|D. NullPointerException|D
+Question 260: Which class represents exceptions that can be caught during program execution?|A. Exception|B. Error|C. Throwable|D. Runtime|A
+Question 261: Which exception indicates array index is out of range?|A. NullPointerException|B. ArrayIndexOutOfBoundsException|C. NumberFormatException|D. ClassCastException|B
+Question 262: Which exception occurs when converting a non-numeric string to a number?|A. NumberFormatException|B. ArithmeticException|C. IllegalArgumentException|D. ParseException|A
+Question 263: Which exception occurs when accessing an invalid class cast?|A. ClassCastException|B. IllegalCastException|C. RuntimeException|D. InvalidClassException|A
+Question 264: Which exception indicates a file could not be found?|A. FileMissingException|B. IOException|C. FileNotFoundException|D. InvalidFileException|C
+Question 265: Which keyword is used to define custom exceptions?|A. extends Exception|B. implements Exception|C. extends Throwable|D. implements Throwable|A
+Question 266: What happens if no catch block matches the thrown exception?|A. Exception is ignored|B. JVM terminates the program|C. Exception is converted|D. Nothing happens|B
+Question 267: Which type of exceptions are Runtime exceptions?|A. Checked|B. Unchecked|C. Compile-time|D. Both A and B|B
+Question 268: Which method prints the stack trace of an exception?|A. printTrace()|B. printStackTrace()|C. showError()|D. getTrace()|B
+Question 269: Which block is mandatory in exception handling?|A. try|B. catch|C. finally|D. None|A
+Question 270: Can a try block be used without a catch block?|A. No|B. Yes, if finally is used|C. Yes, always|D. No, unless throw is declared|B
+Question 271: Can multiple catch blocks be used for a single try block?|A. Yes|B. No|C. Only two allowed|D. Only if finally is absent|A
+Question 272: In what order are multiple catch blocks checked?|A. Random|B. From bottom to top|C. From top to bottom|D. Depends on JVM|C
+Question 273: What will happen if superclass exception is caught before subclass exception?|A. Compilation error|B. Runtime error|C. No error|D. JVM crashes|A
+Question 274: Which class handles errors that cannot be recovered?|A. Exception|B. Error|C. Throwable|D. RuntimeException|B
+Question 275: Which is true about finally block?|A. Always executes|B. Never executes|C. Executes only when exception occurs|D. Optional and rarely used|A
+Question 276: Which exception is thrown when accessing invalid string index?|A. ArrayIndexOutOfBoundsException|B. StringIndexOutOfBoundsException|C. NullPointerException|D. IllegalArgumentException|B
+Question 277: Which exception occurs when an illegal argument is passed to a method?|A. IllegalArgumentException|B. NullPointerException|C. IOException|D. RuntimeException|A
+Question 278: Which exception occurs when cloning an object that does not implement Cloneable?|A. CloneNotFoundException|B. IllegalCloneException|C. CloneNotSupportedException|D. UnsupportedCloneException|C
+Question 279: Which exception occurs when a class is not found at runtime?|A. ClassNotFoundException|B. NoClassDefFoundError|C. InvalidClassException|D. RuntimeException|A
+Question 280: Which error occurs when a class definition is missing at runtime?|A. ClassNotFoundException|B. NoClassDefFoundError|C. ClassFormatError|D. InstantiationError|B
+Question 281: Which exception occurs when object serialization fails?|A. IOException|B. NotSerializableException|C. ClassCastException|D. InvalidObjectException|B
+Question 282: Which exception occurs when casting to an incompatible type?|A. IllegalArgumentException|B. InvalidClassException|C. ClassCastException|D. UnsupportedOperationException|C
+Question 283: Which exception occurs when a thread is waiting but no notify is called?|A. TimeoutException|B. DeadlockException|C. IllegalMonitorStateException|D. InterruptedException|C
+Question 284: Which exception occurs when an operation is not supported?|A. InvalidOperationException|B. UnsupportedOperationException|C. IllegalStateException|D. RuntimeException|B
+Question 285: Which exception occurs if a null value is used in a collection that does not permit nulls?|A. IllegalArgumentException|B. NullPointerException|C. UnsupportedOperationException|D. InvalidCollectionException|B
+Question 286: Which method retrieves the exception message?|A. getError()|B. getMessage()|C. errorMessage()|D. toString()|B
+Question 287: Which class is used as a superclass for exceptions from reflection?|A. ReflectException|B. InvocationException|C. ReflectiveOperationException|D. ReflectionError|C
+Question 288: Which exception occurs when instantiating an abstract class?|A. InstantiationError|B. InstantiationException|C. AbstractClassException|D. RuntimeException|B
+Question 289: Which exception occurs when an invalid format is encountered in parsing?|A. ParseException|B. FormatException|C. NumberFormatException|D. IllegalArgumentException|A
+Question 290: Which exception is thrown by Class.forName() if the class is missing?|A. ClassNotFoundException|B. NoClassDefFoundError|C. ClassCastException|D. RuntimeException|A
+Question 291: Can we re-throw an exception in Java?|A. No|B. Yes, using throw|C. Yes, using throws|D. Only runtime exceptions|B
+Question 292: Which exception occurs when cloning is not allowed?|A. CloneNotFoundException|B. CloneNotSupportedException|C. InvalidCloneException|D. UnsupportedCloneException|B
+Question 293: Which exception occurs when accessing a method not found at runtime?|A. MethodNotFoundException|B. NoSuchMethodException|C. IllegalMethodException|D. InvalidMethodException|B
+Question 294: Which exception occurs if a security violation happens?|A. IllegalAccessException|B. SecurityException|C. AccessViolationException|D. RuntimeException|B
+Question 295: Which exception occurs when array allocation fails due to insufficient memory?|A. OutOfMemoryError|B. ArraySizeException|C. NegativeArraySizeException|D. MemoryAllocationException|C
+Question 296: Which class handles input/output exceptions?|A. IOException|B. FileException|C. IOFailure|D. FileError|A
+Question 297: Which exception occurs when trying to create an array with a negative size?|A. OutOfMemoryError|B. ArrayIndexOutOfBoundsException|C. NegativeArraySizeException|D. ArithmeticException|C
+Question 298: Which exception is thrown when a resource is not available?|A. ResourceNotFoundException|B. IllegalStateException|C. TimeoutException|D. IOException|A
+Question 299: Which exception occurs when access to a class member is illegal?|A. IllegalAccessException|B. AccessViolationException|C. SecurityException|D. RuntimeException|A
+Question 300: Which exception is thrown when object serialization fails due to invalid class?|A. InvalidClassException|B. SerializationException|C. NotSerializableException|D. IOException|A
+Question 301: What is the superclass of all exceptions in Java?|A. Throwable|B. Exception|C. RuntimeException|D. Error|A
+Question 302: Which class represents exceptions that can be recovered from?|A. Error|B. Exception|C. Throwable|D. Runtime|B
+Question 303: Which keyword is used to handle exceptions?|A. handle|B. try|C. catch|D. throw|C
+Question 304: Which keyword is used to define code that may throw an exception?|A. throw|B. try|C. catch|D. finally|B
+Question 305: Which keyword is used to declare exceptions in a method signature?|A. throw|B. throws|C. throwable|D. catch|B
+Question 306: Which keyword is used to explicitly raise an exception?|A. throw|B. throws|C. catch|D. raise|A
+Question 307: Which block is always executed whether an exception occurs or not?|A. try|B. catch|C. finally|D. throw|C
+Question 308: Which type of exceptions must be declared or handled?|A. Checked exceptions|B. Unchecked exceptions|C. Runtime exceptions|D. Errors|A
+Question 309: Which type of exceptions occur during runtime without being checked by compiler?|A. Checked exceptions|B. Runtime exceptions|C. Errors|D. None|B
+Question 310: Which of the following is a checked exception?|A. NullPointerException|B. IOException|C. ArithmeticException|D. ArrayIndexOutOfBoundsException|B
+Question 311: Which of the following is an unchecked exception?|A. SQLException|B. IOException|C. NullPointerException|D. ClassNotFoundException|C
+Question 312: Which exception occurs when dividing by zero?|A. IOException|B. ArithmeticException|C. NullPointerException|D. NumberFormatException|B
+Question 313: Which exception occurs when accessing an array out of bounds?|A. IOException|B. ArrayIndexOutOfBoundsException|C. NullPointerException|D. IndexException|B
+Question 314: Which exception occurs when using null reference?|A. NullPointerException|B. ArrayIndexOutOfBoundsException|C. IOException|D. RuntimeException|A
+Question 315: Which exception occurs when parsing invalid number format?|A. NumberFormatException|B. ArithmeticException|C. ParseException|D. IllegalArgumentException|A
+Question 316: Which block can be used without catch?|A. try|B. finally|C. throw|D. throws|B
+Question 317: Can we have multiple catch blocks after one try?|A. Yes|B. No|A
+Question 318: Can we have multiple finally blocks after one try?|A. Yes|B. No|B
+Question 319: Can try block exist without catch or finally?|A. Yes|B. No|B
+Question 320: Which exception is thrown when a class is not found during runtime?|A. IOException|B. ClassNotFoundException|C. RuntimeException|D. FileNotFoundException|B
+Question 321: Which exception occurs when file is not found?|A. IOException|B. FileNotFoundException|C. RuntimeException|D. NoSuchFileException|B
+Question 322: Which exception occurs when a thread is interrupted?|A. InterruptedException|B. IOException|C. TimeoutException|D. IllegalThreadStateException|A
+Question 323: Which exception occurs when accessing a method not available?|A. NoSuchMethodException|B. NullPointerException|C. IllegalAccessException|D. IllegalArgumentException|A
+Question 324: Which exception occurs when illegal casting is done?|A. IllegalAccessException|B. ClassCastException|C. IllegalArgumentException|D. NullPointerException|B
+Question 325: Which exception occurs when string index is out of range?|A. StringIndexOutOfBoundsException|B. ArrayIndexOutOfBoundsException|C. NullPointerException|D. IllegalArgumentException|A
+Question 326: Which exception occurs when trying to open an unavailable SQL connection?|A. SQLException|B. IOException|C. NullPointerException|D. RuntimeException|A
+Question 327: Which is the correct order of catch blocks?|A. Parent first, child later|B. Child first, parent later|C. Random order|D. No rule|B
+Question 328: What happens if parent exception is caught before child exception?|A. Compile time error|B. Runtime error|C. Works fine|D. Ignored|A
+Question 329: Which class is the parent of RuntimeException?|A. Exception|B. Throwable|C. Error|D. Object|A
+Question 330: Which class is the parent of IOException?|A. Exception|B. RuntimeException|C. Throwable|D. Error|A
+Question 331: Which exception occurs if an object is cloned without implementing Cloneable?|A. CloneNotSupportedException|B. IllegalArgumentException|C. NullPointerException|D. IOException|A
+Question 332: Which exception occurs when reflection violates access control?|A. IllegalAccessException|B. SecurityException|C. AccessDeniedException|D. NoSuchMethodException|A
+Question 333: What does getMessage() method return in an exception?|A. Cause of exception|B. Stack trace|C. Exception message|D. Line number|C
+Question 334: Which method prints stack trace of exception?|A. printMessage()|B. printStackTrace()|C. getStackTrace()|D. logError()|B
+Question 335: Which method returns array of stack trace elements?|A. printStackTrace()|B. getStackTrace()|C. getCause()|D. getElements()|B
+Question 336: Which method returns the cause of exception?|A. getCause()|B. getStackTrace()|C. getMessage()|D. printCause()|A
+Question 337: Can a catch block handle multiple exception types in Java 7+?|A. Yes|B. No|A
+Question 338: What symbol is used for multi-catch block in Java?|A. , (comma)|B. | (pipe)|C. & (ampersand)|D. ; (semicolon)|B
+Question 339: Which block is executed first if exception occurs?|A. try|B. catch|C. finally|D. throw|B
+Question 340: Which block is executed last in exception handling?|A. try|B. catch|C. finally|D. throw|C
+Question 341: What happens if exception is not handled in Java?|A. Program continues|B. Program terminates abruptly|C. Program pauses|D. Program ignores|B
+Question 342: What is the base class of all errors in Java?|A. Throwable|B. Error|C. Exception|D. RuntimeException|B
+Question 343: Which error occurs when JVM runs out of memory?|A. StackOverflowError|B. OutOfMemoryError|C. VirtualMachineError|D. MemoryError|B
+Question 344: Which error occurs when stack exceeds limit due to recursion?|A. OutOfMemoryError|B. StackOverflowError|C. VirtualMachineError|D. Error|B
+Question 345: Which error occurs when JVM is corrupted?|A. VirtualMachineError|B. Error|C. ExceptionInInitializerError|D. InternalError|A
+Question 346: Which error occurs during static initialization block?|A. InitializationError|B. ExceptionInInitializerError|C. NullPointerException|D. IllegalStateException|B
+Question 347: Which keyword helps to create custom exceptions?|A. extends Exception|B. extends Throwable|C. implements Exception|D. new Exception|A
+Question 348: Can custom exceptions be both checked and unchecked?|A. Yes|B. No|A
+Question 349: Which is preferred for recoverable conditions?|A. Exception|B. Error|C. Throwable|D. RuntimeException|A
+Question 350: Which is preferred for non-recoverable conditions?|A. Exception|B. Error|C. Throwable|D. Checked Exception|B
+Question 351: What is Spring Boot primarily used for?|A. Data storage|B. Rapid application development|C. GUI development|D. Game development|B
+Question 352: Which annotation is used to mark the main class of a Spring Boot application?|A. @EnableAutoConfiguration|B. @SpringBootApplication|C. @ComponentScan|D. @Configuration|B
+Question 353: Which method is used to launch a Spring Boot application?|A. SpringApplication.run()|B. Application.start()|C. Boot.run()|D. Main.start()|A
+Question 354: Which file is typically used to define configuration in Spring Boot?|A. application.config|B. application.properties|C. config.xml|D. bootstrap.yml|B
+Question 355: Which annotation combines @Configuration, @EnableAutoConfiguration, and @ComponentScan?|A. @SpringBootApplication|B. @SpringBootConfig|C. @SpringBootEnable|D. @BootConfig|A
+Question 356: Which folder typically contains application.properties file?|A. /src/main/java|B. /src/main/resources|C. /resources/properties|D. /config|B
+Question 357: Which starter dependency is used for building web applications in Spring Boot?|A. spring-boot-starter-jdbc|B. spring-boot-starter-web|C. spring-boot-starter-data|D. spring-boot-starter-thymeleaf|B
+Question 358: Which embedded server does Spring Boot use by default?|A. Jetty|B. Undertow|C. Tomcat|D. WebLogic|C
+Question 359: Which command is used to run a Spring Boot application jar?|A. java -jar app.jar|B. run app.jar|C. springboot app.jar|D. start app.jar|A
+Question 360: Which annotation is used to mark a REST controller in Spring Boot?|A. @Controller|B. @RestController|C. @Service|D. @Component|B
+Question 361: Which annotation maps HTTP requests to handler methods?|A. @RequestMapping|B. @GetMapping|C. @PostMapping|D. All of these|D
+Question 362: Which annotation is used to inject dependencies in Spring Boot?|A. @Autowired|B. @Inject|C. @Resource|D. All of these|D
+Question 363: Which annotation is used to mark a service class?|A. @Component|B. @Service|C. @Repository|D. @Controller|B
+Question 364: Which annotation is used to mark a data access object (DAO)?|A. @Service|B. @Repository|C. @Controller|D. @Component|B
+Question 365: Which annotation is used to mark a configuration class in Spring Boot?|A. @Config|B. @Configuration|C. @SpringConfig|D. @AppConfig|B
+Question 366: Which annotation is used for unit testing Spring Boot applications?|A. @SpringTest|B. @SpringBootTest|C. @BootTest|D. @UnitTest|B
+Question 367: What does Spring Boot starter parent provide?|A. Dependency management|B. Auto configuration|C. Build plugins|D. All of these|D
+Question 368: Which dependency provides in-memory database for testing?|A. spring-boot-starter-h2|B. spring-boot-starter-mysql|C. spring-boot-starter-jpa|D. spring-boot-starter-db|A
+Question 369: Which annotation is used to handle exceptions globally?|A. @ExceptionHandler|B. @ControllerAdvice|C. @RestControllerAdvice|D. Both B and C|D
+Question 370: Which Spring Boot annotation is used to bind properties to a POJO class?|A. @PropertySource|B. @ConfigurationProperties|C. @Value|D. @BindProperties|B
+Question 371: Which annotation is used to enable scheduling in Spring Boot?|A. @EnableScheduling|B. @EnableAsync|C. @EnableTask|D. @Schedule|A
+Question 372: Which annotation is used to enable asynchronous execution?|A. @EnableAsync|B. @EnableScheduling|C. @Async|D. Both A and C|D
+Question 373: Which annotation is used to create REST client in Spring Boot?|A. @FeignClient|B. @RestClient|C. @HttpClient|D. @ApiClient|A
+Question 374: Which Spring Boot starter is used for JPA and Hibernate?|A. spring-boot-starter-jdbc|B. spring-boot-starter-data-jpa|C. spring-boot-starter-orm|D. spring-boot-starter-db|B
+Question 375: Which annotation is used to map an entity class in JPA?|A. @Table|B. @Entity|C. @Persistence|D. @Database|B
+Question 376: Which annotation is used to mark a primary key field in JPA entity?|A. @Id|B. @Primary|C. @Generated|D. @Column|A
+Question 377: Which annotation automatically generates primary key values in JPA?|A. @Id|B. @GeneratedValue|C. @AutoId|D. @Key|B
+Question 378: Which interface provides CRUD operations in Spring Data JPA?|A. JpaRepository|B. CrudRepository|C. PagingAndSortingRepository|D. All of these|D
+Question 379: Which dependency is needed for Spring Boot actuator?|A. spring-boot-starter-actuator|B. spring-boot-starter-monitor|C. spring-boot-starter-health|D. spring-boot-starter-metrics|A
+Question 380: What does actuator provide in Spring Boot?|A. Monitoring|B. Health checks|C. Metrics|D. All of these|D
+Question 381: What is the default port of Spring Boot application?|A. 8080|B. 9090|C. 8000|D. 8888|A
+Question 382: How do you change the default port in Spring Boot?|A. Change server.port in application.properties|B. Change @Port annotation|C. Change serverConfig()|D. Modify @SpringBootApplication|A
+Question 383: Which annotation is used to mark test methods in JUnit with Spring Boot?|A. @Test|B. @SpringBootTest|C. @JUnitTest|D. @UnitTest|A
+Question 384: Which annotation is used to enable caching in Spring Boot?|A. @EnableCache|B. @EnableCaching|C. @Cacheable|D. @EnableStorage|B
+Question 385: Which annotation marks a method result as cacheable?|A. @Cacheable|B. @EnableCaching|C. @CachePut|D. @CacheStore|A
+Question 386: Which annotation updates the cache with new method result?|A. @CachePut|B. @Cacheable|C. @CacheEvict|D. @CacheStore|A
+Question 387: Which annotation removes entries from cache?|A. @CacheEvict|B. @CacheRemove|C. @CacheDelete|D. @CacheClear|A
+Question 388: Which file format is supported for external configuration?|A. .properties|B. .yml|C. .yaml|D. All of these|D
+Question 389: Which annotation is used to enable JPA repositories?|A. @EnableJpaRepositories|B. @EnableRepositories|C. @EnableDataJpa|D. @EnableDBRepositories|A
+Question 390: Which annotation is used to run SQL scripts on startup?|A. @Sql|B. @DataSql|C. @StartupSQL|D. @LoadSql|A
+Question 391: Which annotation is used to enable transaction management?|A. @EnableTransactionManagement|B. @Transactional|C. @EnableTx|D. Both A and B|D
+Question 392: Which annotation is used at method level to make it transactional?|A. @EnableTransactionManagement|B. @Transactional|C. @Tx|D. @EnableTx|B
+Question 393: Which Spring Boot feature automatically configures beans based on classpath?|A. Auto-configuration|B. Dependency injection|C. Starter parent|D. Actuator|A
+Question 394: Which annotation disables auto-configuration for a class?|A. @EnableAutoConfiguration(exclude=..)|B. @SpringBootApplication(exclude=..)|C. @DisableAutoConfiguration|D. Both A and B|D
+Question 395: Which logging framework does Spring Boot use by default?|A. Log4j2|B. SLF4J|C. Logback|D. java.util.logging|C
+Question 396: Which property changes log level in Spring Boot?|A. logging.level.<package>=DEBUG|B. log.level=DEBUG|C. spring.log.level=DEBUG|D. logging.debug=true|A
+Question 397: Which dependency is used for unit testing in Spring Boot?|A. spring-boot-starter-test|B. spring-boot-starter-junit|C. spring-boot-starter-unit|D. spring-boot-starter-mock|A
+Question 398: Which annotation is used for mapping POST requests in REST controllers?|A. @Post|B. @PostMapping|C. @RequestMapping(method=POST)|D. Both B and C|D
+Question 399: Which annotation is used for mapping GET requests?|A. @Get|B. @GetMapping|C. @RequestMapping(method=GET)|D. Both B and C|D
+Question 400: Which annotation is used to map path variables in REST controllers?|A. @PathParam|B. @PathVariable|C. @Param|D. @RequestParam|B
+Question 401: What is Hibernate in Java?|A. ORM framework|B. Web framework|C. Build tool|D. Database|A
+Question 402: What does ORM stand for?|A. Object-Relational Mapping|B. Object-Reference Model|C. Open Resource Manager|D. Object-Resource Mapping|A
+Question 403: Which interface is used to get database sessions in Hibernate?|A. SessionFactory|B. Session|C. EntityManager|D. ConnectionFactory|A
+Question 404: Which method is used to open a session in Hibernate?|A. SessionFactory.openSession()|B. Session.open()|C. SessionFactory.getSession()|D. Session.start()|A
+Question 405: Which annotation maps a class to a database table?|A. @Table|B. @Entity|C. @Database|D. @TableMapping|B
+Question 406: Which annotation maps a field to the primary key column?|A. @Id|B. @Primary|C. @Key|D. @GeneratedValue|A
+Question 407: Which annotation generates primary key automatically?|A. @Id|B. @Auto|C. @GeneratedValue|D. @Key|C
+Question 408: Which annotation specifies the database table name for an entity?|A. @Table|B. @Entity|C. @Column|D. @Database|A
+Question 409: Which annotation specifies a column in a table?|A. @Column|B. @Field|C. @TableColumn|D. @ColumnMapping|A
+Question 410: Which annotation is used for one-to-one relationship?|A. @OneToOne|B. @ManyToOne|C. @OneToMany|D. @ManyToMany|A
+Question 411: Which annotation is used for one-to-many relationship?|A. @OneToOne|B. @OneToMany|C. @ManyToOne|D. @ManyToMany|B
+Question 412: Which annotation is used for many-to-one relationship?|A. @OneToOne|B. @OneToMany|C. @ManyToOne|D. @ManyToMany|C
+Question 413: Which annotation is used for many-to-many relationship?|A. @OneToOne|B. @OneToMany|C. @ManyToOne|D. @ManyToMany|D
+Question 414: Which annotation defines the foreign key column in Hibernate?|A. @ForeignKey|B. @JoinColumn|C. @Column|D. @Reference|B
+Question 415: Which annotation maps a composite primary key?|A. @IdClass|B. @EmbeddedId|C. Both A and B|D. @CompositeKey|C
+Question 416: Which interface is used to execute CRUD operations in Hibernate?|A. Session|B. EntityManager|C. Transaction|D. SessionFactory|A
+Question 417: Which method saves an entity in database?|A. persist()|B. save()|C. Both A and B|D. insert()|C
+Question 418: Which method updates an entity in database?|A. update()|B. merge()|C. Both A and B|D. save()|C
+Question 419: Which method removes an entity from database?|A. delete()|B. remove()|C. drop()|D. Both A and B|D
+Question 420: Which annotation marks a field to be lazily loaded?|A. @Lazy|B. @FetchType(LAZY)|C. @Fetch(LAZY)|D. @Load(LAZY)|B
+Question 421: Which annotation marks a field to be eagerly loaded?|A. @Eager|B. @FetchType(EAGER)|C. @Load(EAGER)|D. @Fetch(EAGER)|B
+Question 422: Which method begins a transaction in Hibernate?|A. beginTransaction()|B. startTransaction()|C. initTransaction()|D. openTransaction()|A
+Question 423: Which method commits a transaction?|A. commit()|B. endTransaction()|C. saveTransaction()|D. closeTransaction()|A
+Question 424: Which method rolls back a transaction?|A. rollback()|B. undoTransaction()|C. cancelTransaction()|D. revert()|A
+Question 425: Which annotation marks a field to be transient and not persisted?|A. @Transient|B. @Ignore|C. @NotPersisted|D. @Skip|A
+Question 426: Which Hibernate property defines the database dialect?|A. hibernate.connection.dialect|B. hibernate.dialect|C. hibernate.db.dialect|D. dialect|B
+Question 427: Which Hibernate property defines auto schema generation?|A. hibernate.hbm2ddl.auto|B. hibernate.schema.auto|C. hibernate.ddl.auto|D. hibernate.auto.create|A
+Question 428: Which value of hibernate.hbm2ddl.auto creates tables automatically?|A. create|B. update|C. validate|D. create-drop|A
+Question 429: Which value updates schema without dropping tables?|A. create|B. update|C. validate|D. create-drop|B
+Question 430: Which value validates schema without making changes?|A. create|B. update|C. validate|D. create-drop|C
+Question 431: Which value drops tables when sessionFactory is closed?|A. create|B. update|C. validate|D. create-drop|D
+Question 432: Which annotation marks a method to run before entity persistence?|A. @PrePersist|B. @BeforeSave|C. @BeforeInsert|D. @BeforePersist|A
+Question 433: Which annotation marks a method to run after entity persistence?|A. @PostPersist|B. @AfterSave|C. @AfterInsert|D. @AfterPersist|A
+Question 434: Which annotation marks a method to run before entity removal?|A. @PreRemove|B. @BeforeDelete|C. @BeforeRemove|D. @BeforeDestroy|A
+Question 435: Which annotation marks a method to run after entity removal?|A. @PostRemove|B. @AfterDelete|C. @AfterRemove|D. @AfterDestroy|A
+Question 436: Which annotation marks a method to run before entity update?|A. @PreUpdate|B. @BeforeUpdate|C. @UpdateBefore|D. @BeforeModify|A
+Question 437: Which annotation marks a method to run after entity update?|A. @PostUpdate|B. @AfterUpdate|C. @UpdateAfter|D. @AfterModify|A
+Question 438: Which annotation marks a method to run after entity load?|A. @PostLoad|B. @AfterLoad|C. @LoadAfter|D. @AfterFetch|A
+Question 439: Which API allows JPQL queries in Hibernate?|A. Query|B. HQL|C. Criteria|D. Session|B
+Question 440: Which API allows programmatic query building in Hibernate?|A. Query|B. HQL|C. Criteria|D. SQL|C
+Question 441: Which method retrieves an entity by primary key?|A. get()|B. load()|C. Both A and B|D. find()|C
+Question 442: Which method throws exception if entity not found?|A. get()|B. load()|C. find()|D. retrieve()|B
+Question 443: Which method returns null if entity not found?|A. get()|B. load()|C. find()|D. retrieve()|A
+Question 444: Which Hibernate fetch type loads related entities immediately?|A. LAZY|B. EAGER|C. DEFERRED|D. AUTO|B
+Question 445: Which Hibernate fetch type loads related entities only when accessed?|A. LAZY|B. EAGER|C. DEFERRED|D. AUTO|A
+Question 446: Which annotation defines cascading operations?|A. @Cascade|B. cascade attribute in relationship annotation|C. @CascadeType|D. @CascadeAll|B
+Question 447: Which cascade type propagates all operations?|A. ALL|B. PERSIST|C. MERGE|D. REMOVE|A
+Question 448: Which annotation specifies join table in many-to-many relation?|A. @JoinTable|B. @Table|C. @RelationshipTable|D. @MappingTable|A
+Question 449: Which annotation specifies join columns in join table?|A. @JoinColumn|B. @JoinColumns|C. @Column|D. @MappingColumn|B
+Question 450: Which annotation is used to map embeddable classes?|A. @Embedded|B. @Embeddable|C. Both A and B|D. @EmbeddedClass|C
+Question 451: Which interface provides basic CRUD operations in Spring Data JPA?|A. JpaRepository|B. CrudRepository|C. Repository|D. All of these|D
+Question 452: Which interface extends PagingAndSortingRepository for pagination?|A. JpaRepository|B. CrudRepository|C. PagingAndSortingRepository|D. Repository|A
+Question 453: Which annotation is used to enable JPA repositories?|A. @EnableJpaRepositories|B. @EnableRepositories|C. @EnableDataJpa|D. @EnableDBRepositories|A
+Question 454: Which annotation marks a class as JPA entity?|A. @Entity|B. @Table|C. @Persistence|D. @Database|A
+Question 455: Which annotation specifies table name in Spring Data JPA entity?|A. @Entity|B. @Table|C. @Column|D. @Database|B
+Question 456: Which annotation marks the primary key in JPA entity?|A. @Primary|B. @Id|C. @GeneratedValue|D. @Key|B
+Question 457: Which annotation automatically generates primary key values?|A. @Id|B. @GeneratedValue|C. @AutoId|D. @Primary|B
+Question 458: Which annotation maps a column in a JPA entity?|A. @Column|B. @Field|C. @TableColumn|D. @ColumnMapping|A
+Question 459: Which annotation specifies a one-to-one relationship?|A. @OneToOne|B. @OneToMany|C. @ManyToOne|D. @ManyToMany|A
+Question 460: Which annotation specifies a one-to-many relationship?|A. @OneToOne|B. @OneToMany|C. @ManyToOne|D. @ManyToMany|B
+Question 461: Which annotation specifies a many-to-one relationship?|A. @OneToOne|B. @OneToMany|C. @ManyToOne|D. @ManyToMany|C
+Question 462: Which annotation specifies a many-to-many relationship?|A. @OneToOne|B. @OneToMany|C. @ManyToOne|D. @ManyToMany|D
+Question 463: Which annotation defines the foreign key column in a relationship?|A. @JoinColumn|B. @ForeignKey|C. @Column|D. @Reference|A
+Question 464: Which annotation defines a composite primary key?|A. @IdClass|B. @EmbeddedId|C. Both A and B|D. @CompositeKey|C
+Question 465: Which interface is used for custom queries?|A. JpaRepository|B. CrudRepository|C. @Query|D. Repository|C
+Question 466: Which keyword in @Query defines native SQL?|A. nativeQuery=true|B. sql=true|C. value=true|D. native=true|A
+Question 467: Which annotation binds method parameters to query parameters?|A. @QueryParam|B. @Param|C. @BindParam|D. @QueryBind|B
+Question 468: Which annotation marks a method for pagination support?|A. Pageable|B. @Pageable|C. @Page|D. PageRequest|D
+Question 469: Which annotation supports sorting in Spring Data JPA?|A. Sortable|B. @Sort|C. Sort|D. @OrderBy|D
+Question 470: Which annotation is used for optimistic locking?|A. @Version|B. @Lock|C. @Optimistic|D. @Concurrency|A
+Question 471: Which annotation is used for pessimistic locking?|A. @Lock|B. @Pessimistic|C. @Version|D. @Optimistic|A
+Question 472: Which annotation is used to automatically handle transactions?|A. @EnableTransactionManagement|B. @Transactional|C. Both A and B|D. @Tx|C
+Question 473: Which annotation marks repository interfaces in Spring Data JPA?|A. @Repository|B. @Service|C. @Component|D. @Controller|A
+Question 474: Which method finds entity by primary key in JpaRepository?|A. findById()|B. getById()|C. Both A and B|D. retrieve()|C
+Question 475: Which method deletes entity by primary key?|A. deleteById()|B. removeById()|C. Both A and B|D. delete()|A
+Question 476: Which method saves or updates an entity in JpaRepository?|A. save()|B. update()|C. merge()|D. saveOrUpdate()|A
+Question 477: Which method deletes all entities?|A. deleteAll()|B. removeAll()|C. dropAll()|D. clearAll()|A
+Question 478: Which annotation defines a native query in Spring Data JPA?|A. @Query(nativeQuery=true)|B. @NativeQuery|C. @Query(native=true)|D. @SqlQuery|A
+Question 479: Which return type allows Spring Data JPA to handle optional results?|A. Entity|B. Optional|C. List|D. Collection|B
+Question 480: Which method returns all entities in repository?|A. findAll()|B. getAll()|C. retrieveAll()|D. listAll()|A
+Question 481: Which annotation defines named queries in entity?|A. @NamedQuery|B. @Query|C. @NamedQueries|D. Both A and C|D
+Question 482: Which annotation defines multiple named queries?|A. @NamedQuery|B. @NamedQueries|C. @Query|D. @Queries|B
+Question 483: Which interface provides CRUD + JPA + pagination + sorting?|A. JpaRepository|B. CrudRepository|C. PagingAndSortingRepository|D. Repository|A
+Question 484: Which annotation is used for projection queries?|A. @Query|B. @Projection|C. @DTO|D. @Select|B
+Question 485: Which annotation marks read-only transactions?|A. @Transactional(readOnly=true)|B. @ReadOnly|C. @Tx(readOnly=true)|D. @TransactionalOnly|A
+Question 486: Which annotation marks methods for custom modifying queries?|A. @Modifying|B. @Update|C. @Modify|D. @Change|A
+Question 487: Which annotation marks query parameters for @Modifying queries?|A. @QueryParam|B. @Param|C. @BindParam|D. @QueryBind|B
+Question 488: Which annotation supports auditing in Spring Data JPA?|A. @EnableJpaAuditing|B. @Audit|C. @Auditing|D. @EnableAuditing|A
+Question 489: Which annotation marks created date field for auditing?|A. @CreatedDate|B. @CreatedOn|C. @CreateTimestamp|D. @CreatedAt|A
+Question 490: Which annotation marks last modified date field?|A. @LastModifiedDate|B. @ModifiedOn|C. @UpdateTimestamp|D. @LastModifiedAt|A
+Question 491: Which annotation marks created by field for auditing?|A. @CreatedBy|B. @CreatedUser|C. @Created|D. @Creator|A
+Question 492: Which annotation marks last modified by field for auditing?|A. @LastModifiedBy|B. @ModifiedBy|C. @UpdatedBy|D. @LastModifier|A
+Question 493: Which annotation enables Spring Data JPA repositories in main class?|A. @EnableJpaRepositories|B. @EnableRepositories|C. @EnableDataJpa|D. @EnableDBRepositories|A
+Question 494: Which annotation marks a field to be ignored by JPA?|A. @Transient|B. @Ignore|C. @NotPersisted|D. @Skip|A
+Question 495: Which method finds entities by example?|A. findByExample()|B. findAll(Example<T> example)|C. findAllByExample()|D. retrieveByExample()|B
+Question 496: Which method returns entities in sorted order?|A. findAll(Sort sort)|B. findAllSorted()|C. getAllSorted()|D. findAllByOrder()|A
+Question 497: Which method returns entities with pagination support?|A. findAll(Pageable pageable)|B. findAllPaginated()|C. getAllPaginated()|D. listAll(Pageable pageable)|A
+Question 498: Which annotation marks entity listeners for auditing?|A. @EntityListeners|B. @Auditable|C. @Listener|D. @EnableAuditing|A
+Question 499: Which annotation automatically sets createdBy, createdDate, lastModifiedBy, lastModifiedDate?|A. @EnableJpaAuditing|B. @Audited|C. @Auditing|D. @EnableAuditing|A
+Question 500: Which return type supports both single and optional result in Spring Data JPA?|A. Entity|B. Optional|C. List|D. Collection|B
+Question 501: What is Spring Security primarily used for?|A. Database management|B. Authentication and authorization|C. REST API creation|D. Dependency injection|B
+Question 502: Which annotation enables method-level security?|A. @EnableWebSecurity|B. @EnableGlobalMethodSecurity|C. @Secured|D. @PreAuthorize|B
+Question 503: Which annotation is used to enable web security in a Spring Boot app?|A. @EnableSecurity|B. @EnableWebSecurity|C. @WebSecurityEnabled|D. @SecurityConfig|B
+Question 504: Which interface is used to configure HTTP security?|A. WebSecurityConfigurerAdapter|B. HttpSecurityConfig|C. SecurityConfigurer|D. HttpSecurityAdapter|A
+Question 505: Which method configures URL-based security?|A. configure(HttpSecurity http)|B. configure(WebSecurity web)|C. configure(AuthenticationManager auth)|D. configure(SecurityFilterChain http)|A
+Question 506: Which method configures authentication manager?|A. configure(HttpSecurity http)|B. configure(WebSecurity web)|C. configure(AuthenticationManagerBuilder auth)|D. configure(SecurityFilterChain http)|C
+Question 507: Which annotation marks a controller method requiring specific roles?|A. @RolesAllowed|B. @Secured|C. @PreAuthorize|D. All of these|D
+Question 508: Which annotation allows Spring Expression Language (SpEL) for method security?|A. @Secured|B. @RolesAllowed|C. @PreAuthorize|D. @PostAuthorize|C
+Question 509: Which annotation is checked after method execution?|A. @PreAuthorize|B. @PostAuthorize|C. @Secured|D. @RolesAllowed|B
+Question 510: Which class represents authenticated user details?|A. Principal|B. UserDetails|C. Authentication|D. SecurityContext|B
+Question 511: Which interface provides authentication information?|A. Authentication|B. UserDetails|C. SecurityContext|D. Principal|A
+Question 512: Which interface stores authentication info for current session?|A. SecurityContext|B. SecuritySession|C. Authentication|D. UserDetails|A
+Question 513: Which class is used for in-memory user details?|A. InMemoryUserDetailsManager|B. MemoryUserManager|C. UserManager|D. UserDetailsManager|A
+Question 514: Which password encoder is recommended in Spring Security?|A. BCryptPasswordEncoder|B. NoOpPasswordEncoder|C. MD5PasswordEncoder|D. PlainTextEncoder|A
+Question 515: Which filter handles authentication in Spring Security?|A. UsernamePasswordAuthenticationFilter|B. BasicAuthenticationFilter|C. JwtAuthenticationFilter|D. AuthenticationManagerFilter|A
+Question 516: Which filter handles authorization in Spring Security?|A. UsernamePasswordAuthenticationFilter|B. BasicAuthenticationFilter|C. JwtAuthorizationFilter|D. SecurityFilter|B
+Question 517: Which annotation marks a custom UserDetailsService implementation?|A. @Service|B. @Component|C. @Repository|D. @Controller|A
+Question 518: Which method must be overridden in UserDetailsService?|A. loadUserByUsername(String username)|B. loadUser(String username)|C. findUser(String username)|D. getUser(String username)|A
+Question 519: Which class stores authenticated user in session?|A. SecurityContextHolder|B. AuthenticationManager|C. UserDetails|D. Principal|A
+Question 520: Which authentication type sends credentials in HTTP header?|A. Basic Authentication|B. Form-based Authentication|C. OAuth2|D. JWT|A
+Question 521: Which authentication type uses login form?|A. Basic Authentication|B. Form-based Authentication|C. JWT|D. OAuth2|B
+Question 522: Which annotation enables OAuth2 login?|A. @EnableOAuth2|B. @EnableOAuth2Client|C. @EnableOAuth2Sso|D. @OAuth2Login|C
+Question 523: Which token type is commonly used for stateless authentication?|A. JWT|B. Session ID|C. CSRF Token|D. OAuth Token|A
+Question 524: Which filter validates JWT token for each request?|A. JwtAuthenticationFilter|B. JwtAuthorizationFilter|C. SecurityFilter|D. TokenFilter|B
+Question 525: Which annotation prevents CSRF attacks?|A. @EnableCSRF|B. csrf().enable()|C. csrf().disable()|D. csrf().csrfTokenRepository()|D
+Question 526: Which annotation disables CSRF protection?|A. csrf().disable()|B. @DisableCSRF|C. csrf().off()|D. csrf().ignore()|A
+Question 527: Which class manages authorities of a user?|A. GrantedAuthority|B. AuthorityManager|C. Role|D. UserAuthority|A
+Question 528: Which method returns roles of authenticated user?|A. getAuthorities()|B. getRoles()|C. getPermissions()|D. getRights()|A
+Question 529: Which annotation restricts access to users with a specific role?|A. @Secured("ROLE_ADMIN")|B. @RolesAllowed("ROLE_ADMIN")|C. @PreAuthorize("hasRole('ADMIN')")|D. All of these|D
+Question 530: Which interface manages authentication providers?|A. AuthenticationManager|B. AuthenticationProvider|C. AuthenticationManagerBuilder|D. UserDetailsService|A
+Question 531: Which method authenticates credentials in AuthenticationManager?|A. authenticate(Authentication auth)|B. login(Authentication auth)|C. verify(Authentication auth)|D. validate(Authentication auth)|A
+Question 532: Which annotation defines global method security?|A. @EnableWebSecurity|B. @EnableGlobalMethodSecurity|C. @Secured|D. @PreAuthorize|B
+Question 533: Which annotation allows access control with SpEL expression?|A. @Secured|B. @RolesAllowed|C. @PreAuthorize|D. @PostAuthorize|C
+Question 534: Which annotation runs security check after method execution?|A. @PreAuthorize|B. @PostAuthorize|C. @Secured|D. @RolesAllowed|B
+Question 535: Which annotation protects REST endpoints for specific HTTP methods?|A. @PreAuthorize|B. @Secured|C. @RolesAllowed|D. @PostAuthorize|A
+Question 536: Which interface represents a security filter chain?|A. SecurityFilterChain|B. FilterChain|C. SecurityChain|D. HttpSecurityChain|A
+Question 537: Which class provides configuration for security filter chain in Spring Boot 2.7+?|A. WebSecurityConfigurerAdapter|B. SecurityFilterChain bean|C. HttpSecurityConfigurer|D. SecurityConfigAdapter|B
+Question 538: Which annotation marks password encoder bean?|A. @Bean|B. @PasswordEncoder|C. @Encoder|D. @Component|A
+Question 539: Which class provides hashing for passwords?|A. BCryptPasswordEncoder|B. NoOpPasswordEncoder|C. PlainTextEncoder|D. MD5PasswordEncoder|A
+Question 540: Which annotation protects endpoints with roles?|A. @Secured|B. @RolesAllowed|C. @PreAuthorize|D. All of these|D
+Question 541: Which method configures in-memory users?|A. inMemoryAuthentication()|B. userDetailsService()|C. both|D. none|C
+Question 542: Which annotation handles authentication exceptions?|A. @AuthenticationEntryPoint|B. @AccessDeniedHandler|C. @ExceptionHandler|D. @AuthException|A
+Question 543: Which annotation handles authorization exceptions?|A. @AuthenticationEntryPoint|B. @AccessDeniedHandler|C. @ExceptionHandler|D. @AuthException|B
+Question 544: Which property enables HTTP Basic authentication?|A. http.httpBasic()|B. http.formLogin()|C. http.basicAuth()|D. http.authBasic()|A
+Question 545: Which property enables form login?|A. http.formLogin()|B. http.httpBasic()|C. http.loginForm()|D. http.authForm()|A
+Question 546: Which property sets logout URL?|A. http.logout().logoutUrl("/logout")|B. http.logoutUrl("/logout")|C. http.logout("/logout")|D. http.logoutConfig("/logout")|A
+Question 547: Which annotation marks a method to ignore security?|A. @PermitAll|B. @PreAuthorize("permitAll()")|C. Both A and B|D. @IgnoreSecurity|C
+Question 548: Which annotation secures REST endpoints with specific roles?|A. @Secured|B. @RolesAllowed|C. @PreAuthorize|D. All of these|D
+Question 549: Which annotation allows fine-grained authorization using SpEL?|A. @PreAuthorize|B. @Secured|C. @RolesAllowed|D. @PostAuthorize|A
+Question 550: Which annotation allows post-invocation security check?|A. @PreAuthorize|B. @PostAuthorize|C. @Secured|D. @RolesAllowed|B
+Question 551: Which interface represents authentication provider?|A. AuthenticationManager|B. AuthenticationProvider|C. UserDetailsService|D. UserDetails|B
+Question 552: Which interface loads user-specific data?|A. UserDetails|B. UserDetailsService|C. AuthenticationManager|D. AuthenticationProvider|B
+Question 553: Which annotation marks a secured class or method with role?|A. @Secured|B. @RolesAllowed|C. @PreAuthorize|D. All of these|D
+Question 554: Which annotation secures methods using SpEL expression?|A. @PreAuthorize|B. @PostAuthorize|C. @Secured|D. @RolesAllowed|A
+Question 555: Which class stores the authenticated principal?|A. Principal|B. Authentication|C. SecurityContextHolder|D. UserDetails|C
+Question 556: Which annotation enables OAuth2 login in Spring Security?|A. @EnableOAuth2Client|B. @EnableOAuth2Sso|C. @EnableWebSecurity|D. @EnableAuthorizationServer|B
+Question 557: Which annotation protects against CSRF attacks?|A. @EnableCSRF|B. csrf().csrfTokenRepository()|C. csrf().disable()|D. @CSRFProtection|B
+Question 558: Which annotation disables CSRF protection?|A. csrf().disable()|B. @DisableCSRF|C. csrf().off()|D. csrf().ignore()|A
+Question 559: Which class represents a granted authority in Spring Security?|A. GrantedAuthority|B. Role|C. Permission|D. AuthorityManager|A
+Question 560: Which annotation marks endpoint as accessible by anyone?|A. @PermitAll|B. @PreAuthorize("permitAll()")|C. Both A and B|D. @IgnoreSecurity|C
+Question 561: Which annotation marks an endpoint accessible by authenticated users only?|A. @PreAuthorize("isAuthenticated()")|B. @Secured|C. @RolesAllowed|D. All of these|A
+Question 562: Which class represents a filter that authenticates requests using JWT?|A. JwtAuthenticationFilter|B. JwtAuthorizationFilter|C. BasicAuthenticationFilter|D. UsernamePasswordAuthenticationFilter|A
+Question 563: Which class validates JWT token for requests?|A. JwtAuthenticationFilter|B. JwtAuthorizationFilter|C. SecurityFilter|D. TokenValidator|B
+Question 564: Which annotation marks a method to allow only admin role?|A. @Secured("ROLE_ADMIN")|B. @RolesAllowed("ROLE_ADMIN")|C. @PreAuthorize("hasRole('ADMIN')")|D. All of these|D
+Question 565: Which method returns currently authenticated user?|A. SecurityContextHolder.getContext().getAuthentication()|B. getPrincipal()|C. getCurrentUser()|D. getUser()|A
+Question 566: Which annotation enables global method security?|A. @EnableGlobalMethodSecurity|B. @EnableWebSecurity|C. @Secured|D. @PreAuthorize|A
+Question 567: Which interface defines custom authentication logic?|A. AuthenticationManager|B. AuthenticationProvider|C. UserDetailsService|D. UserDetails|B
+Question 568: Which interface is used for stateless authentication using JWT?|A. SecurityContext|B. JwtAuthenticationFilter|C. AuthenticationManager|D. UserDetailsService|B
+Question 569: Which annotation enables password encoding?|A. @Bean|B. @PasswordEncoder|C. @Encoder|D. @Component|A
+Question 570: Which password encoder is recommended for hashing passwords?|A. BCryptPasswordEncoder|B. NoOpPasswordEncoder|C. MD5PasswordEncoder|D. PlainTextEncoder|A
+Question 571: Which method configures authentication providers?|A. configure(AuthenticationManagerBuilder auth)|B. configure(HttpSecurity http)|C. configure(WebSecurity web)|D. configure(SecurityFilterChain http)|A
+Question 572: Which annotation defines custom access denied handler?|A. @AccessDeniedHandler|B. @ExceptionHandler|C. @AuthException|D. @SecurityException|A
+Question 573: Which annotation is used for authentication entry point?|A. @AuthenticationEntryPoint|B. @AccessDeniedHandler|C. @ExceptionHandler|D. @AuthEntryPoint|A
+Question 574: Which interface defines role hierarchy?|A. RoleHierarchy|B. RoleManager|C. AuthorityHierarchy|D. RoleService|A
+Question 575: Which annotation marks a secured REST controller?|A. @RestController|B. @Secured|C. @PreAuthorize|D. All of these|D
+Question 576: Which annotation enables global method security with prePostEnabled?|A. @EnableGlobalMethodSecurity(prePostEnabled = true)|B. @EnableMethodSecurity|C. @EnableWebSecurity|D. @EnableSecurity|A
+Question 577: Which annotation allows post-execution access control?|A. @PreAuthorize|B. @PostAuthorize|C. @Secured|D. @RolesAllowed|B
+Question 578: Which annotation allows role-based access at method level?|A. @Secured|B. @RolesAllowed|C. Both A and B|D. @PreAuthorize|C
+Question 579: Which annotation disables default security configuration?|A. @EnableWebSecurity|B. @Configuration|C. @EnableAutoConfiguration(exclude = SecurityAutoConfiguration.class)|D. @SpringBootApplication|C
+Question 580: Which property sets login page URL?|A. http.formLogin().loginPage("/login")|B. http.login().page("/login")|C. http.loginPage("/login")|D. http.formLoginPage("/login")|A
+Question 581: Which property sets default success URL after login?|A. http.formLogin().defaultSuccessUrl("/home")|B. http.formLogin().successUrl("/home")|C. http.login().defaultSuccess("/home")|D. http.successUrl("/home")|A
+Question 582: Which annotation enables JWT authentication filter?|A. @Bean|B. @EnableJwt|C. @EnableWebSecurity|D. @SecurityFilter|A
+Question 583: Which class is used to store JWT secret key?|A. application.properties|B. SecurityConfig|C. JwtProvider|D. JwtTokenUtil|C
+Question 584: Which method generates JWT token?|A. generateToken(Authentication auth)|B. createToken(Authentication auth)|C. buildToken(Authentication auth)|D. issueToken(Authentication auth)|A
+Question 585: Which method validates JWT token?|A. validateToken(String token)|B. checkToken(String token)|C. verifyToken(String token)|D. isValid(String token)|A
+Question 586: Which annotation secures API endpoints with SpEL expressions?|A. @PreAuthorize|B. @PostAuthorize|C. @Secured|D. @RolesAllowed|A
+Question 587: Which interface provides access to current authenticated principal?|A. Principal|B. Authentication|C. SecurityContextHolder|D. UserDetails|C
+Question 588: Which annotation enables OAuth2 resource server?|A. @EnableResourceServer|B. @EnableOAuth2|C. @EnableWebSecurity|D. @EnableAuthorizationServer|A
+Question 589: Which annotation enables OAuth2 authorization server?|A. @EnableResourceServer|B. @EnableOAuth2|C. @EnableWebSecurity|D. @EnableAuthorizationServer|D
+Question 590: Which method configures URL authorization rules?|A. http.authorizeRequests()|B. http.urlSecurity()|C. http.accessRules()|D. http.secureUrls()|A
+Question 591: Which property allows role-based access to a URL?|A. .antMatchers("/admin").hasRole("ADMIN")|B. .antMatchers("/admin").hasAuthority("ADMIN")|C. Both A and B|D. .antMatchers("/admin").permitAll()|C
+Question 592: Which annotation marks a password encoder bean?|A. @Bean|B. @PasswordEncoder|C. @Encoder|D. @Component|A
+Question 593: Which class defines session management?|A. http.sessionManagement()|B. http.session()|C. http.sessionConfig()|D. http.sessionControl()|A
+Question 594: Which policy prevents concurrent logins?|A. maximumSessions(1)|B. concurrentSessions(1)|C. sessionLimit(1)|D. singleSession(1)|A
+Question 595: Which annotation disables default security for testing?|A. @EnableWebSecurity|B. @SpringBootTest|C. @EnableAutoConfiguration(exclude = SecurityAutoConfiguration.class)|D. @TestSecurity|C
+Question 596: Which property disables X-Frame-Options?|A. http.headers().frameOptions().disable()|B. http.headers().disableFrame()|C. http.headers().frameOptions().off()|D. http.disableFrameOptions()|A
+Question 597: Which annotation enables cross-origin requests?|A. @CrossOrigin|B. @EnableCors|C. @Cors|D. @CorsOrigin|A
+Question 598: Which class provides default authentication manager?|A. AuthenticationManager|B. AuthenticationManagerBuilder|C. ProviderManager|D. DefaultAuthenticationManager|C
+Question 599: Which method in SecurityContextHolder sets authentication?|A. setAuthentication(Authentication auth)|B. setAuth(Authentication auth)|C. setPrincipal(Authentication auth)|D. setUser(Authentication auth)|A
+Question 600: Which method in SecurityContextHolder retrieves authentication?|A. getAuthentication()|B. getAuth()|C. getPrincipal()|D. getUser()|A
+Question 601: What is authentication in Spring Security?|A. Granting access based on roles|B. Verifying user identity|C. Encrypting data|D. Logging user activity|B
+Question 602: What is the difference between authentication and authorization?|A. Authentication verifies identity, authorization grants access|B. Authentication grants access, authorization verifies identity|C. Both are same|D. None|A
+Question 603: Which Spring Security class represents authentication object?|A. UserDetails|B. Authentication|C. SecurityContext|D. Principal|B
+Question 604: Which interface provides user-specific data for authentication?|A. UserDetails|B. UserDetailsService|C. AuthenticationManager|D. AuthenticationProvider|B
+Question 605: Which method loads user data in UserDetailsService?|A. loadUserByUsername(String username)|B. getUser(String username)|C. findUser(String username)|D. fetchUser(String username)|A
+Question 606: Which class holds the authentication object for current thread?|A. SecurityContextHolder|B. Principal|C. Authentication|D. UserDetails|A
+Question 607: Which method sets authentication in SecurityContext?|A. SecurityContextHolder.getContext().setAuthentication(auth)|B. setAuth(auth)|C. SecurityContext.setAuthentication(auth)|D. setUser(auth)|A
+Question 608: Which class stores user authorities?|A. GrantedAuthority|B. Role|C. Permission|D. AuthorityManager|A
+Question 609: Which annotation marks a method to be accessible only to authenticated users?|A. @PreAuthorize("isAuthenticated()")|B. @RolesAllowed|C. @Secured|D. @PermitAll|A
+Question 610: Which annotation restricts access to users with a specific role?|A. @Secured("ROLE_ADMIN")|B. @RolesAllowed("ROLE_ADMIN")|C. @PreAuthorize("hasRole('ADMIN')")|D. All of these|D
+Question 611: What is JWT?|A. JSON Web Token|B. Java Web Token|C. Java Workflow Token|D. JSON Web Template|A
+Question 612: What are the parts of a JWT token?|A. Header, Payload, Signature|B. Key, Value, Signature|C. Header, Body, Footer|D. Token, Payload, Signature|A
+Question 613: Which algorithm is used to sign JWT tokens?|A. HMAC, RSA, or ECDSA|B. MD5 only|C. SHA1 only|D. AES only|A
+Question 614: Which class generates JWT tokens in Spring Security?|A. JwtProvider|B. JwtGenerator|C. JwtTokenUtil|D. JwtManager|C
+Question 615: Which method validates JWT token?|A. validateToken(String token)|B. checkToken(String token)|C. verifyToken(String token)|D. isValid(String token)|A
+Question 616: Which part of JWT contains user roles?|A. Header|B. Payload|C. Signature|D. Footer|B
+Question 617: Which header typically carries JWT token in HTTP request?|A. Authorization|B. Auth|C. Token|D. X-JWT|A
+Question 618: Which prefix is used in Authorization header for JWT?|A. Bearer|B. JWT|C. Token|D. Auth|A
+Question 619: Which filter validates JWT token for each request?|A. JwtAuthorizationFilter|B. JwtAuthenticationFilter|C. SecurityFilter|D. AuthenticationFilter|A
+Question 620: Which filter authenticates users using username/password and issues JWT?|A. JwtAuthenticationFilter|B. JwtAuthorizationFilter|C. UsernamePasswordAuthenticationFilter|D. SecurityFilter|A
+Question 621: Which annotation marks a class as resource server?|A. @EnableResourceServer|B. @EnableAuthorizationServer|C. @EnableOAuth2|D. @EnableSecurity|A
+Question 622: Which annotation marks a class as authorization server?|A. @EnableResourceServer|B. @EnableAuthorizationServer|C. @EnableOAuth2|D. @EnableSecurity|B
+Question 623: What is OAuth2 used for?|A. Authentication only|B. Authorization only|C. Authentication and Authorization|D. Encryption|C
+Question 624: Which OAuth2 grant type uses username and password?|A. Authorization Code|B. Client Credentials|C. Resource Owner Password Credentials|D. Implicit|C
+Question 625: Which OAuth2 grant type is used for server-to-server authentication?|A. Authorization Code|B. Client Credentials|C. Password|D. Implicit|B
+Question 626: Which OAuth2 grant type uses browser redirection?|A. Authorization Code|B. Client Credentials|C. Password|D. Implicit|A
+Question 627: Which OAuth2 grant type is used for public clients without server?|A. Implicit|B. Authorization Code|C. Password|D. Client Credentials|A
+Question 628: Which property sets JWT secret key?|A. jwt.secret|B. security.jwt.secret|C. spring.jwt.secret|D. auth.jwt.secret|A
+Question 629: Which property sets JWT expiration time?|A. jwt.expiration|B. security.jwt.expiration|C. spring.jwt.expiration|D. auth.jwt.expiration|A
+Question 630: Which OAuth2 flow is most secure for web applications?|A. Authorization Code|B. Implicit|C. Password|D. Client Credentials|A
+Question 631: Which OAuth2 flow is used for mobile and SPA apps?|A. Implicit|B. Authorization Code with PKCE|C. Client Credentials|D. Password|B
+Question 632: Which interface loads user info from database for OAuth2?|A. UserDetailsService|B. OAuth2UserService|C. AuthenticationManager|D. UserInfoService|B
+Question 633: Which method loads OAuth2 user by request?|A. loadUser(OAuth2UserRequest request)|B. loadUserByUsername(String username)|C. fetchUser(OAuth2UserRequest request)|D. getUser(OAuth2UserRequest request)|A
+Question 634: Which class represents OAuth2 user?|A. OAuth2User|B. UserDetails|C. Principal|D. Authentication|A
+Question 635: Which interface provides granted authorities for OAuth2 user?|A. GrantedAuthority|B. AuthorityManager|C. Role|D. Permission|A
+Question 636: Which property sets OAuth2 client ID?|A. spring.security.oauth2.client.registration.client-id|B. oauth.client.id|C. security.oauth.client.id|D. client.id|A
+Question 637: Which property sets OAuth2 client secret?|A. spring.security.oauth2.client.registration.client-secret|B. oauth.client.secret|C. security.oauth.client.secret|D. client.secret|A
+Question 638: Which property sets OAuth2 redirect URI?|A. spring.security.oauth2.client.registration.redirect-uri|B. oauth.client.redirect|C. security.oauth.redirect-uri|D. client.redirect-uri|A
+Question 639: Which annotation enables OAuth2 login?|A. @EnableOAuth2Client|B. @EnableOAuth2Sso|C. @EnableResourceServer|D. @EnableAuthorizationServer|B
+Question 640: Which OAuth2 endpoint issues access token?|A. /oauth/token|B. /oauth/authorize|C. /login/oauth2/code|D. /token|A
+Question 641: Which OAuth2 endpoint is used for authorization code?|A. /oauth/token|B. /oauth/authorize|C. /login/oauth2/code|D. /token|B
+Question 642: Which JWT property stores roles in payload?|A. authorities|B. roles|C. scope|D. Both A and B|D
+Question 643: Which Spring Security class validates JWT signature?|A. JwtTokenUtil|B. JwtValidator|C. JwtVerifier|D. JwtAuthProvider|A
+Question 644: Which OAuth2 flow uses client credentials only?|A. Authorization Code|B. Client Credentials|C. Password|D. Implicit|B
+Question 645: Which OAuth2 flow is used when user credentials are known?|A. Authorization Code|B. Client Credentials|C. Resource Owner Password Credentials|D. Implicit|C
+Question 646: Which filter authenticates JWT in Spring Security chain?|A. JwtAuthenticationFilter|B. JwtAuthorizationFilter|C. UsernamePasswordAuthenticationFilter|D. SecurityFilter|B
+Question 647: Which annotation marks token endpoint security configuration?|A. @EnableAuthorizationServer|B. @EnableResourceServer|C. @EnableWebSecurity|D. @EnableOAuth2|A
+Question 648: Which property sets token validity period in OAuth2?|A. access-token-validity|B. token.expiration|C. oauth.token.validity|D. token.duration|A
+Question 649: Which property sets refresh token validity?|A. refresh-token-validity|B. refresh.expiration|C. oauth.refresh.validity|D. refresh.duration|A
+Question 650: Which annotation secures method access for OAuth2 scopes?|A. @PreAuthorize("hasAuthority('SCOPE_read')")|B. @Secured|C. @RolesAllowed|D. @PostAuthorize|A
+Question 651: Which OAuth2 grant type uses refresh token to obtain new access token?|A. Refresh Token Grant|B. Authorization Code|C. Implicit|D. Password|A
+Question 652: Which header contains access token in OAuth2 request?|A. Authorization|B. Auth|C. Token|D. X-Auth|A
+Question 653: Which prefix is used for OAuth2 access token in header?|A. Bearer|B. Token|C. OAuth2|D. JWT|A
+Question 654: Which annotation enables JWT authentication filter in Spring Security?|A. @Bean|B. @EnableWebSecurity|C. @EnableJwt|D. @JwtFilter|A
+Question 655: Which interface represents OAuth2 client?|A. OAuth2Client|B. OAuth2AuthorizedClient|C. OAuthClient|D. OAuth2ClientService|B
+Question 656: Which interface retrieves authorized OAuth2 clients?|A. OAuth2AuthorizedClientService|B. OAuth2ClientService|C. ClientRegistry|D. OAuth2Service|A
+Question 657: Which annotation secures endpoint for a specific OAuth2 scope?|A. @PreAuthorize("hasAuthority('SCOPE_read')")|B. @Secured|C. @RolesAllowed|D. @PostAuthorize|A
+Question 658: Which OAuth2 class represents user attributes?|A. OAuth2User|B. UserDetails|C. Principal|D. Authentication|A
+Question 659: Which OAuth2 class provides user authorities?|A. GrantedAuthority|B. Role|C. AuthorityManager|D. Permission|A
+Question 660: Which OAuth2 flow is best for SPA apps with public clients?|A. Authorization Code with PKCE|B. Implicit|C. Client Credentials|D. Password|A
+Question 661: Which annotation enables method-level security for OAuth2 scopes?|A. @EnableGlobalMethodSecurity(prePostEnabled = true)|B. @EnableWebSecurity|C. @Secured|D. @RolesAllowed|A
+Question 662: Which method extracts username from JWT?|A. getUsernameFromToken(String token)|B. extractUsername(String token)|C. parseUsername(String token)|D. username(String token)|A
+Question 663: Which method extracts expiration date from JWT?|A. getExpirationDateFromToken(String token)|B. extractExpiration(String token)|C. parseExpiration(String token)|D. expiration(String token)|A
+Question 664: Which method checks if JWT token is expired?|A. isTokenExpired(String token)|B. checkExpiration(String token)|C. validateExpiration(String token)|D. tokenExpired(String token)|A
+Question 665: Which JWT claim stores user roles?|A. roles|B. authorities|C. Both A and B|D. scope|C
+Question 666: Which property configures OAuth2 authorization server token store?|A. tokenStore|B. storeTokens|C. oauth.tokenStore|D. security.tokenStore|A
+Question 667: Which type of token store saves tokens in memory?|A. InMemoryTokenStore|B. JdbcTokenStore|C. JwtTokenStore|D. RedisTokenStore|A
+Question 668: Which type of token store saves tokens in database?|A. JdbcTokenStore|B. InMemoryTokenStore|C. JwtTokenStore|D. RedisTokenStore|A
+Question 669: Which type of token store uses JWT without server storage?|A. JwtTokenStore|B. InMemoryTokenStore|C. JdbcTokenStore|D. RedisTokenStore|A
+Question 670: Which interface represents OAuth2 token services?|A. AuthorizationServerTokenServices|B. TokenService|C. OAuth2TokenManager|D. OAuthTokenService|A
+Question 671: Which annotation secures method access using OAuth2 scopes?|A. @PreAuthorize|B. @Secured|C. @RolesAllowed|D. @PostAuthorize|A
+Question 672: Which filter validates access tokens in resource server?|A. OAuth2AuthenticationProcessingFilter|B. OAuth2AuthorizationFilter|C. JwtAuthenticationFilter|D. SecurityFilter|A
+Question 673: Which class handles OAuth2 authentication exceptions?|A. OAuth2AuthenticationEntryPoint|B. OAuth2ExceptionHandler|C. AuthExceptionHandler|D. SecurityExceptionHandler|A
+Question 674: Which header is used to pass OAuth2 bearer token?|A. Authorization|B. Auth|C. Token|D. X-Auth|A
+Question 675: Which prefix is used in OAuth2 Authorization header?|A. Bearer|B. Token|C. OAuth2|D. JWT|A
+Question 676: Which annotation enables OAuth2 client support?|A. @EnableOAuth2Client|B. @EnableOAuth2Sso|C. @EnableResourceServer|D. @EnableAuthorizationServer|A
+Question 677: Which annotation enables OAuth2 SSO login?|A. @EnableOAuth2Sso|B. @EnableOAuth2Client|C. @EnableResourceServer|D. @EnableAuthorizationServer|A
+Question 678: Which annotation marks resource server configuration class?|A. @EnableResourceServer|B. @EnableAuthorizationServer|C. @EnableOAuth2|D. @EnableWebSecurity|A
+Question 679: Which interface represents authorized OAuth2 client repository?|A. OAuth2AuthorizedClientRepository|B. OAuth2ClientRepository|C. ClientRepository|D. OAuth2Repository|A
+Question 680: Which method retrieves OAuth2 access token?|A. OAuth2AuthorizedClient.getAccessToken()|B. getToken()|C. getAccess()|D. getOAuthToken()|A
+Question 681: Which method retrieves refresh token from OAuth2 client?|A. OAuth2AuthorizedClient.getRefreshToken()|B. getRefresh()|C. getToken()|D. refresh()|A
+Question 682: Which method checks if OAuth2 access token is expired?|A. OAuth2AccessToken.isExpired()|B. isTokenExpired()|C. checkExpiration()|D. validateToken()|A
+Question 683: Which grant type requires client ID and secret?|A. Client Credentials|B. Implicit|C. Password|D. Authorization Code|A
+Question 684: Which grant type requires user login?|A. Authorization Code|B. Client Credentials|C. Implicit|D. Password|A
+Question 685: Which JWT claim stores token issue date?|A. iat|B. exp|C. nbf|D. sub|A
+Question 686: Which JWT claim stores expiration date?|A. exp|B. iat|C. nbf|D. sub|A
+Question 687: Which JWT claim stores subject (username)?|A. sub|B. iat|C. exp|D. aud|A
+Question 688: Which JWT claim stores audience?|A. aud|B. sub|C. iat|D. exp|A
+Question 689: Which JWT claim stores token issuer?|A. iss|B. aud|C. sub|D. iat|A
+Question 690: Which method parses JWT token?|A. parseClaims(String token)|B. parseToken(String token)|C. decode(String token)|D. validateToken(String token)|A
+Question 691: Which header carries OAuth2 authorization code during redirect?|A. code|B. Authorization|C. token|D. Auth|A
+Question 692: Which property defines OAuth2 scope?|A. spring.security.oauth2.client.registration.scope|B. oauth.client.scope|C. security.oauth.scope|D. client.scope|A
+Question 693: Which property defines resource server JWT decoder?|A. jwtDecoder|B. tokenDecoder|C. security.jwt.decoder|D. oauth.jwt.decoder|A
+Question 694: Which class provides default JWT decoder in Spring Security?|A. NimbusJwtDecoder|B. JwtDecoder|C. JwtVerifier|D. JwtProvider|A
+Question 695: Which annotation enables JWT Bearer token validation in resource server?|A. @EnableResourceServer|B. @EnableAuthorizationServer|C. @EnableJwtValidation|D. @EnableWebSecurity|A
+Question 696: Which interface provides token introspection for OAuth2?|A. OAuth2TokenIntrospector|B. TokenIntrospector|C. OAuth2Introspector|D. IntrospectionService|A
+Question 697: Which interface loads user authorities for OAuth2?|A. GrantedAuthoritiesMapper|B. AuthorityMapper|C. RoleMapper|D. OAuth2AuthoritiesMapper|A
+Question 698: Which annotation enables OAuth2 client registration properties?|A. @ConfigurationProperties|B. @EnableConfigurationProperties|C. @OAuth2ClientProperties|D. @ClientRegistrationProperties|B
+Question 699: Which class implements JWT signing key?|A. SecretKey|B. Key|C. JwtSigningKey|D. JwtSecretKey|A
+Question 700: Which class in Spring Security handles JWT Bearer token authentication?|A. JwtAuthenticationProvider|B. JwtAuthorizationFilter|C. JwtAuthenticationFilter|D. JwtTokenVerifier|A
+Question 701: Which OAuth2 grant type is recommended for confidential clients?|A. Client Credentials|B. Implicit|C. Password|D. Authorization Code|D
+Question 702: Which OAuth2 flow prevents code interception attacks?|A. Authorization Code with PKCE|B. Implicit|C. Password|D. Client Credentials|A
+Question 703: What is PKCE in OAuth2?|A. Proof Key for Code Exchange|B. Public Key Client Exchange|C. Private Key Credential Exchange|D. Proof Key Client Endpoint|A
+Question 704: Which OAuth2 flow is suitable for SPA (Single Page Applications)?|A. Authorization Code with PKCE|B. Implicit|C. Client Credentials|D. Password|A
+Question 705: Which JWT algorithm is recommended for signing tokens?|A. RS256|B. HS256|C. MD5|D. SHA1|A
+Question 706: Which JWT algorithm uses symmetric key?|A. HS256|B. RS256|C. ES256|D. PS256|A
+Question 707: Which JWT algorithm uses asymmetric key?|A. RS256|B. HS256|C. MD5|D. SHA1|A
+Question 708: Which JWT claim prevents token usage before a specific time?|A. nbf|B. iat|C. exp|D. sub|A
+Question 709: Which JWT claim identifies the token issuer?|A. iss|B. aud|C. sub|D. jti|A
+Question 710: Which JWT claim uniquely identifies a token?|A. jti|B. sub|C. iss|D. iat|A
+Question 711: Which JWT claim specifies token audience?|A. aud|B. iss|C. sub|D. jti|A
+Question 712: Which practice improves JWT security?|A. Using short-lived tokens|B. Using long-lived tokens|C. Storing JWT in localStorage without precautions|D. Using weak signing keys|A
+Question 713: Which storage is safer for JWT in web apps?|A. HttpOnly cookies|B. localStorage|C. sessionStorage|D. JavaScript variable|A
+Question 714: Which practice prevents JWT replay attacks?|A. Using jti claim with token revocation|B. Ignoring token expiration|C. Using long-lived tokens|D. Storing token in localStorage|A
+Question 715: Which OAuth2 component issues access tokens?|A. Authorization Server|B. Resource Server|C. Client|D. User Agent|A
+Question 716: Which OAuth2 component validates access tokens?|A. Resource Server|B. Authorization Server|C. Client|D. User Agent|A
+Question 717: Which OAuth2 component represents application requesting access?|A. Client|B. Resource Server|C. Authorization Server|D. User Agent|A
+Question 718: Which OAuth2 component stores user data?|A. Resource Server|B. Authorization Server|C. Client|D. User Agent|A
+Question 719: Which OAuth2 flow is suitable for machine-to-machine authentication?|A. Client Credentials|B. Authorization Code|C. Implicit|D. Password|A
+Question 720: Which OAuth2 flow requires user credentials?|A. Password Grant|B. Client Credentials|C. Implicit|D. Authorization Code|A
+Question 721: Which OAuth2 flow involves user consent screen?|A. Authorization Code|B. Client Credentials|C. Password|D. Implicit|A
+Question 722: Which JWT claim represents token subject (user)?|A. sub|B. iss|C. aud|D. jti|A
+Question 723: Which JWT claim represents token issued time?|A. iat|B. nbf|C. exp|D. jti|A
+Question 724: Which JWT claim represents token expiration time?|A. exp|B. iat|C. nbf|D. jti|A
+Question 725: Which JWT property should never be exposed publicly?|A. Secret signing key|B. Header|C. Payload|D. Signature|A
+Question 726: Which OAuth2 property defines refresh token expiration?|A. refresh-token-validity|B. access-token-validity|C. token-duration|D. token-expiration|A
+Question 727: Which OAuth2 property defines access token expiration?|A. access-token-validity|B. refresh-token-validity|C. token-duration|D. token-expiration|A
+Question 728: Which JWT claim prevents token usage before issued time?|A. nbf|B. iat|C. exp|D. sub|A
+Question 729: Which JWT claim ensures unique token identification?|A. jti|B. sub|C. iss|D. aud|A
+Question 730: Which practice prevents OAuth2 token leakage?|A. Using HTTPS|B. Using HTTP|C. Sharing tokens in URL fragment|D. Logging tokens|A
+Question 731: Which OAuth2 feature allows token revocation?|A. Token Revocation Endpoint|B. Token Introspection|C. Refresh Token|D. Authorization Endpoint|A
+Question 732: Which OAuth2 feature checks token validity?|A. Token Introspection Endpoint|B. Token Revocation Endpoint|C. Authorization Endpoint|D. Token Endpoint|A
+Question 733: Which Spring Security class verifies JWT signature?|A. NimbusJwtDecoder|B. JwtVerifier|C. JwtValidator|D. JwtProvider|A
+Question 734: Which Spring Security class generates JWT token?|A. JwtTokenUtil|B. JwtGenerator|C. JwtProvider|D. JwtManager|A
+Question 735: Which property specifies JWT signing algorithm?|A. jwt.alg|B. jwt.algorithm|C. jwt.signAlg|D. jwt.crypto|B
+Question 736: Which JWT type is self-contained and stateless?|A. JWT|B. OAuth2 Access Token|C. Session ID|D. CSRF Token|A
+Question 737: Which OAuth2 grant type does not involve user interaction?|A. Client Credentials|B. Authorization Code|C. Implicit|D. Password|A
+Question 738: Which OAuth2 grant type allows exchanging refresh token for new access token?|A. Refresh Token Grant|B. Password Grant|C. Client Credentials|D. Implicit Grant|A
+Question 739: Which OAuth2 component stores tokens for revocation checking?|A. Token Store|B. Token Service|C. Authorization Server|D. Client Registry|A
+Question 740: Which JWT token type is used in stateless API authentication?|A. Bearer Token|B. MAC Token|C. HMAC Token|D. Session Token|A
+Question 741: Which practice improves OAuth2 access token security?|A. Use short-lived tokens and refresh tokens|B. Use long-lived tokens without refresh|C. Store tokens in localStorage without encryption|D. Ignore token revocation|A
+Question 742: Which OAuth2 scope allows read-only access?|A. read|B. write|C. admin|D. full|A
+Question 743: Which OAuth2 scope allows full access?|A. full|B. read|C. write|D. admin|A
+Question 744: Which JWT header contains signing algorithm?|A. alg|B. typ|C. kid|D. iss|A
+Question 745: Which JWT header contains token type?|A. typ|B. alg|C. kid|D. iss|A
+Question 746: Which JWT header contains key ID?|A. kid|B. alg|C. typ|D. iss|A
+Question 747: Which Spring Security class maps OAuth2 authorities?|A. GrantedAuthoritiesMapper|B. AuthorityMapper|C. RoleMapper|D. OAuth2AuthoritiesMapper|A
+Question 748: Which JWT token is invalidated on logout?|A. Access Token|B. Refresh Token|C. Both A and B|D. None|C
+Question 749: Which OAuth2 feature allows client authentication?|A. Client Credentials|B. Password Grant|C. Authorization Code|D. Implicit|A
+Question 750: Which JWT property should be validated to prevent replay attacks?|A. jti|B. iat|C. exp|D. sub|A
+Question 751: Which OAuth2 endpoint exchanges authorization code for access token?|A. /oauth/token|B. /oauth/authorize|C. /login/oauth2/code|D. /token|A
+Question 752: Which OAuth2 endpoint initiates user consent?|A. /oauth/authorize|B. /oauth/token|C. /login/oauth2/code|D. /token|A
+Question 753: Which OAuth2 endpoint issues refresh tokens?|A. /oauth/token|B. /oauth/authorize|C. /login/oauth2/code|D. /refresh|A
+Question 754: Which JWT signature ensures token integrity?|A. Signature|B. Header|C. Payload|D. Claim|A
+Question 755: Which OAuth2 flow avoids exposing access token in URL?|A. Authorization Code with PKCE|B. Implicit|C. Password|D. Client Credentials|A
+Question 756: Which Spring Security class handles OAuth2 login success?|A. OAuth2LoginSuccessHandler|B. OAuth2AuthenticationSuccessHandler|C. OAuth2SuccessHandler|D. OAuth2Handler|B
+Question 757: Which Spring Security class handles OAuth2 login failure?|A. OAuth2LoginFailureHandler|B. OAuth2AuthenticationFailureHandler|C. OAuth2FailureHandler|D. OAuth2Handler|B
+Question 758: Which OAuth2 token type should be rotated regularly?|A. Refresh Token|B. Access Token|C. Both|D. None|A
+Question 759: Which practice prevents CSRF attacks on OAuth2 token endpoints?|A. Use CSRF protection and same-site cookies|B. Disable CSRF|C. Use GET requests|D. Log tokens|A
+Question 760: Which OAuth2 component validates JWT in resource server?|A. JwtAuthenticationProvider|B. JwtValidator|C. JwtDecoder|D. JwtVerifier|C
+Question 761: Which property defines JWKS URI for JWT verification?|A. spring.security.oauth2.resourceserver.jwt.jwk-set-uri|B. oauth2.jwt.jwk-uri|C. security.jwt.jwk-uri|D. jwt.jwk.uri|A
+Question 762: Which JWT security practice prevents tampering?|A. Verify signature using secret or public key|B. Ignore signature|C. Use plain text tokens|D. Encode token in Base64 only|A
+Question 763: Which OAuth2 grant type is deprecated for public clients?|A. Implicit|B. Authorization Code|C. Client Credentials|D. Password|A
+Question 764: Which Spring Security class converts JWT claims to authorities?|A. JwtAuthenticationConverter|B. JwtGrantedAuthoritiesConverter|C. JwtAuthorityMapper|D. JwtRolesMapper|A
+Question 765: Which practice ensures token confidentiality in SPAs?|A. Store JWT in HttpOnly, Secure cookies|B. Store JWT in localStorage|C. Use plain HTTP|D. Include token in URL|A
+Question 766: Which claim is recommended to check token audience?|A. aud|B. iss|C. sub|D. exp|A
+Question 767: Which claim is recommended to check token issuer?|A. iss|B. aud|C. sub|D. exp|A
+Question 768: Which practice prevents using expired JWT?|A. Check exp claim|B. Ignore exp claim|C. Use long-lived tokens|D. Store token in localStorage|A
+Question 769: Which OAuth2 property defines scopes for client registration?|A. spring.security.oauth2.client.registration.scope|B. client.scope|C. oauth2.scope|D. security.client.scope|A
+Question 770: Which OAuth2 property defines redirect URI for client?|A. spring.security.oauth2.client.registration.redirect-uri|B. client.redirect|C. oauth2.redirect-uri|D. security.redirect-uri|A
+Question 771: Which OAuth2 component uses client secret to authenticate client?|A. Authorization Server|B. Resource Server|C. Client|D. User Agent|C
+Question 772: Which JWT property ensures token is issued after a certain time?|A. nbf|B. iat|C. exp|D. jti|A
+Question 773: Which JWT property ensures token is unique?|A. jti|B. iat|C. exp|D. sub|A
+Question 774: Which OAuth2 component provides token revocation endpoint?|A. Authorization Server|B. Resource Server|C. Client|D. User Agent|A
+Question 775: Which OAuth2 feature validates access token without hitting authorization server?|A. JWT|B. Opaque Token|C. Session ID|D. CSRF Token|A
+Question 776: Which OAuth2 flow is suitable for server-to-server APIs?|A. Client Credentials|B. Authorization Code|C. Implicit|D. Password|A
+Question 777: Which OAuth2 flow allows token refresh?|A. Authorization Code Grant|B. Implicit|C. Client Credentials|D. Password|A
+Question 778: Which practice prevents token theft in browser apps?|A. Use HttpOnly, Secure cookies|B. Store token in localStorage|C. Use GET with token in URL|D. Log token in console|A
+Question 779: Which JWT claim identifies the principal?|A. sub|B. iss|C. aud|D. jti|A
+Question 780: Which JWT claim identifies token issuer?|A. iss|B. aud|C. sub|D. jti|A
+Question 781: Which JWT claim identifies audience?|A. aud|B. iss|C. sub|D. jti|A
+Question 782: Which OAuth2 flow uses redirect URI for client?|A. Authorization Code|B. Implicit|C. Password|D. Client Credentials|A
+Question 783: Which OAuth2 flow is used in mobile apps with PKCE?|A. Authorization Code with PKCE|B. Implicit|C. Client Credentials|D. Password|A
+Question 784: Which JWT property is verified for integrity?|A. Signature|B. Header|C. Payload|D. Claim|A
+Question 785: Which JWT storage is vulnerable to XSS?|A. localStorage|B. HttpOnly cookies|C. Session cookies|D. Secure cookies|A
+Question 786: Which OAuth2 flow is safest for SPA apps?|A. Authorization Code with PKCE|B. Implicit|C. Client Credentials|D. Password|A
+Question 787: Which OAuth2 endpoint validates tokens?|A. Token Introspection Endpoint|B. Token Revocation Endpoint|C. Authorization Endpoint|D. Login Endpoint|A
+Question 788: Which OAuth2 token should be short-lived?|A. Access Token|B. Refresh Token|C. Both|D. None|A
+Question 789: Which OAuth2 token can be rotated for security?|A. Refresh Token|B. Access Token|C. Both|D. None|A
+Question 790: Which JWT property is used to prevent replay attacks?|A. jti|B. iat|C. nbf|D. exp|A
+Question 791: Which practice prevents token sniffing over network?|A. Always use HTTPS|B. Use HTTP|C. Store token in localStorage|D. Include token in URL|A
+Question 792: Which OAuth2 property defines authorization server token endpoint?|A. /oauth/token|B. /oauth/authorize|C. /login/oauth2/code|D. /token|A
+Question 793: Which OAuth2 property defines authorization server authorize endpoint?|A. /oauth/authorize|B. /oauth/token|C. /login/oauth2/code|D. /token|A
+Question 794: Which OAuth2 flow requires user credentials but no client secret?|A. Resource Owner Password Credentials|B. Client Credentials|C. Authorization Code|D. Implicit|A
+Question 795: Which OAuth2 flow is deprecated for public clients?|A. Implicit|B. Authorization Code|C. Client Credentials|D. Password|A
+Question 796: Which JWT claim identifies token expiration?|A. exp|B. iat|C. nbf|D. jti|A
+Question 797: Which JWT claim identifies token issued at?|A. iat|B. exp|C. nbf|D. jti|A
+Question 798: Which OAuth2 practice prevents CSRF attacks?|A. Use SameSite cookies|B. Use GET requests|C. Ignore CSRF|D. Log tokens|A
+Question 799: Which OAuth2 endpoint exchanges refresh token for new access token?|A. /oauth/token|B. /oauth/authorize|C. /login/oauth2/code|D. /refresh|A
+Question 800: Which OAuth2 flow is suitable for backend API to API communication?|A. Client Credentials|B. Authorization Code|C. Implicit|D. Password|A
+Question 801: What is the main purpose of the Spring Framework?|A. Dependency Injection|B. Frontend Design|C. Database Management|D. Networking|A
+Question 802: Which annotation marks a class as a Spring component?|A. @Component|B. @Controller|C. @Service|D. All of these|D
+Question 803: Which annotation is used for a service layer class?|A. @Service|B. @Repository|C. @Controller|D. @Component|A
+Question 804: Which annotation is used for DAO layer class?|A. @Repository|B. @Service|C. @Controller|D. @Component|A
+Question 805: Which annotation marks a controller class in Spring MVC?|A. @Controller|B. @Service|C. @Repository|D. @Component|A
+Question 806: Which Spring feature allows object creation and injection automatically?|A. Dependency Injection|B. Aspect Oriented Programming|C. Event Handling|D. Transaction Management|A
+Question 807: Which Spring container manages beans defined in XML?|A. ApplicationContext|B. BeanFactory|C. WebApplicationContext|D. ContextLoader|B
+Question 808: Which Spring container is an advanced version of BeanFactory?|A. ApplicationContext|B. WebApplicationContext|C. ContextLoader|D. BeanFactory|A
+Question 809: Which annotation is used for constructor-based dependency injection?|A. @Autowired|B. @Inject|C. @Resource|D. @Qualifier|A
+Question 810: Which annotation is used for field-based dependency injection?|A. @Autowired|B. @Inject|C. @Resource|D. All of these|D
+Question 811: Which annotation is used to specify bean name for injection?|A. @Qualifier|B. @Autowired|C. @Component|D. @Resource|A
+Question 812: Which Spring module provides JDBC support?|A. Spring JDBC|B. Spring ORM|C. Spring AOP|D. Spring MVC|A
+Question 813: Which Spring module integrates Hibernate?|A. Spring ORM|B. Spring JDBC|C. Spring AOP|D. Spring MVC|A
+Question 814: Which Spring module is used for web applications?|A. Spring MVC|B. Spring ORM|C. Spring Core|D. Spring AOP|A
+Question 815: Which annotation enables Spring MVC controller methods to return JSON?|A. @ResponseBody|B. @RequestMapping|C. @Controller|D. @RestController|A
+Question 816: Which annotation combines @Controller and @ResponseBody?|A. @RestController|B. @Controller|C. @Service|D. @Component|A
+Question 817: Which annotation maps HTTP requests to handler methods?|A. @RequestMapping|B. @ResponseBody|C. @GetMapping|D. @PostMapping|A
+Question 818: Which annotations are shortcuts for @RequestMapping methods?|A. @GetMapping, @PostMapping, @PutMapping, @DeleteMapping|B. @RequestMethod|C. @RestMapping|D. @Mapping|A
+Question 819: Which Spring Boot annotation marks main class?|A. @SpringBootApplication|B. @EnableAutoConfiguration|C. @ComponentScan|D. @Configuration|A
+Question 820: Which annotations are combined in @SpringBootApplication?|A. @Configuration, @EnableAutoConfiguration, @ComponentScan|B. @Service, @Controller, @Repository|C. @Configuration, @Service, @Controller|D. @EnableWebMvc, @Configuration, @ComponentScan|A
+Question 821: Which method runs Spring Boot application?|A. SpringApplication.run(MainClass.class, args)|B. runApplication(MainClass.class)|C. Spring.run(MainClass.class)|D. Application.run(MainClass.class)|A
+Question 822: Which file defines Spring Boot properties?|A. application.properties|B. spring.properties|C. config.properties|D. settings.properties|A
+Question 823: Which file can replace application.properties for YAML format?|A. application.yml|B. spring.yml|C. config.yml|D. settings.yml|A
+Question 824: Which annotation marks a configuration class?|A. @Configuration|B. @Component|C. @Bean|D. @Service|A
+Question 825: Which annotation defines a bean method in configuration class?|A. @Bean|B. @Component|C. @Service|D. @Repository|A
+Question 826: Which annotation enables component scanning?|A. @ComponentScan|B. @SpringBootApplication|C. @Configuration|D. @EnableAutoConfiguration|A
+Question 827: Which annotation automatically configures Spring Boot application?|A. @EnableAutoConfiguration|B. @SpringBootApplication|C. @ComponentScan|D. @Configuration|A
+Question 828: Which annotation binds HTTP request body to method parameter?|A. @RequestBody|B. @PathVariable|C. @RequestParam|D. @ModelAttribute|A
+Question 829: Which annotation binds method parameter to path variable?|A. @PathVariable|B. @RequestParam|C. @RequestBody|D. @ModelAttribute|A
+Question 830: Which annotation binds query parameters to method parameter?|A. @RequestParam|B. @PathVariable|C. @RequestBody|D. @ModelAttribute|A
+Question 831: Which annotation binds form data to object?|A. @ModelAttribute|B. @RequestParam|C. @RequestBody|D. @PathVariable|A
+Question 832: Which annotation handles global exceptions in Spring MVC?|A. @ControllerAdvice|B. @ExceptionHandler|C. @RestController|D. @Service|A
+Question 833: Which annotation handles exception for a single controller method?|A. @ExceptionHandler|B. @ControllerAdvice|C. @Service|D. @Repository|A
+Question 834: Which annotation marks REST endpoint returning JSON?|A. @RestController|B. @Controller|C. @Service|D. @Component|A
+Question 835: Which Spring Boot starter adds web support?|A. spring-boot-starter-web|B. spring-boot-starter-data-jpa|C. spring-boot-starter-security|D. spring-boot-starter-test|A
+Question 836: Which Spring Boot starter adds JPA support?|A. spring-boot-starter-data-jpa|B. spring-boot-starter-web|C. spring-boot-starter-security|D. spring-boot-starter-test|A
+Question 837: Which annotation marks JPA entity class?|A. @Entity|B. @Table|C. @Id|D. @Repository|A
+Question 838: Which annotation marks primary key in JPA entity?|A. @Id|B. @Entity|C. @Table|D. @GeneratedValue|A
+Question 839: Which annotation auto-generates primary key value?|A. @GeneratedValue|B. @Id|C. @Entity|D. @Column|A
+Question 840: Which annotation maps class to database table?|A. @Table|B. @Entity|C. @Column|D. @Repository|A
+Question 841: Which annotation maps field to table column?|A. @Column|B. @Table|C. @Entity|D. @Id|A
+Question 842: Which Spring Boot starter adds security support?|A. spring-boot-starter-security|B. spring-boot-starter-web|C. spring-boot-starter-data-jpa|D. spring-boot-starter-test|A
+Question 843: Which class is used to configure Spring Security?|A. WebSecurityConfigurerAdapter|B. SecurityConfig|C. SecurityManager|D. SecurityProvider|A
+Question 844: Which annotation secures methods in Spring?|A. @EnableGlobalMethodSecurity|B. @EnableWebSecurity|C. @Secured|D. @RolesAllowed|A
+Question 845: Which annotation restricts access based on role?|A. @Secured|B. @RolesAllowed|C. @PreAuthorize|D. All of these|D
+Question 846: Which annotation enables Spring Boot auto-configuration?|A. @SpringBootApplication|B. @EnableAutoConfiguration|C. @ComponentScan|D. @Configuration|A
+Question 847: Which annotation is used to run a method after bean initialization?|A. @PostConstruct|B. @PreDestroy|C. @Bean|D. @Autowired|A
+Question 848: Which annotation runs a method before bean destruction?|A. @PreDestroy|B. @PostConstruct|C. @Bean|D. @Autowired|A
+Question 849: Which annotation injects environment properties?|A. @Value|B. @Autowired|C. @Qualifier|D. @Component|A
+Question 850: Which annotation enables Spring Boot scheduling?|A. @EnableScheduling|B. @Scheduled|C. @Component|D. @Service|A
+Question 851: Which annotation schedules a method to run at fixed interval?|A. @Scheduled(fixedRate = ...)|B. @EnableScheduling|C. @Scheduled(cron = ...)|D. @Component|A
+Question 852: Which annotation schedules a method using cron expression?|A. @Scheduled(cron = ...)|B. @Scheduled(fixedRate = ...)|C. @EnableScheduling|D. @Component|A
+Question 853: Which Spring Boot starter adds testing support?|A. spring-boot-starter-test|B. spring-boot-starter-web|C. spring-boot-starter-data-jpa|D. spring-boot-starter-security|A
+Question 854: Which annotation marks Spring Boot test class?|A. @SpringBootTest|B. @Test|C. @RunWith|D. @ContextConfiguration|A
+Question 855: Which annotation runs test with SpringRunner?|A. @RunWith(SpringRunner.class)|B. @SpringBootTest|C. @Test|D. @ContextConfiguration|A
+Question 856: Which annotation mocks a bean in Spring test?|A. @MockBean|B. @Autowired|C. @SpyBean|D. @Component|A
+Question 857: Which annotation spies on a bean in Spring test?|A. @SpyBean|B. @MockBean|C. @Autowired|D. @Component|A
+Question 858: Which property enables Spring Boot DevTools auto restart?|A. spring.devtools.restart.enabled=true|B. devtools.restart.enabled=true|C. spring.devtools.auto=true|D. devtools.auto.restart=true|A
+Question 859: Which annotation is used for REST exception handling globally?|A. @ControllerAdvice|B. @ExceptionHandler|C. @RestController|D. @Service|A
+Question 860: Which annotation marks a field for configuration property binding?|A. @ConfigurationProperties|B. @Value|C. @Autowired|D. @Component|A
+Question 861: Which annotation enables Spring Boot configuration properties?|A. @EnableConfigurationProperties|B. @ConfigurationProperties|C. @SpringBootApplication|D. @Configuration|A
+Question 862: Which annotation marks Spring component scanning base package?|A. @ComponentScan|B. @SpringBootApplication|C. @Configuration|D. @EnableAutoConfiguration|A
+Question 863: Which annotation excludes auto-configuration in Spring Boot?|A. @EnableAutoConfiguration(exclude = ...)|B. @SpringBootApplication(exclude = ...)|C. @ComponentScan(exclude = ...)|D. @Configuration(exclude = ...)|B
+Question 864: Which annotation defines REST API response status?|A. @ResponseStatus|B. @RequestMapping|C. @RestController|D. @Controller|A
+Question 865: Which annotation maps exception to HTTP status?|A. @ResponseStatus|B. @ExceptionHandler|C. @ControllerAdvice|D. @RestController|A
+Question 866: Which annotation binds HTTP header to method parameter?|A. @RequestHeader|B. @RequestParam|C. @PathVariable|D. @RequestBody|A
+Question 867: Which annotation binds cookie value to method parameter?|A. @CookieValue|B. @RequestParam|C. @PathVariable|D. @RequestBody|A
+Question 868: Which annotation enables asynchronous method execution?|A. @EnableAsync|B. @Async|C. @Scheduled|D. @Component|A
+Question 869: Which annotation marks method as asynchronous?|A. @Async|B. @EnableAsync|C. @Scheduled|D. @Component|A
+Question 870: Which annotation loads properties file in Spring?|A. @PropertySource|B. @Value|C. @Configuration|D. @Component|A
+Question 871: Which annotation defines path for REST controller?|A. @RequestMapping|B. @GetMapping|C. @PostMapping|D. @PathVariable|A
+Question 872: Which annotation maps GET request to method?|A. @GetMapping|B. @RequestMapping|C. @PostMapping|D. @PutMapping|A
+Question 873: Which annotation maps POST request to method?|A. @PostMapping|B. @GetMapping|C. @PutMapping|D. @DeleteMapping|A
+Question 874: Which annotation maps PUT request to method?|A. @PutMapping|B. @GetMapping|C. @PostMapping|D. @DeleteMapping|A
+Question 875: Which annotation maps DELETE request to method?|A. @DeleteMapping|B. @GetMapping|C. @PostMapping|D. @PutMapping|A
+Question 876: Which Spring Boot starter adds actuator support?|A. spring-boot-starter-actuator|B. spring-boot-starter-web|C. spring-boot-starter-data-jpa|D. spring-boot-starter-security|A
+Question 877: Which annotation enables Spring Boot actuator endpoints?|A. @EnableAutoConfiguration|B. @SpringBootApplication|C. @ComponentScan|D. @Configuration|A
+Question 878: Which property exposes all actuator endpoints?|A. management.endpoints.web.exposure.include=*|B. management.endpoints.include=*|C. endpoints.web.exposure=*|D. actuator.expose=*|A
+Question 879: Which annotation injects Spring environment object?|A. @Autowired Environment env|B. @Value|C. @Qualifier|D. @Component|A
+Question 880: Which annotation handles exception in REST controller method?|A. @ExceptionHandler|B. @ControllerAdvice|C. @ResponseStatus|D. @RestController|A
+Question 881: Which annotation enables caching in Spring Boot?|A. @EnableCaching|B. @Cacheable|C. @CacheEvict|D. @Component|A
+Question 882: Which annotation caches method result?|A. @Cacheable|B. @EnableCaching|C. @CacheEvict|D. @Component|A
+Question 883: Which annotation removes cache entry?|A. @CacheEvict|B. @Cacheable|C. @EnableCaching|D. @Component|A
+Question 884: Which annotation marks configuration class in Spring Boot?|A. @Configuration|B. @Component|C. @Service|D. @Controller|A
+Question 885: Which annotation enables Spring Boot auto-configuration excluding some classes?|A. @SpringBootApplication(exclude=...)|B. @EnableAutoConfiguration(exclude=...)|C. @ComponentScan(exclude=...)|D. @Configuration(exclude=...)|A
+Question 886: Which annotation injects REST template bean?|A. @Bean RestTemplate restTemplate()|B. @Autowired RestTemplate restTemplate|C. @Component RestTemplate restTemplate|D. @Service RestTemplate restTemplate|A
+Question 887: Which annotation creates scheduled thread pool?|A. @EnableScheduling|B. @Scheduled|C. @Async|D. @Component|A
+Question 888: Which annotation marks main Spring Boot class?|A. @SpringBootApplication|B. @EnableAutoConfiguration|C. @ComponentScan|D. @Configuration|A
+Question 889: Which annotation enables Spring Boot JPA repositories?|A. @EnableJpaRepositories|B. @EnableRepositories|C. @EnableJpa|D. @EnableDataJpa|A
+Question 890: Which annotation defines entity relationships in JPA?|A. @OneToOne, @OneToMany, @ManyToOne, @ManyToMany|B. @Entity|C. @Table|D. @Id|A
+Question 891: Which annotation defines transactional method?|A. @Transactional|B. @EnableTransactionManagement|C. @Service|D. @Repository|A
+Question 892: Which annotation enables annotation-driven transaction management?|A. @EnableTransactionManagement|B. @Transactional|C. @Service|D. @Repository|A
+Question 893: Which annotation maps composite primary key in JPA?|A. @EmbeddedId|B. @Id|C. @GeneratedValue|D. @Entity|A
+Question 894: Which annotation marks embeddable class in JPA?|A. @Embeddable|B. @Embedded|C. @Entity|D. @Table|A
+Question 895: Which annotation marks field as transient in JPA?|A. @Transient|B. @Id|C. @GeneratedValue|D. @Column|A
+Question 896: Which annotation maps enum type in JPA entity?|A. @Enumerated|B. @Column|C. @Entity|D. @Table|A
+Question 897: Which annotation defines default value for column in JPA?|A. @Column(columnDefinition = "default ...")|B. @GeneratedValue|C. @Id|D. @Transient|A
+Question 898: Which annotation maps temporal data type in JPA?|A. @Temporal|B. @Column|C. @Entity|D. @Table|A
+Question 899: Which annotation marks version field for optimistic locking?|A. @Version|B. @Id|C. @GeneratedValue|D. @Column|A
+Question 900: Which annotation marks many-to-many relationship owning side?|A. @JoinTable|B. @JoinColumn|C. @ManyToMany|D. @OneToMany|A
+Question 901: Which interface represents a collection of elements with no duplicates?|A. Set|B. List|C. Map|D. Queue|A
+Question 902: Which interface allows indexed access to elements?|A. List|B. Set|C. Map|D. Queue|A
+Question 903: Which interface maps keys to values?|A. Map|B. List|C. Set|D. Queue|A
+Question 904: Which implementation of List allows fast random access?|A. ArrayList|B. LinkedList|C. Vector|D. Stack|A
+Question 905: Which List implementation uses doubly-linked nodes?|A. LinkedList|B. ArrayList|C. Vector|D. Stack|A
+Question 906: Which Set implementation maintains insertion order?|A. LinkedHashSet|B. HashSet|C. TreeSet|D. EnumSet|A
+Question 907: Which Set implementation sorts elements?|A. TreeSet|B. HashSet|C. LinkedHashSet|D. EnumSet|A
+Question 908: Which Map implementation maintains insertion order?|A. LinkedHashMap|B. HashMap|C. TreeMap|D. Hashtable|A
+Question 909: Which Map implementation sorts keys?|A. TreeMap|B. HashMap|C. LinkedHashMap|D. Hashtable|A
+Question 910: Which class implements a synchronized Map?|A. Hashtable|B. HashMap|C. TreeMap|D. LinkedHashMap|A
+Question 911: Which interface allows queue operations like offer and poll?|A. Queue|B. Stack|C. List|D. Set|A
+Question 912: Which Queue implementation uses priority ordering?|A. PriorityQueue|B. LinkedList|C. ArrayDeque|D. HashSet|A
+Question 913: Which class provides resizable array with thread-safe methods?|A. Vector|B. ArrayList|C. LinkedList|D. Stack|A
+Question 914: Which class implements LIFO stack?|A. Stack|B. ArrayList|C. LinkedList|D. Vector|A
+Question 915: Which interface supports key-value pairs and allows null values?|A. Map|B. List|C. Set|D. Queue|A
+Question 916: Which functional interface represents a function with one argument and return value?|A. Function<T,R>|B. Supplier<T>|C. Consumer<T>|D. Predicate<T>|A
+Question 917: Which functional interface represents a function with no arguments returning a value?|A. Supplier<T>|B. Function<T,R>|C. Consumer<T>|D. Predicate<T>|A
+Question 918: Which functional interface consumes an argument but returns nothing?|A. Consumer<T>|B. Function<T,R>|C. Supplier<T>|D. Predicate<T>|A
+Question 919: Which functional interface returns boolean for a given input?|A. Predicate<T>|B. Function<T,R>|C. Supplier<T>|D. Consumer<T>|A
+Question 920: Which Stream operation produces a new stream by filtering elements?|A. filter|B. map|C. flatMap|D. reduce|A
+Question 921: Which Stream operation transforms elements using a function?|A. map|B. filter|C. flatMap|D. reduce|A
+Question 922: Which Stream operation flattens nested streams?|A. flatMap|B. map|C. filter|D. reduce|A
+Question 923: Which Stream operation aggregates elements to a single value?|A. reduce|B. map|C. filter|D. flatMap|A
+Question 924: Which Stream operation sorts elements?|A. sorted|B. map|C. filter|D. reduce|A
+Question 925: Which Stream operation collects elements into a collection?|A. collect|B. map|C. filter|D. reduce|A
+Question 926: Which Stream method returns first element wrapped in Optional?|A. findFirst|B. findAny|C. limit|D. skip|A
+Question 927: Which Stream method returns any element in parallel streams?|A. findAny|B. findFirst|C. limit|D. skip|A
+Question 928: Which Stream operation skips n elements?|A. skip(n)|B. limit(n)|C. filter|D. map|A
+Question 929: Which Stream operation limits stream size to n elements?|A. limit(n)|B. skip(n)|C. filter|D. map|A
+Question 930: Which Stream terminal operation counts elements?|A. count|B. reduce|C. collect|D. forEach|A
+Question 931: Which Stream terminal operation iterates elements?|A. forEach|B. reduce|C. collect|D. count|A
+Question 932: Which Stream method checks if all elements match a predicate?|A. allMatch|B. anyMatch|C. noneMatch|D. filter|A
+Question 933: Which Stream method checks if any element matches a predicate?|A. anyMatch|B. allMatch|C. noneMatch|D. filter|A
+Question 934: Which Stream method checks if no elements match a predicate?|A. noneMatch|B. allMatch|C. anyMatch|D. filter|A
+Question 935: Which Stream operation returns the max element?|A. max|B. min|C. sorted|D. reduce|A
+Question 936: Which Stream operation returns the min element?|A. min|B. max|C. sorted|D. reduce|A
+Question 937: Which Stream method converts stream to array?|A. toArray|B. collect|C. reduce|D. map|A
+Question 938: Which Stream collector joins strings?|A. Collectors.joining()|B. Collectors.toList()|C. Collectors.toSet()|D. Collectors.toMap()|A
+Question 939: Which Stream collector counts elements?|A. Collectors.counting()|B. Collectors.toList()|C. Collectors.toSet()|D. Collectors.toMap()|A
+Question 940: Which Stream collector groups elements by key?|A. Collectors.groupingBy()|B. Collectors.partitioningBy()|C. Collectors.toMap()|D. Collectors.toList()|A
+Question 941: Which Stream collector partitions elements by predicate?|A. Collectors.partitioningBy()|B. Collectors.groupingBy()|C. Collectors.toMap()|D. Collectors.toList()|A
+Question 942: Which Stream collector maps elements to new form?|A. Collectors.mapping()|B. Collectors.toList()|C. Collectors.toSet()|D. Collectors.toMap()|A
+Question 943: Which functional interface is used for side-effect operations?|A. Consumer|B. Function|C. Supplier|D. Predicate|A
+Question 944: Which functional interface returns value without input?|A. Supplier|B. Function|C. Consumer|D. Predicate|A
+Question 945: Which functional interface takes input and returns output?|A. Function|B. Consumer|C. Supplier|D. Predicate|A
+Question 946: Which functional interface tests boolean condition?|A. Predicate|B. Consumer|C. Supplier|D. Function|A
+Question 947: Which functional interface represents unary operator?|A. UnaryOperator|B. BinaryOperator|C. Function|D. Predicate|A
+Question 948: Which functional interface represents binary operator?|A. BinaryOperator|B. UnaryOperator|C. Function|D. Predicate|A
+Question 949: Which method creates a stream from a collection?|A. collection.stream()|B. Stream.of(collection)|C. Stream.create(collection)|D. Stream.new(collection)|A
+Question 950: Which Stream factory method creates stream from values?|A. Stream.of(...)|B. Stream.create(...)|C. Stream.from(...)|D. Stream.new(...)|A
+Question 951: Which method creates infinite stream with supplier?|A. Stream.generate(Supplier)|B. Stream.iterate(Supplier)|C. Stream.of(Supplier)|D. Stream.create(Supplier)|A
+Question 952: Which method creates stream by iterating values?|A. Stream.iterate(seed, unaryOperator)|B. Stream.generate(Supplier)|C. Stream.of(values)|D. Stream.create(values)|A
+Question 953: Which Stream method is lazy?|A. filter|B. count|C. collect|D. forEach|A
+Question 954: Which Stream operations are terminal?|A. count, collect, forEach, reduce|B. map, filter, flatMap|C. sorted, skip, limit|D. peek, map, filter|A
+Question 955: Which Stream operations are intermediate?|A. map, filter, sorted, skip, limit, flatMap|B. count, collect, forEach, reduce|C. max, min, findFirst|D. noneMatch, allMatch|A
+Question 956: Which method applies action on each element without changing stream?|A. peek|B. map|C. filter|D. reduce|A
+Question 957: Which method creates parallel stream from collection?|A. collection.parallelStream()|B. collection.stream().parallel()|C. Stream.of(...).parallel()|D. All of these|D
+Question 958: Which Stream method sorts with custom comparator?|A. sorted(Comparator)|B. map(Comparator)|C. filter(Comparator)|D. reduce(Comparator)|A
+Question 959: Which Stream method removes duplicates?|A. distinct|B. unique|C. filter|D. map|A
+Question 960: Which Stream method combines multiple streams into one?|A. Stream.concat(stream1, stream2)|B. Stream.merge(stream1, stream2)|C. Stream.of(stream1, stream2)|D. Stream.flatMap(stream1, stream2)|A
+Question 961: Which Stream method counts elements matching predicate?|A. filter(predicate).count()|B. map(predicate).count()|C. reduce(predicate).count()|D. collect(predicate).count()|A
+Question 962: Which Stream collector sums integer values?|A. Collectors.summingInt()|B. Collectors.summingLong()|C. Collectors.summingDouble()|D. All of these|D
+Question 963: Which Stream collector finds maximum element?|A. Collectors.maxBy(Comparator)|B. Collectors.minBy(Comparator)|C. Collectors.reducing()|D. Collectors.counting()|A
+Question 964: Which Stream collector finds minimum element?|A. Collectors.minBy(Comparator)|B. Collectors.maxBy(Comparator)|C. Collectors.reducing()|D. Collectors.counting()|A
+Question 965: Which Stream collector reduces elements to single value?|A. Collectors.reducing()|B. Collectors.counting()|C. Collectors.toList()|D. Collectors.toSet()|A
+Question 966: Which Stream method creates Optional from stream?|A. findFirst, findAny|max|min|A
+Question 967: Which Stream API supports functional-style operations?|A. Stream API|B. Collections API|C. Arrays|D. Scanner|A
+Question 968: Which interface represents ordered sequence of elements?|A. Stream|B. Iterable|C. Iterator|D. Enumeration|A
+Question 969: Which Stream operation transforms elements and flattens result?|A. flatMap|B. map|C. filter|D. reduce|A
+Question 970: Which Stream method terminates stream without collecting?|A. forEach|B. collect|C. reduce|D. count|A
+Question 971: Which Stream operation checks all elements with predicate?|A. allMatch|B. anyMatch|C. noneMatch|D. filter|A
+Question 972: Which Stream operation checks if any element satisfies predicate?|A. anyMatch|B. allMatch|C. noneMatch|D. filter|A
+Question 973: Which Stream operation checks if no element satisfies predicate?|A. noneMatch|B. allMatch|C. anyMatch|D. filter|A
+Question 974: Which Stream operation reduces to sum?|A. mapToInt(...).sum()|B. reduce(...).sum()|C. collect(...).sum()|D. count(...).sum()|A
+Question 975: Which Stream operation reduces to average?|A. mapToInt(...).average()|B. reduce(...).average()|C. collect(...).average()|D. count(...).average()|A
+Question 976: Which Stream operation converts IntStream to Stream<Integer>|A. boxed()|B. mapToObj()|C. map()|D. flatMap()|A
+Question 977: Which Stream operation converts Stream<Integer> to IntStream?|A. mapToInt()|B. mapToLong()|C. mapToDouble()|D. boxed()|A
+Question 978: Which Stream operation collects elements into Set?|A. collect(Collectors.toSet())|B. collect(Collectors.toList())|C. collect(Collectors.toMap())|D. collect(Collectors.joining())|A
+Question 979: Which Stream operation collects elements into List?|A. collect(Collectors.toList())|B. collect(Collectors.toSet())|C. collect(Collectors.toMap())|D. collect(Collectors.joining())|A
+Question 980: Which Stream collector creates Map from stream?|A. Collectors.toMap(keyMapper, valueMapper)|B. Collectors.toList()|C. Collectors.toSet()|D. Collectors.joining()|A
+Question 981: Which Stream operation concatenates two streams?|A. Stream.concat(stream1, stream2)|B. Stream.merge(stream1, stream2)|C. Stream.of(stream1, stream2)|D. flatMap(stream1, stream2)|A
+Question 982: Which Stream terminal operation is lazy?|A. None|B. count|C. collect|D. forEach|A
+Question 983: Which functional interface has a method apply(T t) returning R?|A. Function<T,R>|B. Consumer<T>|C. Supplier<T>|D. Predicate<T>|A
+Question 984: Which functional interface has method test(T t) returning boolean?|A. Predicate<T>|B. Consumer<T>|C. Supplier<T>|D. Function<T,R>|A
+Question 985: Which functional interface has method accept(T t) returning void?|A. Consumer<T>|B. Function<T,R>|C. Supplier<T>|D. Predicate<T>|A
+Question 986: Which functional interface has method get() returning T?|A. Supplier<T>|B. Function<T,R>|C. Consumer<T>|D. Predicate<T>|A
+Question 987: Which functional interface represents operation on two operands returning same type?|A. BinaryOperator<T>|B. UnaryOperator<T>|C. Function<T,R>|D. Predicate<T>|A
+Question 988: Which functional interface represents operation on single operand returning same type?|A. UnaryOperator<T>|B. BinaryOperator<T>|C. Function<T,R>|D. Predicate<T>|A
+Question 989: Which Stream method prints elements for debugging?|A. peek|B. map|C. filter|D. reduce|A
+Question 990: Which Stream method can create infinite stream of constant values?|A. Stream.generate(Supplier)|B. Stream.iterate(seed, unaryOperator)|C. Stream.of(values)|D. Stream.create(values)|A
+Question 991: Which Stream method can create infinite stream by iterative function?|A. Stream.iterate(seed, unaryOperator)|B. Stream.generate(Supplier)|C. Stream.of(values)|D. Stream.create(values)|A
+Question 992: Which Stream operation performs transformation without modifying original stream?|A. map|B. reduce|C. collect|D. forEach|A
+Question 993: Which Stream method converts IntStream to Stream<Double>|A. mapToObj(i -> (double)i)|B. boxed()|C. mapToDouble()|D. map()|A
+Question 994: Which Stream method applies a function producing Stream and flattens?|A. flatMap|B. map|C. filter|D. reduce|A
+Question 995: Which Stream operation produces a finite stream from infinite stream?|A. limit(n)|B. skip(n)|C. filter(predicate)|D. map(function)|A
+Question 996: Which functional programming concept emphasizes immutability?|A. Functional Programming|B. OOP|C. Procedural Programming|D. Imperative Programming|A
+Question 997: Which functional programming feature allows passing functions as parameters?|A. First-class functions|B. Inheritance|C. Encapsulation|D. Polymorphism|A
+Question 998: Which functional programming feature avoids side effects?|A. Pure functions|B. Static functions|C. Constructors|D. Synchronized functions|A
+Question 999: Which functional programming feature allows higher-order functions?|A. Functions that accept/return functions|B. Interface inheritance|C. Encapsulation|D. Polymorphism|A
+Question 1000: Which functional programming feature allows lazy evaluation in streams?|A. Intermediate stream operations|B. Terminal operations|C. forEach|D. collect|A

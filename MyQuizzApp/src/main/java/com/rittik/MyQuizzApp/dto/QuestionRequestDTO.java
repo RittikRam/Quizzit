@@ -7,12 +7,13 @@ import jakarta.validation.constraints.NotBlank;
 import java.util.List;
 
 public class QuestionRequestDTO {
+
     @NotBlank(message = "Question text is required")
     public String text;
     private DifficultyLevel difficultyLevel;
     private TopicIdDTO topicIdDTO;
-
     private List<OptionRequestDTO> options;
+    //-------------------------------------------------------------------
 
     public DifficultyLevel getDifficultyLevel() {
         return difficultyLevel;

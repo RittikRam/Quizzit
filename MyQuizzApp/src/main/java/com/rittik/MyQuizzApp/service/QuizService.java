@@ -65,7 +65,7 @@ public class QuizService {
                 .difficulty(quizRequestDTO.getDifficultyLevel())
                 .build();
 
-        List<Question> list = questionRepository.findRandomQuestionsByTopicAndDifficulty(topicID,q.getDifficulty(),quizRequestDTO.getQuestionCount());
+        List<Question> list = questionRepository.findRandomQuestionsByTopicAndDifficulty(topicID,q.getDifficulty().name(),quizRequestDTO.getQuestionCount());
 
         q.setQuestions(list);
 

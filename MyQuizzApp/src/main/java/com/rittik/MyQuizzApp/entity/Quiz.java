@@ -35,7 +35,7 @@ public class Quiz {
     @Column(nullable = false)
     private DifficultyLevel difficulty;
 
-    @ManyToMany
+    @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
     @JoinTable(
             name = "quiz_questions_mapping",
             joinColumns = @JoinColumn(name = "quiz_id"),

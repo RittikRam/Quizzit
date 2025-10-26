@@ -11,6 +11,8 @@ import java.util.List;
 
 @Repository
 public interface QuestionRepository extends JpaRepository<Question, Long> {
+
     @Query(value = "SELECT * FROM questions q WHERE q.topic_id = :topicId AND q.difficulty_level = :difficultyLevel ORDER BY RANDOM() LIMIT :count", nativeQuery = true)
-    List<Question> findRandomQuestionsByTopicAndDifficulty(Long topicId, DifficultyLevel difficultyLevel, int count);
+    List<Question> findRandomQuestionsByTopicAndDifficulty(Long topicId, String difficultyLevel, int count);
+
 }
