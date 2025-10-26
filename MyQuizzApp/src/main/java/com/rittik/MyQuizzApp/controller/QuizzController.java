@@ -4,6 +4,8 @@ import com.rittik.MyQuizzApp.dto.QuizRequestDTO;
 import com.rittik.MyQuizzApp.dto.QuizResponseDTO;
 import com.rittik.MyQuizzApp.dto.UserQuizResponseDTO;
 import com.rittik.MyQuizzApp.service.QuizService;
+import com.rittik.MyQuizzApp.dto.QuizSubmissionRequestDTO;
+import com.rittik.MyQuizzApp.dto.QuizScoreResponseDTO;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +15,9 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/quizzes")
+@CrossOrigin(origins = "*")
 public class QuizzController {
+
 
     @Autowired
     private QuizService quizService;
@@ -35,5 +39,12 @@ public class QuizzController {
     public ResponseEntity<QuizResponseDTO> createQuiz(@Valid @RequestBody QuizRequestDTO quizRequestDTO){
         QuizResponseDTO q = quizService.createQuiz(quizRequestDTO);
         return ResponseEntity.status(201).body(q);
+    }
+
+    @PostMapping("/submit")
+    public ResponseEntity<QuizScoreResponseDTO> submitQuiz(
+            @Valid @RequestBody QuizSubmissionRequestDTO submissionRequest) {
+        QuizScoreResponseDTO score = quizService.submitQuiz(submissionRequest);
+        return ResponseEntity.ok(score);
     }
 }

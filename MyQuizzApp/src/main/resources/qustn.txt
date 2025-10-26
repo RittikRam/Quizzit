@@ -1,0 +1,1109 @@
+[
+  {
+    "text": "What is the main method signature in Java?",
+    "options": [
+      { "text": "public static void main(String[] args)", "isCorrect": true },
+      { "text": "private static void main(String[] args)", "isCorrect": false },
+      { "text": "protected void main(String args[])", "isCorrect": false },
+      { "text": "public void main()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which keyword is used to define a class in Java?",
+    "options": [
+      { "text": "class", "isCorrect": true },
+      { "text": "Class", "isCorrect": false },
+      { "text": "classname", "isCorrect": false },
+      { "text": "myclass", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "What does the 'final' keyword do when applied to a variable?",
+    "options": [
+      { "text": "It makes the variable mutable", "isCorrect": false },
+      { "text": "It makes the variable a constant", "isCorrect": true },
+      { "text": "It makes the variable accessible from anywhere", "isCorrect": false },
+      { "text": "It makes the variable static", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method is the entry point of a Java program?",
+    "options": [
+      { "text": "start()", "isCorrect": false },
+      { "text": "init()", "isCorrect": false },
+      { "text": "main()", "isCorrect": true },
+      { "text": "run()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which keyword is used to inherit a class in Java?",
+    "options": [
+      { "text": "this", "isCorrect": false },
+      { "text": "extends", "isCorrect": true },
+      { "text": "implements", "isCorrect": false },
+      { "text": "inherits", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which keyword is used to implement an interface in Java?",
+    "options": [
+      { "text": "extends", "isCorrect": false },
+      { "text": "implements", "isCorrect": true },
+      { "text": "inherits", "isCorrect": false },
+      { "text": "interface", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of the following is not a Java access modifier?",
+    "options": [
+      { "text": "public", "isCorrect": false },
+      { "text": "private", "isCorrect": false },
+      { "text": "protected", "isCorrect": false },
+      { "text": "internal", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Which operator is used for object reference comparison?",
+    "options": [
+      { "text": "==", "isCorrect": true },
+      { "text": "equals()", "isCorrect": false },
+      { "text": "!=", "isCorrect": false },
+      { "text": "compareTo()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method is used to compare string values in Java?",
+    "options": [
+      { "text": "==", "isCorrect": false },
+      { "text": "equals()", "isCorrect": true },
+      { "text": "compare()", "isCorrect": false },
+      { "text": "compareTo()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which data type is used to create a variable that stores text?",
+    "options": [
+      { "text": "String", "isCorrect": true },
+      { "text": "string", "isCorrect": false },
+      { "text": "char", "isCorrect": false },
+      { "text": "Text", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which symbol is used to end a statement in Java?",
+    "options": [
+      { "text": ".", "isCorrect": false },
+      { "text": ";", "isCorrect": true },
+      { "text": ":", "isCorrect": false },
+      { "text": "/", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of the following is a reserved keyword in Java?",
+    "options": [
+      { "text": "goto", "isCorrect": true },
+      { "text": "null", "isCorrect": false },
+      { "text": "then", "isCorrect": false },
+      { "text": "endif", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of the following is a wrapper class in Java?",
+    "options": [
+      { "text": "int", "isCorrect": false },
+      { "text": "Integer", "isCorrect": true },
+      { "text": "string", "isCorrect": false },
+      { "text": "char", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of the following is not a primitive data type?",
+    "options": [
+      { "text": "int", "isCorrect": false },
+      { "text": "String", "isCorrect": true },
+      { "text": "boolean", "isCorrect": false },
+      { "text": "char", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these keywords is used to define a constant variable?",
+    "options": [
+      { "text": "const", "isCorrect": false },
+      { "text": "final", "isCorrect": true },
+      { "text": "static", "isCorrect": false },
+      { "text": "constant", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these is not a Java loop statement?",
+    "options": [
+      { "text": "for", "isCorrect": false },
+      { "text": "while", "isCorrect": false },
+      { "text": "repeat", "isCorrect": true },
+      { "text": "do-while", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which operator is used to allocate memory to an object?",
+    "options": [
+      { "text": "alloc", "isCorrect": false },
+      { "text": "malloc", "isCorrect": false },
+      { "text": "new", "isCorrect": true },
+      { "text": "create", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method is used to find the length of a string?",
+    "options": [
+      { "text": "length", "isCorrect": false },
+      { "text": "size()", "isCorrect": false },
+      { "text": "length()", "isCorrect": true },
+      { "text": "getSize()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these is used to handle exceptions in Java?",
+    "options": [
+      { "text": "try-catch", "isCorrect": true },
+      { "text": "do-while", "isCorrect": false },
+      { "text": "if-else", "isCorrect": false },
+      { "text": "throw-catch", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which keyword is used to manually throw an exception?",
+    "options": [
+      { "text": "throws", "isCorrect": false },
+      { "text": "throw", "isCorrect": true },
+      { "text": "try", "isCorrect": false },
+      { "text": "catch", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method is used to get input from the user?",
+    "options": [
+      { "text": "System.in.read()", "isCorrect": false },
+      { "text": "Scanner.next()", "isCorrect": true },
+      { "text": "Input.read()", "isCorrect": false },
+      { "text": "Console.get()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which class is used to read input in Java?",
+    "options": [
+      { "text": "Scanner", "isCorrect": true },
+      { "text": "Buffer", "isCorrect": false },
+      { "text": "Input", "isCorrect": false },
+      { "text": "Reader", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method terminates a Java program?",
+    "options": [
+      { "text": "System.exit()", "isCorrect": true },
+      { "text": "exit()", "isCorrect": false },
+      { "text": "terminate()", "isCorrect": false },
+      { "text": "stop()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these is used to store a sequence of characters?",
+    "options": [
+      { "text": "char", "isCorrect": false },
+      { "text": "String", "isCorrect": true },
+      { "text": "Character", "isCorrect": false },
+      { "text": "Text", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of the following is used for inheritance?",
+    "options": [
+      { "text": "extends", "isCorrect": true },
+      { "text": "inherit", "isCorrect": false },
+      { "text": "implements", "isCorrect": false },
+      { "text": "inherits", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these is used to define an interface in Java?",
+    "options": [
+      { "text": "interface", "isCorrect": true },
+      { "text": "Interface", "isCorrect": false },
+      { "text": "implements", "isCorrect": false },
+      { "text": "abstract", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of the following is not an OOP concept in Java?",
+    "options": [
+      { "text": "Encapsulation", "isCorrect": false },
+      { "text": "Inheritance", "isCorrect": false },
+      { "text": "Polymorphism", "isCorrect": false },
+      { "text": "Compilation", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Which of these is the superclass for all classes in Java?",
+    "options": [
+      { "text": "Object", "isCorrect": true },
+      { "text": "Class", "isCorrect": false },
+      { "text": "Base", "isCorrect": false },
+      { "text": "Super", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these methods must be implemented by all threads?",
+    "options": [
+      { "text": "run()", "isCorrect": true },
+      { "text": "start()", "isCorrect": false },
+      { "text": "execute()", "isCorrect": false },
+      { "text": "main()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which keyword prevents inheritance of a class?",
+    "options": [
+      { "text": "abstract", "isCorrect": false },
+      { "text": "final", "isCorrect": true },
+      { "text": "static", "isCorrect": false },
+      { "text": "sealed", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which package contains the Scanner class?",
+    "options": [
+      { "text": "java.util", "isCorrect": true },
+      { "text": "java.io", "isCorrect": false },
+      { "text": "java.net", "isCorrect": false },
+      { "text": "java.lang", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these is not a Java keyword?",
+    "options": [
+      { "text": "static", "isCorrect": false },
+      { "text": "Boolean", "isCorrect": true },
+      { "text": "void", "isCorrect": false },
+      { "text": "private", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which exception is thrown when dividing by zero?",
+    "options": [
+      { "text": "ArithmeticException", "isCorrect": true },
+      { "text": "NullPointerException", "isCorrect": false },
+      { "text": "IOException", "isCorrect": false },
+      { "text": "IndexOutOfBoundsException", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these cannot be a return type of a method?",
+    "options": [
+      { "text": "int", "isCorrect": false },
+      { "text": "void", "isCorrect": false },
+      { "text": "class", "isCorrect": true },
+      { "text": "boolean", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these methods is defined in the Object class?",
+    "options": [
+      { "text": "clone()", "isCorrect": true },
+      { "text": "main()", "isCorrect": false },
+      { "text": "print()", "isCorrect": false },
+      { "text": "finalize()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which access modifier makes members visible only within the same package?",
+    "options": [
+      { "text": "default", "isCorrect": true },
+      { "text": "private", "isCorrect": false },
+      { "text": "public", "isCorrect": false },
+      { "text": "protected", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method is called automatically when an object is created?",
+    "options": [
+      { "text": "create()", "isCorrect": false },
+      { "text": "constructor", "isCorrect": false },
+      { "text": "constructor()", "isCorrect": true },
+      { "text": "init()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "What does JVM stand for?",
+    "options": [
+      { "text": "Java Virtual Machine", "isCorrect": true },
+      { "text": "Java Visual Machine", "isCorrect": false },
+      { "text": "Java Variable Module", "isCorrect": false },
+      { "text": "Java Verified Machine", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these is responsible for converting bytecode to machine code?",
+    "options": [
+      { "text": "JIT Compiler", "isCorrect": true },
+      { "text": "JRE", "isCorrect": false },
+      { "text": "JVM", "isCorrect": false },
+      { "text": "JDK", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which component of Java is responsible for execution?",
+    "options": [
+      { "text": "JVM", "isCorrect": true },
+      { "text": "JRE", "isCorrect": false },
+      { "text": "JDK", "isCorrect": false },
+      { "text": "Compiler", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these keywords is used for exception declaration?",
+    "options": [
+      { "text": "throw", "isCorrect": false },
+      { "text": "throws", "isCorrect": true },
+      { "text": "try", "isCorrect": false },
+      { "text": "catch", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these methods is used to print output in Java?",
+    "options": [
+      { "text": "print()", "isCorrect": false },
+      { "text": "println()", "isCorrect": true },
+      { "text": "printf()", "isCorrect": false },
+      { "text": "write()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these is not a valid identifier?",
+    "options": [
+      { "text": "1value", "isCorrect": true },
+      { "text": "value1", "isCorrect": false },
+      { "text": "_value", "isCorrect": false },
+      { "text": "$value", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which operator is used for concatenating strings?",
+    "options": [
+      { "text": "+", "isCorrect": true },
+      { "text": "&", "isCorrect": false },
+      { "text": ".", "isCorrect": false },
+      { "text": "*", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these statements is used to exit a loop prematurely?",
+    "options": [
+      { "text": "stop", "isCorrect": false },
+      { "text": "exit", "isCorrect": false },
+      { "text": "break", "isCorrect": true },
+      { "text": "return", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which statement is used to skip an iteration in a loop?",
+    "options": [
+      { "text": "break", "isCorrect": false },
+      { "text": "continue", "isCorrect": true },
+      { "text": "return", "isCorrect": false },
+      { "text": "exit", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which data type can hold a single 16-bit Unicode character?",
+    "options": [
+      { "text": "char", "isCorrect": true },
+      { "text": "byte", "isCorrect": false },
+      { "text": "short", "isCorrect": false },
+      { "text": "int", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which class is the parent of all exceptions in Java?",
+    "options": [
+      { "text": "Throwable", "isCorrect": true },
+      { "text": "Exception", "isCorrect": false },
+      { "text": "Error", "isCorrect": false },
+      { "text": "RuntimeException", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which exception is thrown when accessing an array index out of range?",
+    "options": [
+      { "text": "ArrayIndexOutOfBoundsException", "isCorrect": true },
+      { "text": "IndexException", "isCorrect": false },
+      { "text": "NullPointerException", "isCorrect": false },
+      { "text": "IllegalArgumentException", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these is a checked exception?",
+    "options": [
+      { "text": "IOException", "isCorrect": true },
+      { "text": "NullPointerException", "isCorrect": false },
+      { "text": "ArithmeticException", "isCorrect": false },
+      { "text": "ArrayIndexOutOfBoundsException", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these is an unchecked exception in Java?",
+    "options": [
+      { "text": "NullPointerException", "isCorrect": true },
+      { "text": "IOException", "isCorrect": false },
+      { "text": "SQLException", "isCorrect": false },
+      { "text": "FileNotFoundException", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which keyword is used to define a subclass?",
+    "options": [
+      { "text": "extends", "isCorrect": true },
+      { "text": "implements", "isCorrect": false },
+      { "text": "inherits", "isCorrect": false },
+      { "text": "subclass", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which keyword is used to call the parent class constructor?",
+    "options": [
+      { "text": "super", "isCorrect": true },
+      { "text": "this", "isCorrect": false },
+      { "text": "base", "isCorrect": false },
+      { "text": "parent", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these is a Java reserved word?",
+    "options": [
+      { "text": "native", "isCorrect": true },
+      { "text": "virtual", "isCorrect": false },
+      { "text": "goto", "isCorrect": false },
+      { "text": "typedef", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which class is used to handle files in Java?",
+    "options": [
+      { "text": "File", "isCorrect": true },
+      { "text": "Files", "isCorrect": false },
+      { "text": "FileHandler", "isCorrect": false },
+      { "text": "FileStream", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which stream is used for reading binary data?",
+    "options": [
+      { "text": "FileInputStream", "isCorrect": true },
+      { "text": "FileReader", "isCorrect": false },
+      { "text": "DataReader", "isCorrect": false },
+      { "text": "BinaryReader", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these is not a valid Java loop control statement?",
+    "options": [
+      { "text": "break", "isCorrect": false },
+      { "text": "continue", "isCorrect": false },
+      { "text": "stop", "isCorrect": true },
+      { "text": "return", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which operator is used to access class members through an object?",
+    "options": [
+      { "text": ".", "isCorrect": true },
+      { "text": "->", "isCorrect": false },
+      { "text": "::", "isCorrect": false },
+      { "text": "#", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which statement is used to return a value from a method?",
+    "options": [
+      { "text": "break", "isCorrect": false },
+      { "text": "return", "isCorrect": true },
+      { "text": "exit", "isCorrect": false },
+      { "text": "continue", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these is not a Java keyword?",
+    "options": [
+      { "text": "volatile", "isCorrect": false },
+      { "text": "unsigned", "isCorrect": true },
+      { "text": "transient", "isCorrect": false },
+      { "text": "synchronized", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these classes is used to handle mathematical operations?",
+    "options": [
+      { "text": "Math", "isCorrect": true },
+      { "text": "Arithmetic", "isCorrect": false },
+      { "text": "Calculator", "isCorrect": false },
+      { "text": "Compute", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which keyword is used to prevent method overriding?",
+    "options": [
+      { "text": "final", "isCorrect": true },
+      { "text": "static", "isCorrect": false },
+      { "text": "protected", "isCorrect": false },
+      { "text": "sealed", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method is used to convert a string to lowercase?",
+    "options": [
+      { "text": "toLowerCase()", "isCorrect": true },
+      { "text": "toLower()", "isCorrect": false },
+      { "text": "lower()", "isCorrect": false },
+      { "text": "convertLower()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method is used to find the index of a character in a string?",
+    "options": [
+      { "text": "indexOf()", "isCorrect": true },
+      { "text": "find()", "isCorrect": false },
+      { "text": "search()", "isCorrect": false },
+      { "text": "locate()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method returns the substring from a string?",
+    "options": [
+      { "text": "substring()", "isCorrect": true },
+      { "text": "split()", "isCorrect": false },
+      { "text": "cut()", "isCorrect": false },
+      { "text": "slice()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which interface must be implemented to create a thread in Java?",
+    "options": [
+      { "text": "Runnable", "isCorrect": true },
+      { "text": "Threadable", "isCorrect": false },
+      { "text": "Callable", "isCorrect": false },
+      { "text": "Executor", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method of Thread class is used to pause execution for a specified time?",
+    "options": [
+      { "text": "wait()", "isCorrect": false },
+      { "text": "sleep()", "isCorrect": true },
+      { "text": "yield()", "isCorrect": false },
+      { "text": "suspend()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "What is the default priority of a thread in Java?",
+    "options": [
+      { "text": "0", "isCorrect": false },
+      { "text": "1", "isCorrect": false },
+      { "text": "5", "isCorrect": true },
+      { "text": "10", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method is called when a thread is executed?",
+    "options": [
+      { "text": "execute()", "isCorrect": false },
+      { "text": "run()", "isCorrect": true },
+      { "text": "start()", "isCorrect": false },
+      { "text": "call()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of the following is NOT a valid thread state?",
+    "options": [
+      { "text": "New", "isCorrect": false },
+      { "text": "Runnable", "isCorrect": false },
+      { "text": "Waiting", "isCorrect": false },
+      { "text": "Processing", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Which keyword is used to prevent concurrent access to a block of code?",
+    "options": [
+      { "text": "sync", "isCorrect": false },
+      { "text": "synchronized", "isCorrect": true },
+      { "text": "static", "isCorrect": false },
+      { "text": "volatile", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method makes the currently executing thread give up the CPU?",
+    "options": [
+      { "text": "sleep()", "isCorrect": false },
+      { "text": "yield()", "isCorrect": true },
+      { "text": "join()", "isCorrect": false },
+      { "text": "stop()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "What will happen if you call run() method directly instead of start()?",
+    "options": [
+      { "text": "Creates a new thread", "isCorrect": false },
+      { "text": "Executes in the current thread", "isCorrect": true },
+      { "text": "Throws exception", "isCorrect": false },
+      { "text": "Terminates program", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method waits for a thread to finish?",
+    "options": [
+      { "text": "join()", "isCorrect": true },
+      { "text": "wait()", "isCorrect": false },
+      { "text": "notify()", "isCorrect": false },
+      { "text": "sleep()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these is used for inter-thread communication?",
+    "options": [
+      { "text": "yield()", "isCorrect": false },
+      { "text": "wait()", "isCorrect": true },
+      { "text": "sleep()", "isCorrect": false },
+      { "text": "join()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method is used to wake up a waiting thread?",
+    "options": [
+      { "text": "resume()", "isCorrect": false },
+      { "text": "notify()", "isCorrect": true },
+      { "text": "wake()", "isCorrect": false },
+      { "text": "alert()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which two methods are used for waking up all waiting threads?",
+    "options": [
+      { "text": "notifyAll() and resume()", "isCorrect": false },
+      { "text": "notifyAll() and interrupt()", "isCorrect": false },
+      { "text": "notifyAll() and yield()", "isCorrect": false },
+      { "text": "notifyAll() and notify()", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Which method stops a thread permanently (deprecated)?",
+    "options": [
+      { "text": "stop()", "isCorrect": true },
+      { "text": "destroy()", "isCorrect": false },
+      { "text": "kill()", "isCorrect": false },
+      { "text": "terminate()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which class in Java provides higher-level concurrency utilities?",
+    "options": [
+      { "text": "Thread", "isCorrect": false },
+      { "text": "ExecutorService", "isCorrect": true },
+      { "text": "Runnable", "isCorrect": false },
+      { "text": "Process", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which interface does Callable belong to?",
+    "options": [
+      { "text": "java.util", "isCorrect": false },
+      { "text": "java.io", "isCorrect": false },
+      { "text": "java.util.concurrent", "isCorrect": true },
+      { "text": "java.lang", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "What does the Future interface represent in concurrency?",
+    "options": [
+      { "text": "A thread", "isCorrect": false },
+      { "text": "A result of asynchronous computation", "isCorrect": true },
+      { "text": "A lock", "isCorrect": false },
+      { "text": "A deadlock handler", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which executor creates a thread pool with a fixed number of threads?",
+    "options": [
+      { "text": "Executors.newCachedThreadPool()", "isCorrect": false },
+      { "text": "Executors.newFixedThreadPool()", "isCorrect": true },
+      { "text": "Executors.newSingleThreadExecutor()", "isCorrect": false },
+      { "text": "Executors.newWorkStealingPool()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which is true about the sleep() method?",
+    "options": [
+      { "text": "Releases lock", "isCorrect": false },
+      { "text": "Does not release lock", "isCorrect": true },
+      { "text": "Terminates thread", "isCorrect": false },
+      { "text": "Suspends thread indefinitely", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which is true about wait() method?",
+    "options": [
+      { "text": "Releases lock", "isCorrect": true },
+      { "text": "Does not release lock", "isCorrect": false },
+      { "text": "Suspends thread without releasing lock", "isCorrect": false },
+      { "text": "None", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which class in Java is used for thread-safe collections?",
+    "options": [
+      { "text": "ArrayList", "isCorrect": false },
+      { "text": "HashMap", "isCorrect": false },
+      { "text": "ConcurrentHashMap", "isCorrect": true },
+      { "text": "LinkedList", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which keyword ensures a variable is always read from main memory, not cache?",
+    "options": [
+      { "text": "final", "isCorrect": false },
+      { "text": "static", "isCorrect": false },
+      { "text": "volatile", "isCorrect": true },
+      { "text": "synchronized", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method interrupts a sleeping or waiting thread?",
+    "options": [
+      { "text": "stop()", "isCorrect": false },
+      { "text": "kill()", "isCorrect": false },
+      { "text": "interrupt()", "isCorrect": true },
+      { "text": "destroy()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "What happens when a thread is interrupted?",
+    "options": [
+      { "text": "Immediately stops", "isCorrect": false },
+      { "text": "Throws InterruptedException", "isCorrect": true },
+      { "text": "Ignores it", "isCorrect": false },
+      { "text": "Terminates JVM", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which class is used for managing multiple threads efficiently?",
+    "options": [
+      { "text": "ThreadGroup", "isCorrect": false },
+      { "text": "ThreadManager", "isCorrect": false },
+      { "text": "ExecutorService", "isCorrect": true },
+      { "text": "ThreadHandler", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which thread runs in the background and provides services to user threads?",
+    "options": [
+      { "text": "Worker thread", "isCorrect": false },
+      { "text": "Daemon thread", "isCorrect": true },
+      { "text": "Utility thread", "isCorrect": false },
+      { "text": "Service thread", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method sets a thread as daemon?",
+    "options": [
+      { "text": "setDaemon(true)", "isCorrect": true },
+      { "text": "daemonize()", "isCorrect": false },
+      { "text": "makeDaemon()", "isCorrect": false },
+      { "text": "configureDaemon()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "What will happen if main thread ends but daemon thread is running?",
+    "options": [
+      { "text": "Daemon thread continues", "isCorrect": false },
+      { "text": "JVM exits and daemon thread stops", "isCorrect": true },
+      { "text": "JVM waits for daemon thread", "isCorrect": false },
+      { "text": "Daemon converts to normal thread", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of these is NOT a synchronization mechanism in Java?",
+    "options": [
+      { "text": "synchronized blocks", "isCorrect": false },
+      { "text": "Locks", "isCorrect": false },
+      { "text": "Semaphores", "isCorrect": false },
+      { "text": "Iterators", "isCorrect": true }
+    ]
+  },
+  {
+    "text": "Which package contains concurrency utilities?",
+    "options": [
+      { "text": "java.lang", "isCorrect": false },
+      { "text": "java.io", "isCorrect": false },
+      { "text": "java.util.concurrent", "isCorrect": true },
+      { "text": "java.thread", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "What is the maximum thread priority in Java?",
+    "options": [
+      { "text": "5", "isCorrect": false },
+      { "text": "7", "isCorrect": false },
+      { "text": "10", "isCorrect": true },
+      { "text": "15", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "What is the minimum thread priority in Java?",
+    "options": [
+      { "text": "0", "isCorrect": false },
+      { "text": "1", "isCorrect": true },
+      { "text": "2", "isCorrect": false },
+      { "text": "5", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method is used to get the name of a thread?",
+    "options": [
+      { "text": "getThreadName()", "isCorrect": false },
+      { "text": "getName()", "isCorrect": true },
+      { "text": "threadName()", "isCorrect": false },
+      { "text": "name()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method is used to set the priority of a thread?",
+    "options": [
+      { "text": "setThreadPriority()", "isCorrect": false },
+      { "text": "setPriority()", "isCorrect": true },
+      { "text": "priority()", "isCorrect": false },
+      { "text": "assignPriority()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method returns the ID of a thread?",
+    "options": [
+      { "text": "getThreadId()", "isCorrect": false },
+      { "text": "getId()", "isCorrect": true },
+      { "text": "id()", "isCorrect": false },
+      { "text": "threadId()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which class provides reentrant locks in Java?",
+    "options": [
+      { "text": "LockManager", "isCorrect": false },
+      { "text": "ReentrantLock", "isCorrect": true },
+      { "text": "ThreadLock", "isCorrect": false },
+      { "text": "SafeLock", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which class provides a synchronization aid that allows threads to wait until a set of operations are completed?",
+    "options": [
+      { "text": "CountDownLatch", "isCorrect": true },
+      { "text": "Semaphore", "isCorrect": false },
+      { "text": "CyclicBarrier", "isCorrect": false },
+      { "text": "Phaser", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which class in Java provides a pool of permits to control thread access?",
+    "options": [
+      { "text": "ReentrantLock", "isCorrect": false },
+      { "text": "Semaphore", "isCorrect": true },
+      { "text": "Monitor", "isCorrect": false },
+      { "text": "Barrier", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which synchronization class is reusable after all waiting threads are released?",
+    "options": [
+      { "text": "CountDownLatch", "isCorrect": false },
+      { "text": "CyclicBarrier", "isCorrect": true },
+      { "text": "Semaphore", "isCorrect": false },
+      { "text": "Lock", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which concurrency class allows dynamic phasing of tasks?",
+    "options": [
+      { "text": "Phaser", "isCorrect": true },
+      { "text": "Semaphore", "isCorrect": false },
+      { "text": "Barrier", "isCorrect": false },
+      { "text": "Latch", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which keyword ensures atomic execution of a method?",
+    "options": [
+      { "text": "atomic", "isCorrect": false },
+      { "text": "synchronized", "isCorrect": true },
+      { "text": "exclusive", "isCorrect": false },
+      { "text": "lock", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which exception is thrown when a thread cannot acquire a lock within the specified time?",
+    "options": [
+      { "text": "TimeoutException", "isCorrect": true },
+      { "text": "InterruptedException", "isCorrect": false },
+      { "text": "LockException", "isCorrect": false },
+      { "text": "ThreadException", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "What is deadlock in Java?",
+    "options": [
+      { "text": "Threads waiting indefinitely for each other's resources", "isCorrect": true },
+      { "text": "Thread termination", "isCorrect": false },
+      { "text": "Thread starvation", "isCorrect": false },
+      { "text": "Thread yielding", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which strategy helps to prevent deadlocks?",
+    "options": [
+      { "text": "Nested locking", "isCorrect": false },
+      { "text": "Circular waiting", "isCorrect": false },
+      { "text": "Lock ordering", "isCorrect": true },
+      { "text": "Ignoring deadlocks", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which class provides a thread-safe variant of ArrayList?",
+    "options": [
+      { "text": "ThreadSafeArrayList", "isCorrect": false },
+      { "text": "CopyOnWriteArrayList", "isCorrect": true },
+      { "text": "SafeList", "isCorrect": false },
+      { "text": "ConcurrentArrayList", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method checks if a thread is alive?",
+    "options": [
+      { "text": "isAlive()", "isCorrect": true },
+      { "text": "alive()", "isCorrect": false },
+      { "text": "checkAlive()", "isCorrect": false },
+      { "text": "status()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "What is the default name of the first thread in Java?",
+    "options": [
+      { "text": "worker", "isCorrect": false },
+      { "text": "userThread", "isCorrect": false },
+      { "text": "main", "isCorrect": true },
+      { "text": "default", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method is used to execute tasks asynchronously without creating threads manually?",
+    "options": [
+      { "text": "ExecutorService.submit()", "isCorrect": true },
+      { "text": "Thread.start()", "isCorrect": false },
+      { "text": "Runnable.run()", "isCorrect": false },
+      { "text": "ThreadPool.create()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which thread pool grows dynamically as needed?",
+    "options": [
+      { "text": "newFixedThreadPool()", "isCorrect": false },
+      { "text": "newCachedThreadPool()", "isCorrect": true },
+      { "text": "newSingleThreadExecutor()", "isCorrect": false },
+      { "text": "newScheduledThreadPool()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which method schedules tasks to run after a delay or periodically?",
+    "options": [
+      { "text": "ScheduledExecutorService.schedule()", "isCorrect": true },
+      { "text": "Timer.run()", "isCorrect": false },
+      { "text": "Thread.sleep()", "isCorrect": false },
+      { "text": "ExecutorService.execute()", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which collection class allows duplicate elements?",
+    "options": [
+      { "text": "Set", "isCorrect": false },
+      { "text": "Map", "isCorrect": false },
+      { "text": "List", "isCorrect": true },
+      { "text": "HashSet", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of the following is synchronized?",
+    "options": [
+      { "text": "Vector", "isCorrect": true },
+      { "text": "ArrayList", "isCorrect": false },
+      { "text": "LinkedList", "isCorrect": false },
+      { "text": "HashMap", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which of the following is not synchronized?",
+    "options": [
+      { "text": "ArrayList", "isCorrect": true },
+      { "text": "Vector", "isCorrect": false },
+      { "text": "Hashtable", "isCorrect": false },
+      { "text": "Stack", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which collection does not allow duplicates?",
+    "options": [
+      { "text": "List", "isCorrect": false },
+      { "text": "Set", "isCorrect": true },
+      { "text": "Map", "isCorrect": false },
+      { "text": "Queue", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which class implements a dynamic array?",
+    "options": [
+      { "text": "ArrayList", "isCorrect": true },
+      { "text": "Vector", "isCorrect": false },
+      { "text": "LinkedList", "isCorrect": false },
+      { "text": "HashSet", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which class implements a doubly linked list?",
+    "options": [
+      { "text": "LinkedList", "isCorrect": true },
+      { "text": "ArrayList", "isCorrect": false },
+      { "text": "Vector", "isCorrect": false },
+      { "text": "Stack", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which class implements a hash table with key-value pairs?",
+    "options": [
+      { "text": "HashMap", "isCorrect": true },
+      { "text": "ArrayList", "isCorrect": false },
+      { "text": "LinkedList", "isCorrect": false },
+      { "text": "TreeMap", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which class implements a sorted map?",
+    "options": [
+      { "text": "TreeMap", "isCorrect": true },
+      { "text": "HashMap", "isCorrect": false },
+      { "text": "LinkedHashMap", "isCorrect": false },
+      { "text": "WeakHashMap", "isCorrect": false }
+    ]
+  },
+  {
+    "text": "Which collection maintains insertion order?",
+    "options": [
+      { "text": "LinkedHashMap", "isCorrect": true },
+      { "text": "HashMap", "isCorrect": false },
+      { "text": "TreeMap", "isCorrect": false },
+      { "text": "Hashtable", "isCorrect": false }
+    ]
+  }
+]

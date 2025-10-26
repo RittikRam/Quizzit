@@ -5,6 +5,7 @@ import com.rittik.MyQuizzApp.entity.Option;
 import com.rittik.MyQuizzApp.entity.Question;
 import com.rittik.MyQuizzApp.entity.Quiz;
 import com.rittik.MyQuizzApp.entity.Topic;
+import com.rittik.MyQuizzApp.repository.OptionRepository;
 import com.rittik.MyQuizzApp.repository.QuestionRepository;
 import com.rittik.MyQuizzApp.repository.QuizRepository;
 import com.rittik.MyQuizzApp.repository.TopicRepository;
@@ -18,6 +19,9 @@ import java.util.stream.Collectors;
 
 @Service
 public class QuizService {
+
+    @Autowired
+    private OptionRepository optionRepository;
 
     @Autowired
     private QuestionRepository questionRepository;
@@ -144,6 +148,34 @@ public class QuizService {
                             qdo
                     );
     });
+    }
+
+    @Transactional(readOnly = true)
+    public QuizScoreResponseDTO submitQuiz(QuizSubmissionRequestDTO submissionRequest) {
+        int correctCount = 0;
+        int totalQuestions = submissionRequest.getAnswers().size();
+
+        for (AnswerDTO answer : submissionRequest.getAnswers()) {
+            // 1. Check if the user's selected option ID belongs to the correct answer.
+            boolean isCorrect = optionRepository.existsByIdAndIsCorrectTrue(
+                    answer.getSelectedOptionId()
+            );
+
+            if (isCorrect) {
+                correctCount++;
+            }
+        }
+
+        double percentage = (double) correctCount / totalQuestions * 100;
+
+        // 2. Return the score summary
+        QuizScoreResponseDTO response = new QuizScoreResponseDTO();
+        response.quizId = submissionRequest.getQuizId();
+        response.totalQuestions = totalQuestions;
+        response.score = correctCount;
+        response.percentage = percentage;
+
+        return response;
     }
 
 
